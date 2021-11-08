@@ -257,7 +257,7 @@ function getActualCardSides(c: Card, names: Map<number, string>, descs: Map<numb
 
 const CardSideBox = memo(function CardSideBox({ card, side }: { card: CardSide, side: 'front' | 'back' }) {
   return <div className={`${side} CardType${card.type}`}>
-    {card.images.map(o => o ? <img key={o} src={`/images/${o}.png`} alt="" /> : null)}
+    {card.images.map(o => o ? <img key={o} src={`images/${o}.png`} alt="" /> : null)}
     {card.name && <div className="CardName" dangerouslySetInnerHTML={{ __html: card.name }}></div>}
     {card.desc && <div className="CardDesc" dangerouslySetInnerHTML={{ __html: card.desc }}></div>}
     {card.atk !== undefined && <div className="CardATK">{`${card.atk >= 0 ? '+' : ''}${card.atk}`}</div>}
