@@ -1,38 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url("./table_top_02.png");
+  font-family: "Merriweather", serif;
+  user-select: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+body::before {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  width: 1024px;
+  height: 448px;
+  background: url("./title_logo_en.png");
+  background-position: center;
+  filter: brightness(0);
+  opacity: 0.75;
+  content: "";
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
 .App {
+  display: flex;
+}
+
+.Content {
+  flex: 1 0 0;
+  padding-bottom: 280px;
+}
+
+.LeftMenu ~ .Content {
+  margin-left: 200px;
+}
+
+.RightMenu ~ .Content {
+  margin-right: 280px;
+}
+
+.LeftMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  padding: 10px;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.RightMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: hsl(32, 32%, 85%);
+  text-shadow: 1px 1px 2px black;
+  font-size: 16px;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.MenuCard {
+  display: flex;
+  align-items: flex-end;
+  flex: 1 1 0;
+  min-height: 0;
+  max-height: 80px;
+}
+
+.CardList {
+  display: grid;
+  padding: 80px 64px;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, calc(730px * 0.25));
+}
+
+.CardBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000000px;
+  width: calc(730px * 0.25);
+  height: calc(1024px * 0.25);
+  z-index: 0;
+  transform: rotate(0deg) translateY(0px);
+  transition: z-index 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.CardBox:hover {
+  transform: rotate(0deg) translateY(10px) !important;
+}
+
+.CardBox.zoom:hover {
+  z-index: 100;
+}
+
+.Card {
+  position: absolute;
+  width: 730px;
+  height: 1024px;
+  border-radius: 32px;
+  box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.5);
+  background: whitesmoke;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(0.25) rotateY(0turn);
+  transform-style: preserve-3d;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.CardBox.zoom:hover > .Card {
+  transform: scale(0.375) rotateY(0turn);
+}
+
+.Card.flip {
+  transform: scale(0.25) rotateY(-0.5turn);
+}
+
+.CardBox.zoom:hover > .Card.flip {
+  transform: scale(0.375) rotateY(-0.5turn);
+}
+
+.Card img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -147px;
+  width: 1024px;
+  height: 1024px;
+}
+
+.Card > .front,
+.Card > .back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  backface-visibility: hidden;
+  width: 730px;
+  height: 1024px;
+  border-radius: 32px;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.Card > .front {
+  transform: rotateY(0turn);
+}
+
+.Card > .back {
+  transform: rotateY(0.5turn);
+}
+
+.CardName {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 32px;
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: hsl(32, 32%, 85%);
+  font-weight: bold;
+}
+
+.CardType11 .CardName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 36px;
+  height: 100px;
+}
+
+.CardType12 .CardName {
+  color: hsl(4, 94%, 7%);
+  font-weight: normal;
+}
+
+.CardType30 .CardName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 36px;
+  height: 100px;
+}
+
+.CardType46 .CardName {
+  color: hsl(4, 94%, 7%);
+  font-weight: normal;
+  top: 680px;
+  font-size: 64px;
+}
+
+.Card.flip .CardType98 .CardName {
+  font-size: 72px;
+  top: auto;
+  bottom: 30px;
+}
+
+.Card:not(.flip) .CardType98 .CardName {
+  color: hsl(4, 94%, 7%);
+  font-size: 72px;
+  top: auto;
+  bottom: 30px;
+  font-weight: normal;
+}
+
+.CardDesc {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 670px;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 75px;
+  color: hsl(4, 94%, 7%);
+  white-space: pre-line;
+}
+
+.CardType9 .CardDesc {
+  top: 840px;
+}
+
+.CardType30 .CardDesc {
+  left: 50px;
+  right: 50px;
+  top: 280px;
+  font-size: 40px;
+  line-height: 64px;
+}
+
+.CardType46 .CardDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 850px;
+  height: 100px;
+  font-size: 64px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CardATK,
+.CardDEF,
+.CardSPD,
+.CardVIT {
+  position: absolute;
+  font-size: 50px;
+  color: hsl(32, 32%, 85%);
+  text-align: center;
+  font-weight: bold;
+  width: 200px;
+  font-family: "Domine", sans-serif;
+  transform: scale(1, 1.2);
+  letter-spacing: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CardType9 .CardATK {
+  left: 140px;
+  top: 676px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.CardType9 .CardDEF {
+  left: 440px;
+  top: 676px;
+}
+
+.CardType9 .CardSPD {
+  left: 140px;
+  top: 760px;
+}
+
+.CardType9 .CardVIT {
+  left: 440px;
+  top: 760px;
+}
+
+.CardGems {
+  position: absolute;
+  right: 28px;
+  top: 510px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.CardGem {
+  width: 80px;
+  height: 128px;
+  background-image: url("./ca-01_img_fontsprite_gem-02.png");
+  background-repeat: no-repeat;
+  background-size: 128px 128px;
+  background-position: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card b {
+  color: red;
+}
+
+.InfoCard {
+  position: absolute;
+  left: 15px;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transform: translateX(0) scale(1);
+  pointer-events: none;
+  will-change: transform;
+  opacity: 0;
+}
+
+.CardBox:hover .InfoCard {
+  opacity: 1;
+  transform: translateX(150%) scale(1.5);
 }

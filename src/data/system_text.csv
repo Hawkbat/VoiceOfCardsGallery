@@ -1,0 +1,523 @@
+DebugButtonBase,Debug
+DebugButtonReset,RESET
+DebugButtonNight,Day and night
+DebugButtonEscape,ESCAPE
+DebugButtonSkip,SKIP
+DebugButtonFLICK,Hook reversal
+DebugButtonPAD,Pseudocon
+DebugButtonBgm,BGM change
+DebugButtonCameraB,Tracking camera
+DebugButtonTop,TOP
+DebugButtonHp,recovery
+DebugButtonBaSt,Battle A
+VoiceofCards,Voice of Cards: The Isle Dragon Roars
+MoveImpossible,Cannot move to that location
+OpenImpossible,The prone card that is not adjacent to the piece does not turn over
+UpperLimitItem,"Looks like you're over
+your item limit. You'll
+need to use or discard
+{1}.
+({2}/{3} in possession)"
+UpperLimitEquip,"Looks like you're over
+your equipment limit.
+Sorry, but you'll need
+to discard {1}. 
+({2}/{3} in possession)"
+RemainingSteps,"Remaining
+Moves"
+Impossible,"Restricted
+Actions"
+Jump,Jump
+EscapeItemUse,"Ring
+Bellwether"
+CameraLimit,"Camera
+Fixed"
+Status,status
+BadStatus,No Ailments
+BuffStatus,No Buffs
+None,None
+GameOver,Game Over
+BattleResult,Results
+Exp,EXP
+ExpStatus,EXP
+Gold,Gold
+LevelUp,Level Up
+CharacterLevelUp,"{0} 
+leveled up!"
+SkillGet,Skill Acquired
+SkillAcquire,Learned {0}!
+PassiveSkillAcquire,Acquired {0}!
+ItemFound,Treasure discovered!
+PleaseSelect,Please Pick One
+Miss,miss
+MapName1,Isle of Bliss
+MapName2,Castle Advent Royal Hall
+MapName3,Advent
+MapName4,Nexton
+MapName5,Thriceton
+MapName6,Dank Cave
+MapName7,Western Cave Level 1
+MapName8,Western Cave Level 2
+MapName9,Isle of Bliss
+MapName10,Isle of Blight
+MapName11,Woodland
+MapName13,Unionville
+MapName14,Shoreland
+MapName15,Village of the Sick
+MapName16,Bewildering Wood
+MapName17,Bewildering Wood Shortcut
+MapName18,Nameless Shrine
+MapName19,Musty Tower First Floor
+MapName20,Musty Tower Second Floor
+MapName21,Musty Tower Third Floor
+MapName22,Musty Tower Fourth Floor
+MapName23,Musty Tower Fifth Floor
+MapName24,Musty Tower Roof
+MapName25,Volcano Entrance
+MapName26,Volcano Third Floor
+MapName27,Volcano Caldera
+MapName28,Volcano First Floor
+MapName29,Volcano Second Floor
+MapName30,Volcano Fourth Floor
+MapName31,Mausoleum Entrance
+MapName44,Mausoleum Level 1
+MapName46,Mausoleum Level 2
+MapName47,Mausoleum Level 3
+MapName48,Mausoleum Depths
+MapName49,Woodland Ridis's House
+MapName50,"<size=""3.9"">Unionville Headman's Home"
+MapName51,Unionville Inn
+MapName53,Volcano Escape Route
+MapName54,Barren Harbor
+MapName55,Village of the Sick
+MapName57,Vexing Cave
+MapName9998,Isle of Bliss
+MapName9999,Isle of Bliss
+Formation,Set Up
+Skill,Skills
+Specific,Abilities
+Equipment,Equipment
+Party,Party
+PlayerCard,Owned Cards
+Item,Items
+Important,Key Items
+Collection,Collection
+Character,Characters
+Monster,Monsters
+Ending,Ending
+DataTop,Data
+Save,Save 
+SaveTitle,Save
+Load,Load
+Movie,Movies
+GoEquipment,Equipment
+ChangeMainParty,Switch to Main Party
+ChangeSubParty,Switch to Reserve
+SkillSpecific,Skills
+CurrentGold,Purse
+Page,page
+CurrentEquipment,Current Gear
+EquipableItems,Equipment
+CurrentParty,Main Party
+ChangeParty,In Reserve
+CollectedCards,Cards
+CurrentSkills,Current Skills
+EquipableSkills,Skills
+AutoSave,Autosave
+Yes,Yes
+No,No
+Use,Use
+Inspect,Inspect
+Throw,Discard
+DontThrow,Keep
+ConsumeQuestion,On whom will you use it?
+ThrowQuestion,Are you sure you want to discard this?
+EscapeQuestion,Flee the dungeon?
+LoadThisData,Load data?
+SaveThisData,Overwrite data?
+CollectionBackNotOpen,This story is locked.
+SaveNewData,Save?
+EquipmentNoCharacter,No current party members can equip this.
+StatusLevel,LV
+StatusHP,HP
+StatusCondition,Status
+StatusAttack,ATK
+StatusDefense,DEF
+StatusSpeed,SPD
+StatusNextLevelExp,Next LV
+BadStateNone,Hale
+BadStatePoison,Poison
+BadStateVeryPoison,Deadly Poison
+BadStateParalysis,Paralysis
+BadStateFreezing,Freeze
+BadStateCurse,Curse
+BadStateSeal,Seal
+BadStateSyncope,Unconscious
+BadStateDead,Incapacitated
+BadStateProhibitedSpell,Silenced
+BadStateAtkDown,ATK ↓
+BadStateDefDown,DEF ↓
+BadStateSpdDown,Speed ​​down
+BadStateRedWeak,Fire Res.
+BadStateBlueWeak,Water Res.
+BadStateYellowWeak,Bolt Res.
+BadStateGreenWeak,Wind Res.
+BadStateWhiteWeak,Light Res.
+BadStatePurpleWeak,Dark Res.
+GameSetting,Game Settings
+ComponentSetting,Customize
+LanguageSetting,Language
+SoundSetting,Sound
+OtherSetting,Other
+TextSetting,Text
+ShadowSetting,Shadows
+OperateSetting,Set Confirm
+CursorkeysSetting,Set Direction
+ScreenSizeSetting,Screen Size
+FullScreenSetting,Full Screen
+PlayerPawnSetting,Avatar
+CardFrontSSetting,Card Face
+CardBackSetting,Card Back
+PlayMatSetting,Play mat
+TableSetting,Table
+TraySetting,Battle Board
+DiceSetting,Dice
+TextLanguage,Text Language
+VoiceLanguage,Voice Language
+SoundBGMSetting,BGM
+SoundSESetting,Sound Effects
+SoundVoice,Voices
+VoiceTelopSetting,Subtitles
+BGMSetting,BGM
+ViewCredit,Credits
+ViewLicense,License
+DataInitialization,Reset Data
+BackToTitleUp,Title Screen
+ExitGameUp,Quit Game
+QuestionTitle,???
+GameSettingHighlight,"Emphasize important text in red, or underline it?"
+GameSettingShadow,Turning some shadows off can help improve performance.
+GameSettingOperate,Select Confirm and Cancel controls.
+GameCursorkeysSetting,Set the directional keys.
+GameSettingFullScreen,Turn on Full Screen?
+GameSettingScreenSize,Select screen resolution.
+ComponentSettingPlayerPawn,Select your avatar design.
+ComponentSettingFrontImage,Select card face appearance.
+ComponentsettingBackImage,Select card back appearance.
+ComponentSettingTray,Select battle board appearance.
+ComponentSettingTable,Select table appearance.
+ComponentSettingDice,Select dice appearance.
+ComponentSettingBGM,Select BGM.
+ComponentSettingTitle,Implement customization?
+ComponentSettingTitleDo,Appearance changed.
+ComponentTitle,Customization
+ComponentSettingMenu,"Customization components
+can only be changed in
+Options in the title
+screen menu."
+LanguageSettingText,Select text language.
+LanguageSettingVoice,Select voice-over language.
+SoundSettingBGM,Adjust music volume.
+SoundSettingSE,Adjust sound effect volume.
+SoundSettingVoice,Select voice-over volume.
+OtherSettingVoiceTelop,Toggle subtitles.
+OtherSettingCredit,Roll credits or view license.
+InitializingGuidance,Reset settings <br>?
+InitializingTitle,Restore Defaults
+InitializingGameSet,"Restore the default
+game settings?"
+InitializingComponentSet,"Restore default
+components?"
+InitializingLanguageSet,"Restore default
+language?"
+InitializingSoundSet,"Restore default
+sound settings?"
+DoInitialization,Restore Defaults
+WithoutChange,Back
+TextHighlight,Emphasis
+Valid,Display All
+Invalid,Turn Some Off
+Default,"<size=""5"">Confirm:<br>A<br>Cancel:<br>B"
+Reverse,"<size=""5"">Confirm:<br>B<br>Cancel:<br>A"
+Default_Switch,"<size=""5"">Confirm:<br>A<br>Cancel:<br>B"
+Reverse_Switch,"<size=""5"">Confirm:<br>B<br>Cancel:<br>A"
+Default_PS,"<size=""5"">Confirm:<br>〇<br>Cancel:<br>×"
+Reverse_PS,"<size=""5"">Confirm:<br>×<br>Cancel:<br>〇"
+Default_XBOX,"<size=""5"">Confirm:<br>B<br>Cancel:<br>A"
+Reverse_XBOX,"<size=""5"">Confirm:<br>A<br>Cancel:<br>B"
+Default_PC,"<size=""5"">Confirm:<br>Enter<br>Cancel:<br>Backspace"
+Reverse_PC,"<size=""5"">Confirm:<br>Backspace<br>Cancel:<br>Enter"
+Default_OTHER,"<size=""5"">Confirm:<br><sprite=5><br>Cancel:<br><sprite=6>"
+Reverse_OTHER,"<size=""5"">Confirm:<br><sprite=6><br>Cancel:<br><sprite=5>"
+Special,"<size=""5"">Compatible with<br>AZERTY keyboard layout."
+KeyCamera,Camera Controls
+KeyMove,Avatar Movement
+FullScreen,Full Screen
+FullScreenOn,"<size=""5"">Full Screen<br>On"
+FullScreenOff,"<size=""5"">Full Screen<br>Off"
+MultiplicationSymbol,x
+LanguageJapan,日本語
+LanguageEnglish,English
+LanguageFrench,Français
+LanguageGerman,Deutsch
+LanguageItalian,Italiano
+LanguageSpanish,Español
+LanguageVoiceJapan,Japanese
+LanguageVoiceEnglish,English
+SoundNone,Mute
+SoundMin,Quiet
+SoundMiddle,Normal
+SoundLittleLarge,Louder
+SoundLarge,Loudest
+BackToTitle,Title Screen
+ExitGame,Quit Game
+DoDataInitialization,Reset Data
+DoDataInitialization_2,"Resetting data will
+delete all system and
+save data.
+Are you sure?"
+DoDataInitialization_3,"Reset data
+cannot be restored.
+Are you sure you're sure?"
+DoDataInitializationFinish,"Data reset.
+Returning to title."
+InitializeTitle,Initialize
+InitializeComplateNotice,"Default settings
+restored."
+LanguageTitle,Language
+LanguageGuidance,"You need to return to 
+the title screen to 
+apply these changes. 
+Return now?"
+LanguageNotice,Returning to the title screen.
+VoiceTelopOn,Subs On
+VoiceTelopOff,Subs Off
+ReturnTitleDialog,"Game progress will
+be lost if you return
+without saving.
+Return to the title screen?"
+ReturnTitleDialogTitle,Return to the title screen?
+ExitGameDialog,"Game progress will
+be lost if you quit
+without saving.
+Quit game?"
+ExitGameDialogTitle,Quit game?
+Cancel,Cancel
+ShopNotEquipable,Cannot equip
+ShopEquipable,Available
+ShopEquipped,Current Gear
+ShopHaveEquipNum,Gear Owned
+ShopHaveItemNum,Items Owned
+ShopBuy,Buy
+ShopBuyAndEquip,Buy and Equip
+ShopForBuy,Buy
+ShopBuyQuit,Never Mind
+ShopAddBuyNum,Buy More
+ShopDecBuyNum,Buy Fewer
+ShopNotEnoughMoney,You Don't Have Enough Gold
+ShopItemCapacityOver,You Don't Have Enough Room
+ShopEquipCapacityOver,You Don't Have Enough Room
+ShopEquipCharacterConf,Select who will equip {0}.
+ShopEquippe,{0} is all set.
+ShopBuyThankYou,"Purchased {0} × {2}. 
+
+You have {1}G left."
+ShopSellThankYou,"{0} sold.
+
+You have {1}G."
+ShopToBuyConfMax,You can buy up to {0} at a time.<br>
+ShopToBuyConf,"Buy {0} × {1}? 
+That'll be 
+{2}G."
+ShopToHaveNumConf,({0} owned.)
+ShopSale,Sell
+ShopWhatSell,Select what you'd like to sell.
+ShopSellItem,Items
+ShopSellEquip,Equipment
+ShopSellQuit,Never Mind
+ShopSellSelectConf,"{0}? 
+I can offer 
+{1}G for that."
+ShopSellSelectYes,Deal
+ShopNotHaveSellItem,You Have No Items
+ShopNotHaveSellEquip,You Have No Equipment
+ShopHaveItem,Items
+ShopSoldOut,Sold Out
+ShopNotes,"<highlight>Note:</highlight>
+This content is also available in a collected set. Please make your purchase carefully if you do not wish to purchase the same content more than once."
+MobileShopBuyThankYou,{0} purchased.
+ShopLaw,特定商取引法
+ShopPurchased,Purchased
+AppstoreHeadsUp1,Prices are affected by Apple Inc.'s content distribution price.
+AppstoreHeadsUp2,"If the price at the time of payment differs from the displayed price due to a change in the content distribution price of Apple Inc., the price at the time of payment will take precedence."
+AppstoreHeadsUp3,Please check the price on the following screen carefully before making your purchase.
+ShopViewProduct,View Product
+MultiNamePlayer1,Player A
+MultiNamePlayer2,Player B
+MultiNamePlayer3,Player C
+MultiNamePlayer4,Player D
+MultiNamePlayer1Active,Waiting for other players
+MultiNamePlayer2Active,Waiting for other players
+MultiNamePlayer3Active,Waiting for other players
+MultiNamePlayer4Active,Waiting for other players
+MultiSharedCardPlateName,Pot
+MultiAddJokerTitle,Add Joker
+MultiAddJoker,Less than half the deck remains. Two Jokers will be added to the deck.
+MultiTurnStartTitle,Start of Turn
+MultiTurnStartMessage,{0}'s turn.
+MultiYourTurnStartMessage,"<highlight>It's your turn,</highlight> {0}."
+MultiTurnSkipTitle,Pass
+MultiTurnSkip,You passed this turn.
+MultiTurnTakeoverTitle,Capture
+MultiTurnTakeover,{0} takes action this turn.
+MultiDrawEventCardTitle,Event Phase
+MultiDrawEventCardMessage,Anything could happen...good or bad. Draw an event card?
+MultiDrawPlayingCardTitle,Draw Phase
+MultiDrawPlayingCardMessage,Draw {0} card(s) from the deck.
+MultiOneDrawPlayingCardMessage,Your opponent played a skill that lowered your draw limit by 1.
+MultiCreateCardSetTitle,Set Phase
+MultiCreateCardSetMessage,"Complete a set of <highlight>2–3 cards of the same number</highlight> from your hand or the pot, or <highlight>3 consecutively numbered cards</highlight>."
+MultiConfCardSetTitle,Set Phase
+MultiConfCardSetNoneSkillMessage,This set is worth <highlight>{0}</highlight> points. Make a set with the selected cards?
+MultiConfCardSetAcitveSkillMessage,This set is worth <highlight>{0}</highlight> points. It will also <highlight>trigger a skill effect</highlight>. Make a set with the selected cards?
+MultiCreateCardSetNoneTargetMessage,"Oh, no, you don't have any cards that make a set..."
+MultiNoTargetPlayerTitle,No Target
+MultiNoTargetPlayer,Except there's no opponent you can choose.
+MultiRollDiceTurnSkipTitle,Rest Dice
+MultiRollDiceTurnSkip,Rest if you roll {0} or lower.
+MultiRollDiceDestructionSetTitle,Dice Results
+MultiRollDiceDestructionSetMessage,"You rolled a {0}.
+
+Sets including {1} will be destroyed."
+MultiRollDiceDestFillInTitle,Skull Soldier
+MultiRollDiceDestFillInMessage,The Skull Soldier was invoked! It'll be destroyed instead!
+MultiSkillTimingBeginingMyTurn,Always
+MultiSkillTimingPassive,Always
+MultiSkillTimingDrawCard,When you draw a card
+MultiSkillTimingCardSetPair,When a pair is formed
+MultiSkillTimingCardSetRun,At the time of tripartite formation
+MultiDiscardCardSetTitle,Select Set to Discard
+MultiDiscardCardSetMessage,You can only have 3 sets. Choose one to get rid of.
+MultiDiscardPlayingCardTitle,Final Phase
+MultiDiscardPlayingCardMessage,Discard until you have 1 card in your hand. Discarded cards will be moved to the pot.
+MultiGiveUpConfTitle,Give up
+MultiGiveUpConfMessage,Give up and end the game?
+PriceUnit,<size=80%>Ｇ</size>
+Remaining,Cards Remaining
+MultiPlayAgainConfTitle,Play Again
+MultiPlayAgainConfMessage,Play again?
+MultiCreateCardSetNoneTargetTitle,Set Phase
+MultiGameResultCardTitle,Results
+MultiGameResultCardMessage,"That's the game! Now then, who is our winner?"
+MultiRankingCardTitle,Rankings
+MultiRankingCardMessage,Coming in at number {2} with {1} points is {0}.
+MultiRankPlate,{0}
+MultiResultWaitTitle,Play Again
+MultiResultWait,Waiting for other players selection.
+MultiStartPlayerBeforeTitle,First Player
+MultiStartPlayerBeforeMessage,Let’s see who will go first.
+MultiStartPlayerAfterTitle,First Player
+MultiStartPlayerAfterMessage,{0} will go first.
+switch_button-a,the A Button
+switch_button-b,the B Button
+switch_button-x,the X Button
+switch_button-y,the Y Button
+switch_button-l,the L Button
+switch_button-r,the R Button
+switch_button-plus,the + Button
+switch_button-minus,the - Button
+switch_stick-left,the Left Stick
+switch_stick-right,the Right Stick
+ps4_button-a,the ○ button
+ps4_button-b,the × button
+ps4_button-x,the △ button
+ps4_button-y,the □ button
+ps4_button-l,the L1 button
+ps4_button-r,the R1 button
+ps4_button-plus,the OPTIONS button
+ps4_button-minus,the Touch pad
+ps4_stick-left,the Left stick
+ps4_stick-right,the Right stick
+xbox_button-a,the B button
+xbox_button-b,the A button
+xbox_button-x,the Y button
+xbox_button-y,the X button
+xbox_button-l,the LB button
+xbox_button-r,the RB button
+xbox_button-plus,the Menu button
+xbox_button-minus,the View Button
+xbox_stick-left,the Left stick
+xbox_stick-right,the Right stick
+pc_button-a,the Enter key
+pc_button-b,the Backspace key
+pc_button-x,the E key
+pc_button-y,the R key
+pc_button-l,the N key
+pc_button-r,the M key
+pc_button-plus,the Esc key
+pc_button-minus,the X key
+pc_stick-left,the WASD keys
+pc_fr_button-a,the Enter key
+pc_fr_button-b,the Backspace key
+pc_fr_button-x,the E key
+pc_fr_button-y,the R key
+pc_fr_button-l,the N key
+pc_fr_button-r,"the , key"
+pc_fr_button-plus,the Esc key
+pc_fr_button-minus,the X key
+pc_fr_stick-left,the ZQSD keys
+pc_stick-right,the Arrow keys
+pc_fr_stick-right,the Arrow keys
+other_button-a,<sprite=5>
+other_button-b,<sprite=6>
+other_button-x,<sprite=7>
+other_button-y,<sprite=8>
+other_button-l,<sprite=13>
+other_button-r,<sprite=14>
+other_button-plus,<sprite=9>
+other_button-minus,<sprite=10>
+other_stick-left,<sprite=11>
+other_stick-right,<sprite=12>
+sp_button-menu,Menu
+sp_button-next,next
+sp_button-status,カード詳細をタップ
+sp_button-item,アイテムをタップ
+sp_button-selectCard,選択肢カード
+sp_button-jump,直接タップすること
+sp_button-tap,画面をタップ
+Continue,Continue
+LoadGame,Continue
+NewGame,New Game
+Option,Options
+Credit,Credits
+Shop,Shop
+DLC,"Add-On
+Content"
+MultiTitle,Multiplayer Game Parlor
+ShopTrialTransitionTitle,"Add-On
+Content"
+ShopTrialTransitionPS4,Visit PlayStation™Store?
+ShopTrialTransitionSwitch,Visit Nintendo eShop?
+ShopTrialTransitionOther,Visit purchase page for add-on content?
+CreditThankyou,Thank you for playing!
+SaveClearData,Select a save file.
+CheckSaveClearData,Save finished game?
+CheckTackOverData,"Completed save data
+found. Do you want
+to carry this data
+over to a new game?"
+SaveNow,Saving
+DeleteNow,Deleting file
+LoadNow,Loading
+SaveDataTitle,Game Data
+SaveClearDataTitle,Clear Data
+MultiDataTitle,Game Parlor Data
+CreditSkipMessage,"Press button again
+to skip credits."
+CreditSkipMessageSP,Tap screen again to skip credits.
+You,YOU
+Player,PLAYER{0}
+Npc,NPC
+MutliLobby3,Saving
+MutliLobby4,Game Data
+MutliLobby5,Clear Data
