@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VoiceOfCardsGallery/static/css/main.ef7157ad.chunk.css",
-    "main.js": "/VoiceOfCardsGallery/static/js/main.730dcd66.chunk.js",
-    "main.js.map": "/VoiceOfCardsGallery/static/js/main.730dcd66.chunk.js.map",
+    "main.js": "/VoiceOfCardsGallery/static/js/main.d6d48b12.chunk.js",
+    "main.js.map": "/VoiceOfCardsGallery/static/js/main.d6d48b12.chunk.js.map",
     "runtime-main.js": "/VoiceOfCardsGallery/static/js/runtime-main.3d72d6c8.js",
     "runtime-main.js.map": "/VoiceOfCardsGallery/static/js/runtime-main.3d72d6c8.js.map",
-    "static/js/2.4bc6eff4.chunk.js": "/VoiceOfCardsGallery/static/js/2.4bc6eff4.chunk.js",
-    "static/js/2.4bc6eff4.chunk.js.map": "/VoiceOfCardsGallery/static/js/2.4bc6eff4.chunk.js.map",
+    "static/js/2.633275ad.chunk.js": "/VoiceOfCardsGallery/static/js/2.633275ad.chunk.js",
+    "static/js/2.633275ad.chunk.js.map": "/VoiceOfCardsGallery/static/js/2.633275ad.chunk.js.map",
     "index.html": "/VoiceOfCardsGallery/index.html",
     "static/css/main.ef7157ad.chunk.css.map": "/VoiceOfCardsGallery/static/css/main.ef7157ad.chunk.css.map",
-    "static/js/2.4bc6eff4.chunk.js.LICENSE.txt": "/VoiceOfCardsGallery/static/js/2.4bc6eff4.chunk.js.LICENSE.txt",
+    "static/js/2.633275ad.chunk.js.LICENSE.txt": "/VoiceOfCardsGallery/static/js/2.633275ad.chunk.js.LICENSE.txt",
     "static/media/card_desc_text.c00bd60b.csv": "/VoiceOfCardsGallery/static/media/card_desc_text.c00bd60b.csv",
     "static/media/card_mst.28478861.csv": "/VoiceOfCardsGallery/static/media/card_mst.28478861.csv",
     "static/media/card_name_text.fec19df2.csv": "/VoiceOfCardsGallery/static/media/card_name_text.fec19df2.csv",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3d72d6c8.js",
-    "static/js/2.4bc6eff4.chunk.js",
+    "static/js/2.633275ad.chunk.js",
     "static/css/main.ef7157ad.chunk.css",
-    "static/js/main.730dcd66.chunk.js"
+    "static/js/main.d6d48b12.chunk.js"
   ]
 }
