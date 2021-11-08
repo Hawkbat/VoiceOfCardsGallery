@@ -1,0 +1,1010 @@
+10,
+11,
+20,
+21,
+40,Equippable By
+50,Please Pick One
+1000,???
+1010,Ash
+1011,The Would-Be Hero
+1020,Mar
+1030,Melanie
+1031,Monster Melanie
+1040,Ridis
+1050,Bruno
+1110,Wynifred
+1111,Young Woman
+1120,Berwyn
+1121,Strapping Man
+1130,Heddwyn
+1131,Old Man
+2010,Queen Nilla
+2020,Ivory Order Knight
+2022,Knight
+2025,Ivory Order Disciple
+2030,Sherwyn
+2040,Vince
+2050,Village Headman
+2060,Cyprienambre
+2061,Cyprie
+2062,Doctor Cyprie
+2090,Aureo
+2100,Seolfor
+2110,Ridis's Mother
+2120,Piscator
+3010,Average Man
+3012,Thief
+3020,Woman
+3022,Poet
+3030,Simple Boy
+3040,Plain Girl
+3050,Mature Man
+3060,Mature Woman
+3070,Man
+3080,Aged Man
+3090,Woodlander Man
+3100,Woodlander Woman
+3110,Muscle Man
+3120,Muscle Maiden
+3130,病気の若者
+3140,病気の女将
+3150,病気の老人
+3152,Old Man
+3501,Item Shop Girl
+3511,Blacksmith
+3521,Apothecary
+3531,Innkeeper
+3541,Game Parlor Reception
+3551,Carriage Master
+4010,Dragon
+4015,The Dragon's Malice
+4020,Ewyllyswyn
+4021,Ewyllyswyn Core
+4022,Ewyllyswyn Right Wing
+4023,Ewyllyswyn Left Wing
+5001,Game Parlor Reception
+5002,Average Man
+5003,Woman
+5004,Woodlander Man
+5005,Woodlander Woman
+5006,Goblin
+5007,Orc Child
+5008,Muscle Man
+5009,Muscle Maiden
+5010,Aged Man
+5011,Man
+5012,Mature Woman
+5013,Mature Man
+5014,Plain Girl
+5015,Simple Boy
+10110,Slime
+10120,Armed Slime
+10130,Poison Slime
+10140,Molten Slime
+10150,Mr. Flobby
+10210,Goblin
+10220,Umbral Goblin
+10310,Furball
+10320,Fireball
+10410,Harpy
+10420,Elekyrie
+10510,Orc Child
+10520,Orc Wildling
+10610,Ogre
+10620,Menacing Ogre
+10630,Ogre Chieftain
+10710,Skull Soldier
+10720,Skull Knight
+10730,Skullomancer
+10740,Lost Soul
+10810,Wraithwolf
+10820,Pyrowolf
+10830,Lightwolf
+10910,Iron Tortoise
+10920,Magma Tortoise
+11010,Bizarrock
+11020,Fearock
+11030,Aquarock
+11040,Goldrock
+11050,Treasurock
+11110,Lizard Squire
+11120,Lizard Warrior
+11130,Lizard Captain
+11210,Sapling Treant
+11220,Treant
+11230,Undead Treant
+11310,Dryad
+11410,Red Fungo
+11420,Green Fungo
+11430,Undead Fungo
+20100,Pass
+20101,Slash
+20102,Heal
+20103,Lightning Strike
+20104,Cure
+20105,Spinning Ray
+20106,Heal+
+20107,Triblade
+20108,Guardian
+20151,Would-Be Hero
+20152,Heroic Hunch
+20153,Darkproof
+20201,Ram
+20202,Body Slam
+20203,Rolling Claw
+20204,Regenerate
+20205,Demonic Dance
+20206,Roundhouse
+20207,Clobber
+20208,Destruction
+20251,Membrane
+20252,Blubber
+20253,Fireproof
+20301,Magic Strike
+20302,Flame
+20303,Freeze
+20304,Zephyr
+20305,Thunderstorm
+20306,Darkness
+20307,Charge Spell
+20308,Zero Elements
+20351,Doubleproof
+20352,Doubleproof II
+20353,Lightproof
+20401,Loose Arrow
+20402,Poison Arrow
+20403,Shockwave
+20404,Eulogy
+20405,"Ready, Aim, Fire"
+20406,Quickshot
+20407,Crystal Arrow
+20408,Deadly Mirage
+20451,Cornered Prey
+20452,Wisdom of the Dryads
+20453,Lightningproof
+20501,Chop
+20502,Attack Herb
+20503,Muscle Herb
+20504,Bull Rush
+20505,Regen Herb
+20506,Deep-Tissue Massage
+20507,Overpower
+20508,Miracle Heart
+20551,Hustle
+20552,Invincible
+20553,Waterproof
+21001,Magic Strike
+21002,White Heal
+21003,White Light
+21004,Refresh
+21101,Downward Strike
+21102,Full Swing
+21103,Bulwark
+21104,Rampage
+21201,Contemplation
+21202,Frostbomb
+21203,Hurricane
+21204,Aura
+22001,Inferno
+22002,Splash
+22003,Heal Lite
+22004,Cyclone
+22005,Zap
+22091,火球
+30112,Poison Sludge
+30121,Slice
+30122,Frenzy
+30132,Deadly Poison Sludge
+30142,Slather
+30211,Swing
+30212,Intimidate
+30223,Furious Swing
+30311,Scratch
+30312,Heal
+30322,Feed
+30323,Exaltation
+30411,Rend
+30412,Pierce
+30423,Lightning
+30511,Strike
+30512,Bide
+30522,Assault
+30611,Charge
+30612,Pulverize
+30731,Umbral Spear
+30732,Incantation
+30733,Pox
+30744,Abyssal Vortex
+30811,Frostbreath
+30812,Howl
+30821,Flamebreath
+30823,Flamethrower
+30831,Lightbeam
+30833,Lightseal
+30911,Slam
+30912,Harden
+30913,Water Jet
+30923,Flamebreath
+31011,Falling Rock
+31021,Splash
+31022,Frost
+31031,Flashlight
+31032,Golden Guard
+31041,Flare
+31042,Taking You with Me
+31051,Invocation
+31052,Flee
+31111,Stab
+31211,Entwine
+31223,Guardian Ivy
+31232,Rotpollen
+31311,Whirlwind
+31312,Sandstorm
+31412,Poison Spore
+31423,Healing Spore
+31432,Deadly Poison Spore
+31433,Paralytic Spore
+32001,Fall Guy
+32002,Sweeten the Pot
+32003,I Can Explain!
+32004,Boast
+32011,Thunderbolt
+32013,Galestorm
+32014,Inferno
+32021,Haymaker
+32022,Sea Shanty
+32023,Strike a Pose!
+32051,Tailwhip
+32052,Dragonglare
+32053,Flamethrower
+32054,Roar
+32071,Pass
+32091,Exorcist Blade
+32092,Great Slash
+32094,Baptismal Light
+32102,Dragonglare
+32103,Supernova
+32112,Bite Back
+32113,Purge
+32114,Wings of Ruin
+32115,Limb from Limb
+32116,Wings of Judgment
+32117,Cleansing Gust
+32118,Wings of Restoration
+32119,Enervate
+32129,Pass
+32153,Crossing Slash
+32301,Blast
+32401,Impassion
+32501,Fling
+32601,Berserk
+32701,Volcano
+32801,Destiny's Edge
+32901,Invigorant
+32902,Mortal Mists
+50000,"You don't have
+any cards."
+50001,"You haven't unlocked
+this yet."
+50002,"You haven't acquired
+this yet."
+50101,Salve
+50102,Quality Salve
+50103,Supreme Salve
+50201,Antidote
+50202,Curative
+50203,Defroster
+50204,Unsealer
+50205,Dispeller
+50206,Pepper-Upper
+50210,Serum
+50250,Inspirilixir
+50301,Bomb
+50401,Invigorant
+50402,Protectorant
+50411,Firestay
+50412,Waterstay
+50413,Windstay
+50414,Lightningstay
+50450,Soothstone
+50501,Oil Pot
+50502,Corrosive
+50503,Destruct-o-Box
+50504,Zapsmoke
+50601,Torch
+50610,Bellwether
+51002,Simple Key
+51103,木製の宝箱
+51104,Medicine (?)
+51105,Ragged Doll
+51106,Magic Sphere
+51107,Woodland Flute
+51108,Handkerchief
+51109,Spryfish
+51110,Magical Key
+51111,Flashfreeze
+51112,Dragontear
+51113,The Last Dragontear
+51114,Whatchacallit Extract
+51115,Energy Concentrate
+51116,Custom Supplement
+55001,Monster Memo #1
+55002,冒険者たちの噂話
+55003,Little Girl's Drawing
+55004,Stolen Goods Cache #1
+55005,Monster Memo #2
+55006,Stolen Goods Cache #2
+55007,Monster Memo #3
+55008,Stolen Goods Cache #3
+55101,大きな魚
+55102,Feisty Fish
+55201,Wealthy Old Man
+55202,Flawed Woman
+58001,Dispeller
+58002,Simple Key
+60000,Weapons
+60101,Iron Sword
+60102,Mercenary's Sword
+60103,Mistralblade
+60104,Evilsbane
+60105,Phoenixflame
+60201,Iron Claws
+60202,Ravagers
+60203,Deeptalons
+60204,Crimson Claws
+60205,Oldfangs
+60301,Sacred Staff
+60302,Magic Staff
+60303,Thunderstaff
+60304,Sage's Staff
+60305,Darklore
+60401,木の弓
+60402,Dryad's Bow
+60403,Airsplitter
+60404,Assassin's Bow
+60405,Gold Lightning
+60501,グローブ
+60502,良いグローブ
+60503,Combat Gloves
+60504,Devilhands
+60505,Fists of Goliath
+62000,Armor
+62100,Iron Armor
+62110,Knight's Armor
+62120,Frostmail
+62130,Darkmail
+62140,Hero's Armor
+62150,Divine Armor
+62200,Simple Breastplate
+62210,Steel Breastplate
+62220,Knight's Chainmail
+62230,Warrior's Mail
+62240,Marine's Suit
+62250,Dreamwoven
+62300,Shadowcloth
+62305,Dryad's Garb
+62310,Adventurer's Attire
+62320,Fairy Dress
+62330,Witch's Wear
+62340,Moonlit Gown
+62350,Purest Blessing
+63000,Accessories
+63100,Ring of Protection
+63110,Firestay Ring
+63120,Waterstay Ring
+63130,Lightningstay Ring
+63140,Windstay Ring
+63150,Lightstay Ring
+63160,Darkstay Ring
+63170,Poisonstay Ring
+63180,Numbstay Ring
+63190,Freezestay Ring
+63200,Bindstay Ring
+63210,Cursestay Ring
+63900,Evilbane Ring
+70001,Mysterious Card 1
+70002,Mysterious Card 2
+70003,Mysterious Card 3
+70004,Mysterious Card 4
+70005,Mysterious Card 5
+70006,Mysterious Card 6
+70007,Mysterious Card 7
+70008,Mysterious Card 8
+70009,Mysterious Card 9
+70010,Mysterious Card 10
+75001,入手場所のヒント
+80010,Chest
+80020,Sign
+80030,Door
+81000,An Enemy Appears!
+81010,Event
+90010,Isle of Bliss
+90011,第１大陸
+90012,第２大陸
+90013,第３大陸
+90020,Isle of Blight
+91010,Castle Advent
+91011,Castle Advent Royal Hall
+91012,Advent
+91020,サイショの町
+91030,Nexton
+91040,Thriceton
+91050,Woodland
+91051,"Woodland, Ridis's House"
+91052,Woodland Inn
+91060,Unionville
+91061,Unionville Inn
+91062,Unionville Headman's Home
+91070,Shoreland
+91080,Village of the Sick
+92010,Dank Cave
+92020,Western Cave
+92021,Western Cave Level 1
+92022,Western Cave Level 2
+92030,Bewildering Wood
+92031,Bewildering Wood
+92032,Bewildering Wood Shortcut
+92040,Nameless Shrine
+92050,Barren Harbor
+92060,Musty Tower
+92061,Musty Tower First Floor
+92062,Musty Tower Second Floor
+92063,Musty Tower Third Floor
+92064,Musty Tower Fourth Floor
+92065,Musty Tower Fifth Floor
+92066,Musty Tower Roof
+92067,"Musty Tower, Entrance"
+92070,Volcano
+92071,Volcano Entrance
+92072,Volcano First Floor
+92073,Volcano Second Floor
+92074,Volcano Third Floor
+92075,Volcano Caldera
+92076,Volcano Fourth Floor
+92077,Volcano Escape Route
+92080,Mausoleum
+92081,Mausoleum Entrance
+92082,Mausoleum Level 1
+92083,Mausoleum Level 2
+92084,Mausoleum Level 3
+92085,Mausoleum Level 4
+92086,Mausoleum Depths
+92090,Vexing Cave
+101010,石床
+101020,城の床
+101030,町の床
+101040,草原
+101050,森
+101060,荒野
+101070,橋
+101080,草道
+101090,浜辺
+101100,塔の床
+101120,火山の床
+101130,霊廟の床
+101140,カーペット中
+101141,カーペット左
+101142,カーペット右
+101150,王座
+102010,岩壁
+102020,湖
+102030,岩山
+102040,大木
+102050,海
+102070,塔の壁
+102080,塔の床（穴）
+102090,火山岩
+102100,溶岩
+102110,霊廟の壁
+103010,Item Shop
+103011,Armorer
+103012,Apothecary
+103013,Game Parlor
+103014,Carriage Shop
+103020,Inn
+103030,Doctor's House
+103031,Elder's House
+103032,Monster's House
+103033,Ridis's House
+103034,Nutrition Clinic
+103035,Elder's House
+103036,House
+103037,Abandoned House
+103040,大きな民家
+104010,城
+104020,町
+104030,村
+104040,迷いの森
+104050,祠
+104060,魚の捕れない漁港
+104070,塔
+104080,火山
+104090,霊廟
+105010,Door
+105011,Gilded Door
+105014,Open Door
+105015,Open Gilded Door
+105018,Heavy Door
+105019,Open Heavy Door
+105020,Chest
+105030,Throne
+105040,Castle Gate
+105050,Sign
+105060,Stela
+105070,Well
+105080,Wharf
+105090,Ship
+105091,Wrecked Ship
+105100,Mysterious Altar
+200010,Chapter 1
+200020,Chapter 2
+200030,Chapter 3
+200040,Chapter 4
+200050,Chapter 5
+200060,Chapter 6
+200070,Chapter 7
+201010,DEMO
+290010,Isle of Bliss
+290011,第１大陸
+290012,第２大陸
+290013,第３大陸
+290020,Isle of Blight
+291010,Castle Advent
+291011,Castle Advent Royal Hall
+291012,Advent
+291020,サイショの町
+291030,Nexton
+291040,Thriceton
+291050,Woodland
+291051,"Woodland 
+Ridis's House"
+291052,Woodland Inn
+291060,Unionville
+291061,Unionville Inn
+291062,"Unionville 
+Headman's Home"
+291070,Shoreland
+291080,Village of the Sick
+292010,Dank Cave
+292020,Western Cave
+292021,"Western Cave 
+Level 1"
+292022,"Western Cave 
+Level 2"
+292030,Bewildering Wood
+292031,Bewildering Wood
+292032,"Bewildering Wood 
+Shortcut"
+292040,Nameless Shrine
+292050,Barren Harbor
+292060,Musty Tower
+292061,"Musty Tower
+First Floor"
+292062,"Musty Tower
+Second Floor"
+292063,"Musty Tower
+Third Floor"
+292064,"Musty Tower
+Fourth Floor"
+292065,"Musty Tower
+Fifth Floor"
+292066,"Musty Tower
+Roof"
+292067,"Musty Tower
+Entrance"
+292070,Volcano
+292071,"Volcano
+Entrance"
+292072,"Volcano 
+First Floor"
+292073,"Volcano 
+Second Floor"
+292074,"Volcano 
+Third Floor"
+292075,"Volcano
+Caldera"
+292076,"Volcano 
+Fourth Floor"
+292077,"Volcano
+Escape Route"
+292080,Mausoleum
+292081,"Mausoleum
+Entrance"
+292082,"Mausoleum 
+Level 1"
+292083,"Mausoleum 
+Level 2"
+292084,"Mausoleum
+Level 3"
+292085,"Mausoleum
+Level 4"
+292086,"Mausoleum
+Depths"
+292090,Vexing Cave
+400001,<sprite=15>
+410091,"Good afternoon! ...Or should I say ""evening""? Morning...morning?"
+410092,"At any rate, I am the game master."
+410093,Pleased to make your acquaintance.
+410094,"Before we begin, there is something I must tell you."
+410095,"You see, my job is to draw you into this world with my voice and cards."
+410096,Which is why I believe it best for you to play with the sound on.
+410097,"In fact, I insist on it!"
+410098,...However.
+410099,"As you can see, my voice is subtitled, so you can always read along as well."
+410100,"Now then, are you ready?"
+410101,Let's begin.
+410102,Ahem.
+410112,Pay attention because this is important.
+410113,Shall we?
+410114,A fine name.
+410116,Maybe you should come back if you ever find a key.
+410117,"If you do, I'm sure something good will happen..."
+410122,Really?
+410123,"Well, it is your choice after all."
+410131,Isn't it dangerous to go without a torch?
+410132,Perhaps you should use your torch card here.
+410133,"If you don't have a torch, pray consider turning back for now..."
+410134,............
+410136,I cannot in all good conscience let you continue without a torch.
+410141,"""Leave Now"" would be the fastest way out."
+410142,Though I suppose all I do is move the piece around...
+410201,"Let's keep moving, shall we?"
+410203,I suppose there's nothing wrong with that. To each their own.
+410212,"You never miss a chance to earn some coin, do you?"
+410221,That girl is in a world of her own.
+410222,You should give her something.
+410301,"Let's head to Unionville first, shall we?"
+410311,It seems even monsters have their problems...
+410312,I should have seen that one coming.
+410321,Though I understand your urge to hurry on ahead...
+410322,I think you made the right choice.
+410331,Careful! He won't go down easy!
+410341,Lower Mr. Flobby's stamina to calm him down.
+410352,"More than enough, actually."
+410361,You can't be serious.
+410401,Saving one forsakes the other... What a cruel world this is.
+410421,You won't catch a spryfish swimming out there.
+410422,Hurry to the wharf to find the spryfish.
+410423,Are you serious about finding the spryfish...?
+410441,Be reasonable.
+410442,Yet another colorful character...
+410501,Allow me to help.
+410511,Once more from the bottom.
+410512,Third time's the charm...
+410513,Let's make this quick?
+410522,"It's kill or be killed, I suppose."
+410601,Looks like it's too early to come this way.
+410611,"You've got a long road ahead of you, so you had best be prepared."
+410621,"You've spent so long in here, even I'm starting to sweat..."
+410622,You can do this.
+410641,Take your time. There's no need to rush yet.
+410642,You might want to pick up the pace about now.
+410643,"Aw, geez... You're screwed."
+410652,"...Listen, it's not going to work."
+410654,Consolation prize for your bravery.
+410655,Let's return here in a bit.
+410701,The path to the Mausoleum is a long one.
+410702,"If you start feeling weary on your journey, use the Jump feature to return to the village."
+410731,I wouldn't be surprised if it's ghooosts considering where we are...
+410741,It felt like that knight wanted to stop you from going any further.
+410751,Why not check the wall around here?
+410752,There may be something on the wall nearby...
+410754,"Once you go in there, you won't be able to save. Proceed with caution."
+410761,Prepare yourself...!
+410801,Think long and hard about this one...
+411001,You can't walk on water.
+411002,"Like I said, you can't walk on water."
+411003,"Try all you like, but you still can't walk on water."
+411011,You can't go in there. That's the ocean. 
+411012,You can't go in the ocean.
+411013,Why are you so eager for a swim? It's not going to happen.
+411021,You won't be able to climb that mountain. You'll have to take the long way around.
+411022,Not even a rock climber could get up those steep cliffs.
+411023,No climbing!
+411101,Yaaawn...
+411102,Wake me up when you need me...
+411201,So what'll it be?
+411202,I appreciate your honesty.
+411203,Sorry I asked.
+420401,A battle of beefiness!
+420402,You're doing great!
+420403,It feels like watching a bodybuilder competition!
+420404,Looking ripped!
+420611,Nice.
+420631,It looks like it won't put up a fight.
+420701,It'll take more than numbers to win here.
+420711,Luck is on your side today.
+420721,Don't give up.
+420722,This looks bad...
+420731,Give it all you got!
+421001,Aaand...fight!
+421002,Rout the enemy!
+421003,Don't hold back.
+421004,Let's do this.
+421011,That was lucky.
+421012,Nice work.
+421013,Excellent!
+421014,Oh?
+421015,Fortune favors the bold.
+421021,"Don't worry. The coffin card is down, but they're still alive."
+421022,Uh-oh...
+421023,Ouch.
+421024,Oof.
+421031,It looks like your adventure ends here...
+421041,Congrats.
+421042,You did great.
+421043,Good work.
+430001,君の番です。
+430002,プレイヤー１の番です。
+430003,プレイヤー２の番です。
+430004,プレイヤー３の番です。
+430005,プレイヤー４の番です。
+431001,なるほど、そうきたか……
+450004,では、始めましょうか……
+600010,Purse
+600030,Owned
+600031,Owned
+600032,Buy
+600033,Sell
+600034,Shop
+700010,Happenstance Cards
+701001,ATK ↑
+701002,DEF ↑
+701003,回復量アップ
+701004,ダメージ
+701005,獲得Gゴールドアップ
+701006,ATK ↑
+701007,属性ダメージアップ
+701008,特殊効果
+701009,獲得経験値アップ
+701010,属性ダメージアップ
+701011,状態異常発生
+701012,属性ダメージアップ
+701013,ジェム
+701014,ジェム
+701015,獲得経験値アップ
+701016,回復
+701017,獲得ゴールド上昇
+701018,DEF ↑
+701019,回復
+701020,属性威力上昇
+800010,Menu
+800020,Items
+800030,Run Away
+800040,Card Details
+800050,Back
+800060,Next Objective
+800070,Next
+800080,Flip Over
+800090,Inspect
+800100,Rotate
+800110,Move
+800120,Zoom
+800130,Options
+800140,Skip
+800150,Finish
+800160,隠す
+800170,Default
+800180,特定商取引法
+800190,Exchange Cards
+800200,Return to Top
+800210,See All
+800220,Look Right
+800230,Look Left
+800240,Lower Hand
+800250,Menu
+800260,Current Equipment
+800270,Main
+800280,Reserve
+800290,Play
+800300,Autosaving...
+800310,Back
+800320,Close
+800330,Skills
+800340,Fast-Forward
+800400,Connecting
+850001,Return {CARDNAME:1030} to Her Original Form!
+850002,Weepy Witch
+850011,Return {CARDNAME:1020} to Her Original Form!
+850012,"Hey, Sis"
+850021,Revive the {CARDNAME:4010}!
+850022,Fool's Hope
+850031,???
+850032,The One Who Wanted It All
+860001,Chapter 1
+860002,Chapter 2
+860003,Chapter 3
+860004,Chapter 4
+860005,Chapter 5
+860006,Chapter 6
+860007,Chapter 7
+900010,EXP
+900020,Gold
+900030,Level Up
+999903,Run Away
+999904,Cancel
+999909,Success Rate
+999910,Success
+999911,Failure
+999920,Dice Roll
+911010,Next Objective
+1000000,Voice of the Game Master
+1000010,DEVELOPMENT DEPT
+1000020,PRODUCTION DEPT.
+1000030,GRAPHIC DESIGN DEPT.
+1000040,QUALITY ASSURANCE
+1000050,CREATIVE BUSINESS UNIT II
+1000060,CREATIVE BUSINESS UNIT II
+1000070,SALES DIVISION
+1000080,EC BUSINESS UNIT
+1000090,MARKETING DIVISION
+1000100,BOOK EDITING DIVISION
+1000110,MEDIA & ARTS BUSINESS DIVISION
+1000120,QUALITY ASSURANCE
+1000130,LOCALIZATION
+1000140,INFORMATION TECHNOLOGY DIVISION
+1000150,QA & LOCALISATION SERVICES
+1000160,JAPANESE LANGUAGE SUPPORT
+1000170,SQUARE ENIX EUROPE MARKETING
+1000180,UK/EXPORT SALES AND MARKETING
+1000190,FRANCE/BENELUX SALES AND MARKETING
+1000200,G/A/S SALES AND MARKETING
+1000210,EUROPEAN COMMERCIAL AND PUBLISHING SERVICES
+1000220,EUROPEAN MERCHANDISING
+1000230,EUROPEAN COMMUNITY AND SERVICE
+1000240,PTW International UK
+1200000,Results
+1450010,Default
+1450021,Ancient Mural Pattern
+1450020,Default Music
+1451010,Mar Avatar
+1451020,"Queenly Cards
+Reverse Design"
+1451030,Parquet Board
+1451040,Ebony Table
+1451050,Marble Dice
+1452010,Emil Avatar
+1452020,Emil's Pattern
+1452030,Grimoire Weiss Board
+1452040,Library Desk
+1452050,Emil Dice
+1452060,Dress of the Bereft
+1452070,Devola's Music
+1452100,Yonah's Toy Box
+1453020,Pixel Art Set
+1454010,Traditional Avatar
+1454020,Golden Dragon Pattern
+1600001,Abilities
+2000001,Dud
+2000002,Attack
+2000003,Steal
+2000004,Draw
+2000005,Double Draw
+2000006,Reverse
+2000007,Skip
+2000008,Bomb
+2000009,Reload Events
+2000010,Reload Cards
+2000011,Lost
+2010001,Attack
+2010002,Swipe Set
+2010003,Pass
+2010004,Discard Shared Card
+2010005,Capture
+2010006,Shuffle Set
+2010101,No Target Card
+2010102,No Target Player
+2010103,Deck Empty
+2010201,Instant Effect
+2010202,Takes Effect Every Turn
+2010203,Conditional Effect
+2010204,Takes Effect When Drawn
+2011001,Set Up Game
+2020000,Go Back
+2020001,Prepare Game
+2020002,Play on One System
+2020003,Play with Nearby Players
+2020004,Number of Players
+2020005,Two Players
+2020006,Three Players
+2020007,Four Players
+2020008,Play with Nearby Players
+2020009,Find Players
+2020010,Find a Game
+2020011,Find Players
+2020012,Find a Game
+2020013,Find Players
+2020014,Start Game
+2020015,Find a Game
+2020016,Start
+2020017,操作選択へ進む
+2020018,Select Play Style
+2020019,Pass-and-Play
+2020020,Play Individually
+2020021,Ready
+2020022,Set Rules
+2020023,Additional Opponents
+2020024,自分たちで操作する
+2020025,操作してもらう
+2020026,Play with These Settings
+2020027,参加してもらう
+2020028,Additional Opponents
+2020029,Additional Opponents
+2020030,ゲームルール
+2020031,Simple
+2020032,Add Skills
+2020033,Add Events
+2020034,Include All
+2020035,Prepare Game
+2020036,ルールを選んで下さい
+2020037,リーダーが選択中
+2020038,ゲームスタート
+2020039,Play an Additional Opponent
+2020040,Play 2 Additional Opponents
+2020041,ゲームの遊び方
+2020042,No
+2020043,Yes
+2020044,No
+2020045,Next
+2020046,ルールの説明を聞く
+2020047,ゲームの基本
+2020048,カードのスキルとは
+2020049,イベントカードとは
+2020050,Prepare Game
+2020051,ゲームの準備を始める
+2020052,How to Play
+2020053,Start
+2020054,Start
+2020055,Start
+2020056,Start
+2020057,Single Player
+2020058,Multiplayer
+2020059,Play with These Rules
+2020060,Confirm Rules
+2020061,Game Parlor
+2020062,Game Parlor
+2020063,Game Parlor
+2020064,Prepare Game
+2020065,Rule Selection
+2020066,Start
+2020067,Player Card Selection
+2020068,Player Card Selection
+2020069,Choose player card.
+2020070,Choose Player {0}'s Card
+2020071,Select Play Style
+2020072,Next
+2020073,Prepare Game
+2020074,Additional Opponents
+2020075,Next
+2020076,Change Player Card
+2020077,Quit Local Play and Go Back
+2020078,Find Players
+2020079,Find Players
+2020080,Change Player Card
+2020081,Quit Local Play and Go Back
+2020082,Pass-and-Play
+2020083,Play with {0} Players
+2020084,Confirm Number of Players
+2020085,Everyone Is Ready
+2021000,Simple
+2021001,Simple
+2021002,Simple
+2021010,Add Skills
+2021011,Add Skills
+2021012,Add Skills
+2021020,Add Events
+2021021,Add Events
+2021022,Add Events
+2021023,Add Events
+2021030,Include All
+2021031,Include All
+2021032,Include All
+2040010,How to Play
+2050000,Menu
+2050001,Rules
+2050002,Give Up
+2050003,Back to Game
+2050010,Give Up
+2050011,Yes
+2050012,No
+3000000,New Game

@@ -1,0 +1,3733 @@
+1,"【Poison】@Takes between 1 to 6 
+damage each turn."
+2,"【Deadly Poison】@Takes between 2 to 12 
+damage each turn."
+3,"【Paralysis】@Unable to perform 
+actions due to 
+paralysis."
+4,"【Freeze】@Cannot act. Takes 2×
+damage. Released upon
+taking damage."
+5,"【Seal】@Unable to use skills 
+that require gems."
+6,"【Curse】@Takes damage from
+recovery effects
+instead of healing."
+7,【ATK ↓】@Decreases attack.
+8,【DEF ↓】@Decreases defense.
+10,【Fire Res. ↓】@Takes 5 additional fire damage.
+11,【Water Res. ↓】@Takes 5 additional water damage.
+12,【Bolt Res. ↓】@Takes 5 additional bolt damage.
+13,【Wind Res. ↓】@Takes 5 additional wind damage.
+14,【Light Res. ↓】@Takes 5 additional light damage.
+15,【Dark Res. ↓】@Takes 5 additional dark damage.
+20,状態異常説明
+40,Not equippable by any characters in your current party.
+100,【ATK ↑】@Adds <%1> to attack.
+101,【DEF ↑】@Adds <%1> to defense.
+102,【Regen】@Restores <%1> HP each turn.
+10110,【特性】 毒は効かなさそう。よく燃えそうだ。
+10120,【特性】 毒は効かなさそう。金属部分が弱点かもしれない。
+10130,【特性】 毒は効かなさそう。よく燃えそうだ。
+10140,【特性】 その身体は溶岩でできている。
+10210,【特性】 身体が小さいので風属性が効きそうだ。
+10220,【特性】 身体が小さいので風属性が効きそうだ。
+10310,【特性】 風を浴びると気持ちよさそう。毛を燃やすとよく燃えそうだ。
+10320,【特性】 その紅き体は炎を受け付けないが、寒い場所が苦手のようだ。
+10410,【特性】 その翼は雷に強いが暴風に弱い。
+10420,【特性】 その翼は雷に強いが暴風に弱い。
+10510,【特性】 麻痺に弱い。
+10520,【特性】 麻痺に弱い。
+10610,【特性】 凍結に弱い。
+10620,【特性】 凍結に弱い。
+10710,【特性】 聖なる光に弱い。
+10720,【特性】 聖なる光に弱い。
+10730,【特性】 聖なる光に弱い。
+10740,【特性】 聖なる光に弱い。闇の力に強い。
+10810,【特性】 水に強い。雷に弱い。
+10820,【特性】 火に強い。水に弱い。
+10830,【特性】 光に強い。闇に弱い。
+10910,【特性】 水に強い。雷に弱い。
+10920,【特性】 炎に強い。水に弱い。
+11010,【特性】 水に弱い。
+11020,【特性】 雷に弱い。
+11030,【特性】 雷に弱い。
+11040,【特性】 水に弱い。
+11050,【特性】 火に弱い。
+11110,【特性】 雷に弱い。
+11120,【特性】 雷に弱い。
+11210,【特性】 雷に強い。火に弱い。
+11220,【特性】 雷に強い。火に弱い。
+11230,【特性】 雷に強い。火に弱い。
+11310,【特性】 麻痺が効かない。
+11410,【特性】 火に弱い。
+11420,【特性】 火に弱い。
+11430,【特性】 毒が効かない。火に弱い。
+11011,【特性】 この眼光に勝てる気がしない…。
+11021,【特性】 この肉体に勝てる気がしない…。
+11031,【特性】 この爺なら勝てる…気がしない…。
+20101,Deal damage.
+20102,"Restore 10 HP 
+to target."
+20103,"Add value of roll 
+to ATK and 
+deal bolt damage."
+20104,"Cure target 
+of poison, deadly poison."
+20105,"Deal light damage 
+to all enemies."
+20106,"Restore 30 HP 
+to target."
+20107,Deal 3× damage.
+20108,"Add 5 to all allies' 
+DEF for 3 turns."
+20151,"Recover 3 HP after 
+combat ends."
+20152,"Gain immunity 
+to paralysis."
+20153,"Decrease dark
+damage by 5."
+20201,Deal damage.
+20202,"Deal damage 
+equal to value of 
+2 rolled dice."
+20203,Deal 1.5× damage.
+20204,"Periodically restore 
+own HP by 5 
+for 3 turns."
+20205,"Provoke all enemies' 
+attention until next 
+action is taken."
+20206,"Deal damage to all 
+enemies."
+20207,Deal 25 damage.
+20208,"Deal ATK + 25 
+damage."
+20251,"Recover 2 HP after 
+turn ends."
+20252,"Gain immunity 
+to freeze."
+20253,"Decrease fire
+damage by 5."
+20301,Deal damage.
+20302,"Deal ATK + 3 
+fire damage."
+20303,"Deal ATK + 4
+water damage.
+Inflict freeze if
+roll is <highlight>5</highlight> or greater."
+20304,"Add value of roll 
+to ATK and 
+deal wind damage."
+20305,"Deal ATK + 4 
+bolt damage to
+all enemies."
+20306,"Deal 15 dark 
+damage."
+20307,Generate 2 gems.
+20308,"Deal ATK + 30 
+damage to all enemies."
+20351,"Decrease wind, bolt damage by 5."
+20352,"Decrease fire, water damage by 5."
+20353,"Decrease light
+damage by 5."
+20401,Deal damage.
+20402,"Deal dark damage.
+Inflict poison if
+roll is <highlight>4</highlight> or greater."
+20403,"Deal bolt damage. 
+Inflict paralysis if
+roll is <highlight>4</highlight> or greater."
+20404,"Restore 10 HP to 
+all allies. "
+20405,"Add 10 to own 
+ATK for 2 turns."
+20406,Deal 2× damage.
+20407,"Deal water damage. 
+Inflict freeze if
+roll is <highlight>4</highlight> or greater."
+20408,Deal 4× damage.
+20451,"Add 3 to damage
+if target is afflicted
+by status ailment."
+20452,"Gain immunity 
+to poison, deadly poison."
+20453,"Decrease bolt
+damage by 5."
+20501,Deal damage.
+20502,"Add 3 to all allies' 
+ATK for 3 turns."
+20503,"Add 3 to all allies'
+DEF for 3 turns."
+20504,Deal 1.5× damage.
+20505,"Periodically restore
+5 HP to target
+for 3 turns."
+20506,"Cure target 
+of paralysis, freeze."
+20507,"Deal ATK + 15
+damage. Inflict 
+ATK ↓ for 3 turns."
+20508,"Restore 20 HP to 
+all allies. "
+20551,"Recover 3 HP
+when attacking."
+20552,"Gain immunity 
+to ATK ↓, DEF ↓."
+20553,"Decrease water
+damage by 5."
+21001,Deal damage.
+21002,"Restore 15 HP 
+to target."
+21003,"Deal ATK + 10 
+light damage."
+21004,"Cure target of all 
+status ailments
+except KO."
+21101,Deal damage.
+21102,"Deal ATK + 8 
+damage."
+21103,"Add 5 to target's 
+DEF for 2 turns."
+21104,"Deal damage.
+Inflict DEF ↓ if roll
+is <highlight>3</highlight> or greater."
+21201,Generate 1 gem.
+21202,"Deal ATK + 5 
+water damage."
+21203,"Deal wind damage 
+to all enemies."
+21204,"Add 10 to target's 
+ATK for 2 turns."
+22001,"Deal ATK + 5 
+fire damage."
+22002,"Deal ATK + 3 
+water damage."
+22003,"Restore 6 HP 
+to target."
+22004,"Deal wind damage 
+to all enemies."
+22005,"Deal bolt damage 
+to all enemies."
+22091,Deals fire damage.
+30111,"Deal ATK + 2 
+damage."
+30112,"Inflict poison if 
+roll is <highlight>4</highlight> or greater."
+30121,"Deal ATK + 3 
+damage."
+30122,Deal 2× damage.
+30131,"Deal ATK + 3 
+damage."
+30132,"Inflict deadly poison if 
+roll is <highlight>4</highlight> or higher."
+30141,"Deal ATK + 4 
+damage."
+30142,"Deal damage.
+Inflict fire res. ↓ if
+roll is <highlight>4</highlight> or greater."
+30211,"Deal ATK + 3 
+damage."
+30212,"Inflict DEF ↓ if 
+roll is <highlight>4</highlight> or greater."
+30221,"Deal ATK + 4 
+damage."
+30222,"Inflicts DEF ↓ if 
+roll is more than <highlight>4</highlight>."
+30223,"Deal damage to all 
+enemies."
+30311,"Deal ATK + 2 
+damage."
+30312,"Restore 5 HP 
+to target."
+30321,"Deal ATK + 4 
+damage."
+30322,"Deal damage 
+to target and 
+recover HP."
+30323,"Add 5 to target's 
+ATK for 2 turns."
+30411,"Deal ATK + 3 
+damage."
+30412,"Deal damage.
+Inflict DEF ↓ if roll
+is <highlight>4</highlight> or greater."
+30421,"Deal ATK + 5 
+damage."
+30422,"Deal damage.
+Inflict DEF ↓ if roll
+is <highlight>4</highlight> or greater."
+30423,"Deal bolt damage 
+to all enemies."
+30511,"Deal ATK + 3 
+damage."
+30512,"Add 4 to own 
+ATK for 2 turns."
+30521,"Deal ATK + 4 
+damage."
+30522,"Deal damage.
+Inflict ATK ↓ if roll
+is <highlight>4</highlight> or greater."
+30611,"Deal ATK + 4 
+damage."
+30612,Deal damage 3 times.
+30621,"Deal ATK + 5 
+damage."
+30622,Deal damage 3 times.
+30623,"Add 5 to own 
+ATK for 2 turns."
+30711,"Deal ATK + 2 
+damage."
+30721,"Deal ATK + 3 
+damage."
+30722,Deal 2× damage.
+30731,"Deal 6 dark
+damage."
+30732,"Inflict paralysis if 
+roll is <highlight>4</highlight> or greater."
+30733,"Inflict curse if 
+roll is <highlight>4</highlight> or greater."
+30741,"Deal 10 dark
+damage."
+30742,"Inflict paralysis if 
+roll is <highlight>4</highlight> or greater."
+30743,"Inflict curse if 
+roll is <highlight>4</highlight> or greater."
+30744,"Deal dark damage 
+to all enemies."
+30811,"Deal ATK + 3
+water damage."
+30812,"Inflict ATK ↓ if 
+roll is <highlight>4</highlight> or greater."
+30821,"Deal ATK + 4
+fire damage."
+30822,"Inflict ATK ↓ if 
+roll is <highlight>4</highlight> or greater."
+30823,"Deal fire damage 
+to all enemies."
+30831,"Deal ATK + 4 
+light damage."
+30832,"Inflict ATK ↓ if 
+roll is <highlight>4</highlight> or greater."
+30833,"Inflict seal on
+all enemies if
+roll is <highlight>4</highlight> or greater."
+30911,"Deal ATK + 5 
+damage."
+30912,"Add 5 to own 
+DEF for 3 turns."
+30913,"Deal ATK + 3 
+water damage."
+30921,"Deal ATK + 5 
+damage."
+30922,"Add 5 to own 
+DEF for 3 turns."
+30923,"Deal ATK + 5 
+fire damage."
+31011,"Deal ATK + 3 
+damage."
+31021,Deal water damage.
+31022,"Inflict freeze if 
+roll is <highlight>4</highlight> or greater."
+31031,"Deal ATK + 3 
+light damage."
+31032,"Add 5 to all allies' 
+DEF for 3 turns."
+31041,Deal fire damage.
+31042,"Deal massive damage to 
+target. Take own
+damage in return."
+31051,Increase gold gained from this combat.
+31052,"Initiate flight 
+from combat."
+31111,"Deal ATK + 3 
+damage."
+31112,"Deal ATK + 4
+water damage."
+31121,"Deal ATK + 4 
+damage."
+31122,"Deal ATK + 5 
+water damage."
+31123,Deal 2× damage.
+31211,"Deal ATK + 3 
+damage."
+31212,"Restore 8 HP 
+to target."
+31221,"Deal ATK + 3 
+damage."
+31222,"Restores 8 HP 
+to target."
+31223,"Add 5 to all allies' 
+DEF for 3 turns."
+31231,"Deal ATK + 3 
+damage."
+31232,"Deal dark damage 
+to all enemies."
+31233,"Add 5 to all allies' 
+DEF for 3 turns."
+31311,"Deal ATK + 3 
+wind damage."
+31312,"Inflict wind res. ↓ on all
+enemies if roll is
+<highlight>4</highlight> or greater."
+31411,"Deal ATK + 3 
+damage."
+31412,"Inflict poison if 
+roll is <highlight>4</highlight> or greater."
+31421,"Deal ATK + 4 
+damage."
+31422,"Inflict poison if 
+roll is <highlight>4</highlight> or greater."
+31423,"Restore 8 HP 
+to target."
+31431,"Deal ATK + 4 
+damage."
+31432,"Inflict deadly poison if 
+roll is <highlight>4</highlight> or greater."
+31433,"Inflict paralysis if 
+roll is <highlight>4</highlight> or greater."
+32001,Take own damage.
+32002,Increase gold gained from this combat.
+32003,"Add 2 to own 
+DEF for 2 turns."
+32004,"Add 2 to own 
+ATK for 2 turns."
+32011,"Deal ATK + 3 
+bolt damage."
+32012,"Deal ATK + 4
+water damage.
+Inflict freeze if
+roll is <highlight>5</highlight> or greater."
+32013,"Deal wind damage 
+to all enemies."
+32014,"Deal ATK + 10 
+fire damage."
+32021,"Deal ATK + 5 
+damage."
+32022,"Add 5 to own 
+ATK for 2 turns."
+32023,"Add 5 to own 
+DEF for 2 turns."
+32031,"Deal ATK + 4 
+damage."
+32032,Deal damage 3 times.
+32041,"Deal ATK + 5 
+damage."
+32042,Deal damage 3 times.
+32051,"Deal ATK + 5 
+damage."
+32052,"Inflict paralysis if 
+roll is <highlight>3</highlight> or greater."
+32053,"Deal fire damage 
+to all enemies."
+32054,"Inflict DEF ↓ on all 
+enemies if roll is
+<highlight>4</highlight> or greater."
+32061,"Deal ATK + 4 
+bolt damage."
+32062,"Deal ATK + 4
+water damage.
+Inflict freeze if
+roll is <highlight>5</highlight> or greater."
+32063,"Deal wind damage 
+to all enemies."
+32064,"Deal ATK + 10 
+fire damage."
+32065,"Deal 20 dark
+damage."
+32066,"Deal ATK + 10 damage 
+to all enemies."
+32071,"The injured Dragon
+cannot act."
+32081,"Deal ATK + 7 
+damage."
+32082,"Add 5 to own 
+DEF for 3 turns."
+32083,"Deal ATK + 7 
+fire damage."
+32091,Deal 1.5× damage.
+32092,"Deal damage to
+all enemies."
+32093,"Deal ATK + 10 
+light damage."
+32094,"Inflict seal on
+all enemies if
+roll is <highlight>4</highlight> or greater."
+32101,"Deal ATK + 10 
+damage."
+32102,"Inflict paralysis if 
+roll is <highlight>3</highlight> or greater."
+32103,"Deal ATK + 5 
+light damage to all 
+enemies."
+32104,"Inflict seal on
+all enemies if
+roll is <highlight>4</highlight> or greater."
+32111,"Deal ATK + 5 
+light damage to all 
+enemies."
+32112,"Deal ATK + 12
+damage to target
+and recover HP."
+32113,"Nullify all enemy
+status enhancements and regen."
+32114,"Add 5 to own 
+ATK for 99 turns."
+32115,Deal 2× damage.
+32116,"Deal 8 damage to 
+all enemies."
+32117,"Restore 20 HP to 
+all allies. "
+32118,"Revive target.
+Become afflicted with
+freeze in return."
+32119,"Inflict random ailment 
+on target if roll is 
+<highlight>4</highlight> or greater."
+32129,Actions prevented by curse.
+32131,Deal 2× damage.
+32132,"Deal damage.
+Inflict ATK ↓ if roll
+is <highlight>4</highlight> or greater."
+32140,"Add 5 to target's 
+ATK for 2 turns."
+32141,"Restore 15 HP 
+to target."
+32142,"Deal ATK + 4 
+water damage."
+32151,"Deal ATK + 5 
+damage."
+32152,"Deal ATK + 10 
+light damage."
+32153,Deal 15 damage.
+32161,"Deal damage.
+Inflict DEF ↓ if roll
+is <highlight>4</highlight> or greater."
+32162,"Restore 15 HP 
+to target."
+32163,"Deal ATK + 4 
+water damage."
+32171,"Deal ATK + 5 
+damage."
+32172,Deal 2× damage.
+32173,"Restore 15 HP 
+to target."
+32174,Deal 15 damage.
+32181,"Deal damage.
+Inflict DEF ↓ if roll
+is <highlight>4</highlight> or greater."
+32182,"Deal ATK + 10 
+light damage."
+32183,"Deal wind damage 
+to all enemies."
+32184,"Restore 15 HP 
+to target."
+32191,"Deal ATK + 5 
+damage."
+32192,"Restore 15 HP 
+to target."
+32193,"Inflict seal on
+all enemies if
+roll is <highlight>4</highlight> or greater."
+32194,Deal 15 damage.
+32201,"Deal ATK + 3 
+damage."
+32211,"Deal ATK + 5 
+damage."
+32212,Deal damage 3 times.
+32221,Deal ATK + 4 damage.
+32222,Deal ATK + 5 water damage.
+32223,Deal 2× damage.
+32231,Deal ATK + 5 damage.
+32232,Deal damage 3 times.
+32233,Add 5 to own ATK for 2 turns.
+32241,Deal ATK + 5 damage.
+32242,"Deal damage.
+Inflict DEF ↓ if roll
+is <highlight>4</highlight> or greater."
+32243,Deals bolt damage to all enemies.
+32301,"Deals damage
+equal to value of
+2 rolled dice."
+32302,Deal 10 dark damage.
+32303,Inflict paralysis if roll is <highlight>4</highlight> or greater.
+32304,Deal dark damage to all enemies.
+32401,Periodically recover 5 HP for 99 turns.
+32402,Deal ATK + 4 fire damage.
+32403,Deal fire damage to all enemies.
+32501,Deal 15 damage.
+32502,Deal ATK + 5 damage.
+32503,Deal damage 3 times.
+32601,"Add 8 to ATK
+for 10 turns.
+Become afflicted with
+DEF ↓ in return."
+32602,Deal ATK + 4 damage.
+32603,Deal ATK + 5 water damage.
+32604,Deal 2× damage.
+32701,"Deal 10 fire damage
+to all enemies."
+32801,"Add value of 2 rolled
+dice to ATK and
+deal light damage to
+all enemies."
+32901,"Periodically recover
+20 HP for 5 turns."
+32902,"Deal dark damage to all
+enemies. Inflict
+deadly poison if roll
+is <highlight>4</highlight> or greater."
+33001,"Deal ATK + 10 
+damage."
+33002,"Deal fire damage 
+to all enemies."
+33003,"Nullify all 
+status enhancements."
+33004,"Deal ATK + 4 
+bolt damage."
+33005,"Deal ATK + 4
+Water damage.
+Inflicts [joutai] if
+roll is <highlight>5</highlight> or greater."
+33006,"Deal wind damage 
+to all enemies."
+33007,"Deal ATK + 10
+damage
+to all enemies."
+16001,アイテム説明1
+50000,何も持っていません
+50001,まだ持っていないようだ
+50002,まだ習得していません
+50101,"Restore 10 HP 
+to target."
+50102,"Restore 20 HP 
+to target."
+50103,"Restore 40 HP 
+to target."
+50201,"Cure target of
+poison, deadly poison."
+50202,"Cure target of
+paralysis."
+50203,"Cure target of
+freeze."
+50204,"Cure target of
+seal."
+50205,"Cure target of
+curse."
+50206,"Cure target of
+ATK ↓, DEF ↓."
+50210,"Cure target of
+elem. res. ↓."
+50250,Revive target.
+50301,"Deal 5 damage 
+to target."
+50401,"Add 5 to target's 
+ATK for 3 turns."
+50402,"Add 5 to target's 
+DEF for 3 turns."
+50403,Restores 5 HP to target.
+50411,Decreases Fire damage all allies take by 5 for 3 turns.
+50412,Decreases Water damage all allies take by 5 for 3 turns.
+50413,Decreases Wind damage all allies take by 5 for 3 turns.
+50414,Decreases Bolt damage all allies take by 5 for 3 turns.
+50450,Generate 3 gems.
+50501,"Add 5 to fire 
+damage target takes
+for 3 turns."
+50502,"Add 5 to water 
+damage target takes
+for 3 turns."
+50503,"Add 5 to wind 
+damage target takes
+for 3 turns."
+50504,"Add 5 to bolt 
+damage target takes
+for 3 turns."
+50601,"Shine a light 
+in the darkness."
+50610,"Facilitate escape 
+from dungeons."
+51002,A simple key for a simple lock.
+51003,錠前が取り付けられた宝箱。
+51004,Medicinal-looking liquid in an ornate bottle.
+51105,A filthy doll whose head seems likely to fall off any moment now.
+51106,A sphere containing magic unlike that of any wielded by humans.
+51107,Play this flute at a specific location in the Bewildering Wood to see what happens.
+51108,"An ordinary, if unsettlingly sticky, handkerchief."
+51109,Commonly found in the waters just off Shoreland. It looks hardly appetizing.
+51110,"Use this key to open closed doors. It's simple, really."
+51111,This compound allows you to freeze most anything momentarily. Handle with care.
+51112,Tears shed by the {CARDNAME:4010} and imbued with a most awesome power.
+51113,The last remaining tear shed by the {CARDNAME:4010}.
+51114,A strange extract that Lappy collected from {CARDNAME:1020}.
+51115,{CARDNAME:2090}'s homemade supplement is nutritious AND flushes out monster poison.
+51116,Another of {CARDNAME:2090}'s concoctions that {CARDNAME:1050} imbibes regularly.
+55001,"ERUSAERT NELOTS
+NIATNUOM DNA EVAC TSAP
+NIATNUOF RAEN"
+55002,貴重な宝杖<br>橋の手前を南下した先<br>森には入るな？
+55003,A drawing of the sun setting behind a smiling young girl and a small lighthouse.
+55004,Head south just before the bridge. No...don't go into the {CARDNAME:92030}.
+55005,"ERUSAERT NELOTS
+ALUSNINEP ROBRAH
+AES EHT EES EREHW
+"
+55006,Head south from the harbor and cross the mountains.
+55007,"ERUSAERT NELOTS
+EHT FO PIT
+ALUSNINEP NRETSEW
+"
+55008,Seek out the location of the Dragon's nostril.
+55101,浜辺に打ち上げられていた魚。そこそこ大きい。
+55102,A fish found in most oceans. Both delicious and medicinal!
+55201,The wealthy old man wishes to journey to Nexton. Deliver him safely.
+55202,The damaged woman wishes to journey to Shoreland. Deliver her safely.
+58001,"Cure target
+of Curse."
+58002,A simple key for a simple lock.
+55999,A drawing of the sun setting behind a smiling young girl and a small lighthouse.
+60000,Empty
+60101,"<IME60101>A blade beloved 
+by adventurers."
+60102,"<IME60102>Forged by a blacksmith 
+of great renown."
+60103,"<IME60103>The blade of a 
+famous bounty hunter."
+60104,"<IME60104>A sword only the 
+strong may wield."
+60105,"<IME60105>A legendary blade 
+from the heavens above."
+60201,"<IME60201>Basic claws; 
+strong and wieldy."
+60202,"<IME60202>Forged by a blacksmith 
+of great renown."
+60203,"<IME60203>Inspired by the claws 
+of a watery fiend."
+60204,"<IME60204>Claws only the 
+strong may wield."
+60205,"<IME60205>Legendary claws of 
+an ancient beast."
+60301,"<IME60301>Crafted with sacred 
+timber."
+60302,"<IME60302>Crafted by an artisan 
+of great renown."
+60303,"<IME60303>The staff of a famous 
+magician."
+60304,"<IME60304>A staff only the wise 
+may wield."
+60305,"<IME60305>A legendary staff 
+bestowed by the gods."
+60401,<IME60401>木で出来た弓
+60402,"<IME60402>Crafted by a bowyer 
+of great renown."
+60403,"<IME60403>The bow of a 
+famous hunter."
+60404,"<IME60404>A bow only the 
+strong may wield."
+60405,"<IME60405>A bow imbued 
+with godlike power."
+60501,<IME60501>革で出来た手袋
+60502,<IME60502>良い鍛冶職人が作った手袋
+60503,"<IME60503>The gloves of a 
+famous fighter."
+60504,"<IME60504>Gloves only the 
+strong may wear."
+60505,"<IME60505>Also known by the 
+moniker ""godfists."""
+62100,"<IME62100>Armor beloved by 
+adventurers."
+62110,"<IME62110>Forged by a blacksmith 
+of great renown."
+62120,"<IME62120>The armor of a famous 
+admiral."
+62130,"<IME62130>The armor of an 
+infamous soldier."
+62140,"<IME62140>Armor only the 
+strong may don."
+62150,"<IME62150>Legendary armor of a 
+heavenly knight."
+62200,"<IME62200>A breastplate beloved 
+by adventurers."
+62210,"<IME62210>Forged by a blacksmith 
+of great renown."
+62220,"<IME62220>The breastplate of a 
+famous sellsword."
+62230,"<IME62230>A breastplate beloved 
+by chieftains."
+62240,"<IME62240>A breastplate only 
+the strong may don."
+62250,"<IME62250>A breastplate bestowed 
+by the god of thunder."
+62300,"<IME62300>A certain people's 
+garb."
+62305,"<IME62305>Garb beloved by 
+forest dwellers."
+62310,"<IME62310>Designed by a tailor 
+of great renown."
+62320,"<IME62320>The garb of a 
+famous hunter."
+62330,"<IME62330>The garb of an 
+infamous witch."
+62340,"<IME62340>Clothing only the 
+strong may don."
+62350,"<IME62350>Legendary garb woven 
+with divine blessings."
+63100,"<IME63100>Imbued with 
+protective magic."
+63110,"<IME63110>Protects against 
+fire."
+63120,"<IME63120>Protects against 
+water."
+63130,"<IME63130>Protects against 
+bolt."
+63140,"<IME63140>Protects against 
+wind."
+63150,"<IME63150>Protects against 
+light."
+63160,"<IME63160>Protects against 
+dark."
+63170,"<IME63170>Protects against 
+poison."
+63180,"<IME63180>Protects against 
+paralysis."
+63190,"<IME63190>Protects against 
+freeze."
+63200,"<IME63200>Protects against 
+seal."
+63210,"<IME63210>Protects against 
+curse."
+63900,<IME63900>Wards off weaker monsters.
+75001,「ツギの街」でおばちゃんを助けよう。
+75002,Help the man in {CARDNAME:91040} worrying about the way he smells.
+75003,Be kind to {CARDNAME:1040}'s mother in {CARDNAME:91050}.
+75004,Help the man in {CARDNAME:91050} digging a well.
+75005,Help the Goblin growing flowers in {CARDNAME:91060}.
+75006,Help the people in {CARDNAME:91070}.
+75007,Look for the treasure chest in {CARDNAME:91012}.
+75008,Speak to the talkative man in {CARDNAME:91080}.
+75009,Search the {CARDNAME:92070}.
+75010,Search the {CARDNAME:92080}.
+700000,You pulled a dud. Nothing happened.
+701001,"Add 3 to all allies'
+and enemies' ATK."
+701002,"Add 2 to all allies'
+and enemies' DEF."
+701003,"Add 3 to all allies'
+and enemies' recovery rate."
+701004,"All allies and enemies
+take 2 damage."
+701005,Gain an additional 150G upon victory.
+701006,"Add 2 to all allies'
+and enemies' ATK."
+701007,"Add 3 to fire damage
+dealt by all allies."
+701008,"Ensures all allies' and enemies'
+attacks all land."
+701009,Gain an additional 100 EXP upon victory.
+701010,"Decrease fire damage
+dealt to all enemies
+by 5."
+701011,"Inflict paralysis
+on all enemies
+for 1 turn."
+701012,"Add 3 to water
+damage dealt by
+all allies."
+701013,"All allies consume
+1 fewer gems."
+701014,Gain 3 gems.
+701015,EXP earned from victory increases 2×.
+701016,"Cure all allies and enemies
+of all status ailments
+except KO."
+701017,Gold earned from victory increases 2×.
+701018,"Add 2 to all allies'
+DEF."
+701019,"All allies recover
+5 HP."
+701020,"Add 3 to wind damage
+dealt by all allies and enemies."
+710000,"Happenstance Cards
+will trigger each turn
+during this battle."
+710101,"All allies and enemies take
+1 damage."
+710102,"All allies and enemies take
+2 damage."
+710103,"All allies and enemies take
+3 damage."
+710104,"All allies and enemies take
+4 damage."
+710105,"All allies and enemies take
+5 damage."
+710106,"All allies and enemies take
+6 damage."
+710107,"All allies and enemies take
+7 damage."
+710201,"One ally or Enemy take
+1 damage."
+710202,"One ally or Enemy take
+2 damage."
+710203,"One ally or Enemy take
+3 damage."
+710204,"One ally or Enemy take
+4 damage."
+710205,"One ally or Enemy take
+5 damage."
+710206,"One ally or Enemy take
+6 damage."
+710207,"One ally or Enemy take
+7 damage."
+710301,"All allies take
+1 damage."
+710302,"All allies take
+2 damage."
+710303,"All allies take
+3 damage."
+710304,"All allies take
+4 damage."
+710305,"All allies take
+5 damage."
+710306,"All allies take
+6 damage."
+710307,"All allies take
+7 damage."
+710401,"All enemies take
+1 damage."
+710402,"All enemies take
+2 damage."
+710403,"All enemies take
+3 damage."
+710404,"All enemies take
+4 damage."
+710405,"All enemies take
+5 damage."
+710406,"All enemies take
+6 damage."
+710407,"All enemies take
+7 damage."
+721101,Inflict poison on all allies and enemies for 1 turn.
+721102,Inflict poison on all allies and enemies for 2 turns.
+721201,"Inflict poison
+on one ally or enemy
+for 1 turn."
+721202,"Inflict poison
+on one ally or enemy
+for 2 turns."
+721301,"Inflict poison
+on all allies
+for 1 turn."
+721302,"Inflict poison
+on all allies
+for 2 turns."
+721401,"Inflict poison
+on all enemies
+for 1 turn."
+721402,"Inflict poison
+on all enemies
+for 2 turns."
+722101,"Inflict deadly poison
+on all allies and enemies
+for 1 turn."
+722102,"Inflict deadly poison
+on all allies and enemies
+for 2 turns."
+722201,"Inflict deadly poison
+on One ally or Enemy
+for 1 turn."
+722202,"Inflict deadly poison
+on One ally or Enemy
+for 2 turns."
+722301,"Inflict deadly poison
+on all allies
+for 1 turn."
+722302,"Inflict deadly poison
+on all allies
+for 2 turns."
+722401,"Inflict deadly poison
+on all enemies
+for 1 turn."
+722402,"Inflict deadly poison
+on all enemies
+for 2 turns."
+723101,"Inflict paralysis
+on all allies and enemies
+for 1 turn."
+723102,"Inflict paralysis
+on all allies and enemies
+for 2 turns."
+723201,"Inflict paralysis
+on One ally or Enemy
+for 1 turn."
+723202,"Inflict paralysis
+on One ally or Enemy
+for 2 turns."
+723301,"Inflict paralysis
+on all allies
+for 1 turn."
+723302,"Inflict paralysis
+on all allies
+for 2 turns."
+723401,"Inflict paralysis
+on all enemies
+for 1 turn."
+723402,"Inflict paralysis
+on all enemies
+for 2 turns."
+724101,"Inflict freeze
+on all allies and enemies
+for 1 turn."
+724102,"Inflict freeze
+on all allies and enemies
+for 2 turns."
+724201,"Inflict freeze
+on One ally or Enemy
+for 1 turn."
+724202,"Inflict freeze
+on One ally or Enemy
+for 2 turns."
+724301,"Inflict freeze
+on all allies
+for 1 turn."
+724302,"Inflict freeze
+on all allies
+for 2 turns."
+724401,"Inflict freeze
+on all enemies
+for 1 turn."
+724402,"Inflict freeze
+on all enemies
+for 2 turns."
+725101,Inflict curse on all allies and enemies for 1 turn.
+725102,Inflict curse on all allies and enemies for 2 turns.
+725201,"Inflict curse
+on One ally or Enemy
+for 1 turn."
+725202,"Inflict curse
+on One ally or Enemy
+for 2 turns."
+725301,"Inflict curse
+on all allies
+for 1 turn."
+725302,"Inflict curse
+on all allies
+for 2 turns."
+725401,"Inflict curse
+on all enemies
+for 1 turn."
+725402,"Inflict curse
+on all enemies
+for 2 turns."
+726101,Inflict seal on all allies and enemies for 1 turn.
+726102,Inflict seal on all allies and enemies for 2 turns.
+726201,Inflict seal on One ally or Enemy for 1 turn.
+726202,Inflict seal on One ally or Enemy for 2 turns.
+726301,Inflict seal on all allies for 1 turn.
+726302,Inflict seal on all allies for 2 turns.
+726401,Inflict seal on all enemies for 1 turn.
+726402,Inflict seal on all enemies for 2 turns.
+730100,"Cure all allies and enemies
+of all status ailments
+except KO."
+730300,"Cure all allies
+of all status ailments
+except KO."
+730400,"Cure all enemies
+of all status ailments
+except KO."
+740101,"All allies and enemies recover
+1 HP."
+740102,"All allies and enemies recover
+2 HP."
+740103,"All allies and enemies recover
+3 HP."
+740104,"All allies and enemies recover
+4 HP."
+740105,"All allies and enemies recover
+5 HP."
+740106,"All allies and enemies recover
+6 HP."
+740201,"One ally or enemy recovers
+1 HP."
+740202,"One ally or enemy recovers
+2 HP."
+740203,"One ally or enemy recovers
+3 HP."
+740204,"One ally or enemy recovers
+4 HP."
+740205,"One ally or enemy recovers
+5 HP."
+740206,"One ally or enemy recovers
+6 HP."
+740301,"All allies recover
+1 HP."
+740302,"All allies recover
+2 HP."
+740303,"All allies recover
+3 HP."
+740304,"All allies recover
+4 HP."
+740305,"All allies recover
+5 HP."
+740306,"All allies recover
+6 HP."
+740401,"All enemies recover
+1 HP."
+740402,"All enemies recover
+2 HP."
+740403,"All enemies recover
+3 HP."
+740404,"All enemies recover
+4 HP."
+740405,"All enemies recover
+5 HP."
+740406,"All enemies recover
+6 HP."
+750101,"Add 1 to all allies'
+and enemies' ATK."
+750102,"Add 2 to all allies'
+and enemies' ATK."
+750103,"Add 3 to all allies'
+and enemies' ATK."
+750104,"Add 4 to all allies'
+and enemies' ATK."
+750105,"Add 5 to all allies'
+and enemies' ATK."
+750106,"Add 6 to all allies'
+and enemies' ATK."
+750201,"Add 1 to one ally's
+or enemy's ATK."
+750202,"Add 2 to one ally's
+or enemy's ATK."
+750203,"Add 3 to one ally's
+or enemy's ATK."
+750204,"Add 4 to one ally's
+or enemy's ATK."
+750205,"Add 5 to one ally's
+or enemy's ATK."
+750206,"Add 6 to one ally's
+or enemy's ATK."
+750301,"Add 1 to
+all allies' ATK."
+750302,"Add 2 to
+all allies' ATK."
+750303,"Add 3 to
+all allies' ATK."
+750304,"Add 4 to
+all allies' ATK."
+750305,"Add 5 to
+all allies' ATK."
+750306,"Add 6 to
+all allies' ATK."
+750401,"Add 1 to
+all enemies' ATK."
+750402,"Add 2 to
+all enemies' ATK."
+750403,"Add 3 to
+all enemies' ATK."
+750404,"Add 4 to
+all enemies' ATK."
+750405,"Add 5 to
+all enemies' ATK."
+750406,"Add 6 to
+all enemies' ATK."
+751101,"Add 1 to all allies'
+and enemies' DEF."
+751102,"Add 2 to all allies'
+and enemies' DEF."
+751103,"Add 3 to all allies'
+and enemies' DEF."
+751104,"Add 4 to all allies'
+and enemies' DEF."
+751105,"Add 5 to all allies'
+and enemies' DEF."
+751201,"Add 1 to one ally's
+or enemy's DEF."
+751202,"Add 2 to one ally's
+or enemy's DEF."
+751203,"Add 3 to one ally's
+or enemy's DEF."
+751204,"Add 4 to one ally's
+or enemy's DEF."
+751205,"Add 5 to one ally's
+or enemy's DEF."
+751301,"Add 1 to
+all allies' DEF."
+751302,"Add 2 to
+all allies' DEF."
+751303,"Add 3 to
+all allies' DEF."
+751304,"Add 4 to
+all allies' DEF."
+751305,"Add 5 to
+all allies' DEF."
+751401,"Add 1 to
+all enemies' DEF."
+751402,"Add 2 to
+all enemies' DEF."
+751403,"Add 3 to
+all enemies' DEF."
+751404,"Add 4 to
+all enemies' DEF."
+751405,"Add 5 to
+all enemies' DEF."
+752101,"Add 1 to all enemies' and
+allies' recovery rate."
+752102,"Add 2 to all enemies' and
+allies' recovery rate."
+752103,"Add 3 to all enemies' and
+allies' recovery rate."
+752104,"Add 4 to all enemies' and
+allies' recovery rate."
+752105,"Add 5 to all enemies' and
+allies' recovery rate."
+752106,"Add 6 to all enemies' and
+allies' recovery rate."
+752301,"Add 1 to all allies'
+recovery rate."
+752302,"Add 2 to all allies'
+recovery rate."
+752303,"Add 3 to all allies'
+recovery rate."
+752304,"Add 4 to all allies'
+recovery rate."
+752305,"Add 5 to all allies'
+recovery rate."
+752306,"Add 6 to all allies'
+recovery rate."
+752401,"Add 1 to all enemies'
+recovery rate."
+752402,"Add 2 to all enemies'
+recovery rate."
+752403,"Add 3 to all enemies'
+recovery rate."
+752404,"Add 4 to all enemies'
+recovery rate."
+752405,"Add 5 to all enemies'
+recovery rate."
+752406,"Add 6 to all enemies'
+recovery rate."
+760101,"Add 1 to non-elemental
+damage dealt by all
+allies and enemies."
+760102,"Add 2 to non-elemental
+damage dealt by all
+allies and enemies."
+760103,"Add 3 to non-elemental
+damage dealt by all
+allies and enemies."
+760104,"Add 4 to non-elemental
+damage dealt by all
+allies and enemies."
+760105,"Add 5 to non-elemental
+damage dealt by all
+allies and enemies."
+760301,"Add 1 to non-elemental
+damage dealt by
+all allies."
+760302,"Add 2 to non-elemental
+damage dealt by
+all allies."
+760303,"Add 3 to non-elemental
+damage dealt by
+all allies."
+760304,"Add 4 to non-elemental
+damage dealt by
+all allies."
+760305,"Add 5 to non-elemental
+damage dealt by
+all allies."
+760401,"Add 1 to non-elemental
+damage dealt by
+all enemies."
+760402,"Add 2 to non-elemental
+damage dealt by
+all enemies."
+760403,"Add 3 to non-elemental
+damage dealt by
+all enemies."
+760404,"Add 4 to non-elemental
+damage dealt by
+all enemies."
+760405,"Add 5 to non-elemental
+damage dealt by
+all enemies."
+761101,"Add 1 to fire
+damage dealt by
+all allies and enemies."
+761102,"Add 2 to fire
+damage dealt by
+all allies and enemies."
+761103,"Add 3 to fire
+damage dealt by
+all allies and enemies."
+761104,"Add 4 to fire
+damage dealt by
+all allies and enemies."
+761105,"Add 5 to fire
+damage dealt by
+all allies and enemies."
+761301,"Add 1 to fire
+damage dealt by
+all allies."
+761302,"Add 2 to fire
+damage dealt by
+all allies."
+761303,"Add 3 to fire
+damage dealt by
+all allies."
+761304,"Add 4 to fire
+damage dealt by
+all allies."
+761305,"Add 5 to fire
+damage dealt by
+all allies."
+761401,"Add 1 to fire
+damage dealt by
+all enemies."
+761402,"Add 2 to fire
+damage dealt by
+all enemies."
+761403,"Add 3 to fire
+damage dealt by
+all enemies."
+761404,"Add 4 to fire
+damage dealt by
+all enemies."
+761405,"Add 5 to fire
+damage dealt by
+all enemies."
+762101,"Add 1 to water
+damage dealt by
+all allies and enemies."
+762102,"Add 2 to water
+damage dealt by
+all allies and enemies."
+762103,"Add 3 to water
+damage dealt by
+all allies and enemies."
+762104,"Add 4 to water
+damage dealt by
+all allies and enemies."
+762105,"Add 5 to water
+damage dealt by
+all allies and enemies."
+762301,"Add 1 to water
+damage dealt by
+all allies."
+762302,"Add 2 to water
+damage dealt by
+all allies."
+762303,"Add 3 to water
+damage dealt by
+all allies."
+762304,"Add 4 to water
+damage dealt by
+all allies."
+762305,"Add 5 to water
+damage dealt by
+all allies."
+762401,"Add 1 to water
+damage dealt by
+all enemies."
+762402,"Add 2 to water
+damage dealt by
+all enemies."
+762403,"Add 3 to water
+damage dealt by
+all enemies."
+762404,"Add 4 to water
+damage dealt by
+all enemies."
+762405,"Add 5 to water
+damage dealt by
+all enemies."
+763101,"Add 1 to bolt
+damage dealt by
+all allies and enemies."
+763102,"Add 2 to bolt
+damage dealt by
+all allies and enemies."
+763103,"Add 3 to bolt
+damage dealt by
+all allies and enemies."
+763104,"Add 4 to bolt
+damage dealt by
+all allies and enemies."
+763105,"Add 5 to bolt
+damage dealt by
+all allies and enemies."
+763301,"Add 1 to bolt
+damage dealt by
+all allies."
+763302,"Add 2 to bolt
+damage dealt by
+all allies."
+763303,"Add 3 to bolt
+damage dealt by
+all allies."
+763304,"Add 4 to bolt
+damage dealt by
+all allies."
+763305,"Add 5 to bolt
+damage dealt by
+all allies."
+763401,"Add 1 to bolt
+damage dealt by
+all enemies."
+763402,"Add 2 to bolt
+damage dealt by
+all enemies."
+763403,"Add 3 to bolt
+damage dealt by
+all enemies."
+763404,"Add 4 to bolt
+damage dealt by
+all enemies."
+763405,"Add 5 to bolt
+damage dealt by
+all enemies."
+764101,"Add 1 to wind
+damage dealt by
+all allies and enemies."
+764102,"Add 2 to wind
+damage dealt by
+all allies and enemies."
+764103,"Add 3 to wind
+damage dealt by
+all allies and enemies."
+764104,"Add 4 to wind
+damage dealt by
+all allies and enemies."
+764105,"Add 5 to wind
+damage dealt by
+all allies and enemies."
+764301,"Add 1 to wind
+damage dealt by
+all allies."
+764302,"Add 2 to wind
+damage dealt by
+all allies."
+764303,"Add 3 to wind
+damage dealt by
+all allies."
+764304,"Add 4 to wind
+damage dealt by
+all allies."
+764305,"Add 5 to wind
+damage dealt by
+all allies."
+764401,"Add 1 to wind
+damage dealt by
+all enemies."
+764402,"Add 2 to wind
+damage dealt by
+all enemies."
+764403,"Add 3 to wind
+damage dealt by
+all enemies."
+764404,"Add 4 to wind
+damage dealt by
+all enemies."
+764405,"Add 5 to wind
+damage dealt by
+all enemies."
+765101,"Add 1 to light
+damage dealt by
+all allies and enemies."
+765102,"Add 2 to light
+damage dealt by
+all allies and enemies."
+765103,"Add 3 to light
+damage dealt by
+all allies and enemies."
+765104,"Add 4 to light
+damage dealt by
+all allies and enemies."
+765105,"Add 5 to light
+damage dealt by
+all allies and enemies."
+765301,"Add 1 to light
+damage dealt by
+all allies."
+765302,"Add 2 to light
+damage dealt by
+all allies."
+765303,"Add 3 to light
+damage dealt by
+all allies."
+765304,"Add 4 to light
+damage dealt by
+all allies."
+765305,"Add 5 to light
+damage dealt by
+all allies."
+765401,"Add 1 to light
+damage dealt by
+all enemies."
+765402,"Add 2 to light
+damage dealt by
+all enemies."
+765403,"Add 3 to light
+damage dealt by
+all enemies."
+765404,"Add 4 to light
+damage dealt by
+all enemies."
+765405,"Add 5 to light
+damage dealt by
+all enemies."
+766101,"Add 1 to dark
+damage dealt by
+all allies and enemies."
+766102,"Add 2 to dark
+damage dealt by
+all allies and enemies."
+766103,"Add 3 to dark
+damage dealt by
+all allies and enemies."
+766104,"Add 4 to dark
+damage dealt by
+all allies and enemies."
+766105,"Add 5 to dark
+damage dealt by
+all allies and enemies."
+766301,"Add 1 to dark
+damage dealt by
+all allies."
+766302,"Add 2 to dark
+damage dealt by
+all allies."
+766303,"Add 3 to dark
+damage dealt by
+all allies."
+766304,"Add 4 to dark
+damage dealt by
+all allies."
+766305,"Add 5 to dark
+damage dealt by
+all allies."
+766401,"Add 1 to dark
+damage dealt by
+all enemies."
+766402,"Add 2 to dark
+damage dealt by
+all enemies."
+766403,"Add 3 to dark
+damage dealt by
+all enemies."
+766404,"Add 4 to dark
+damage dealt by
+all enemies."
+766405,"Add 5 to dark
+damage dealt by
+all enemies."
+770101,"Decrease non-elemental damage
+dealt to all allies and enemies
+by 1."
+770102,"Decrease non-elemental damage
+dealt to all allies and enemies
+by 2."
+770103,"Decrease non-elemental damage
+dealt to all allies and enemies
+by 3."
+770104,"Decrease non-elemental damage
+dealt to all allies and enemies
+by 4."
+770105,"Decrease non-elemental damage
+dealt to all allies and enemies
+by 5."
+770301,"Decrease non-elemental damage
+dealt to all allies
+by 1."
+770302,"Decrease non-elemental damage
+dealt to all allies
+by 2."
+770303,"Decrease non-elemental damage
+dealt to all allies
+by 3."
+770304,"Decrease non-elemental damage
+dealt to all allies
+by 4."
+770305,"Decrease non-elemental damage
+dealt to all allies
+by 5."
+770401,"Decrease non-elemental damage
+dealt to all enemies
+by 1."
+770402,"Decrease non-elemental damage
+dealt to all enemies
+by 2."
+770403,"Decrease non-elemental damage
+dealt to all enemies
+by 3."
+770404,"Decrease non-elemental damage
+dealt to all enemies
+by 4."
+770405,"Decrease non-elemental damage
+dealt to all enemies
+by 5."
+771101,Decrease fire damage dealt to all allies and enemies by 1.
+771102,Decrease fire damage dealt to all allies and enemies by 2.
+771103,Decrease fire damage dealt to all allies and enemies by 3.
+771104,Decrease fire damage dealt to all allies and enemies by 4.
+771105,Decrease fire damage dealt to all allies and enemies by 5.
+771301,"Decrease fire damage
+dealt to all allies
+by 1."
+771302,"Decrease fire damage
+dealt to all allies
+by 2."
+771303,"Decrease fire damage
+dealt to all allies
+by 3."
+771304,"Decrease fire damage
+dealt to all allies
+by 4."
+771305,"Decrease fire damage
+dealt to all allies
+by 5."
+771401,"Decrease fire damage
+dealt to all enemies
+by 1."
+771402,"Decrease fire damage
+dealt to all enemies
+by 2."
+771403,"Decrease fire damage
+dealt to all enemies
+by 3."
+771404,"Decrease fire damage
+dealt to all enemies
+by 4."
+771405,"Decrease fire damage
+dealt to all enemies
+by 5."
+772101,"Decrease water damage
+dealt to all allies and enemies
+by 1."
+772102,"Decrease water damage
+dealt to all allies and enemies
+by 2."
+772103,Decrease water damage dealt to all allies and enemies by 3.
+772104,Decrease water damage dealt to all allies and enemies by 4.
+772105,"Decrease water damage
+dealt to all allies and enemies
+by 5."
+772301,"Decrease water damage
+dealt to all allies
+by 1."
+772302,"Decrease water damage
+dealt to all allies
+by 2."
+772303,"Decrease water damage
+dealt to all allies
+by 3."
+772304,"Decrease water damage
+dealt to all allies
+by 4."
+772305,"Decrease water damage
+dealt to all allies
+by 5."
+772401,"Decrease water damage
+dealt to all enemies
+by 1."
+772402,"Decrease water damage
+dealt to all enemies
+by 2."
+772403,"Decrease water damage
+dealt to all enemies
+by 3."
+772404,"Decrease water damage
+dealt to all enemies
+by 4."
+772405,"Decrease water damage
+dealt to all enemies
+by 5."
+773101,"Decrease bolt damage
+dealt to all allies and enemies
+by 1."
+773102,"Decrease bolt damage
+dealt to all allies and enemies
+by 2."
+773103,Decrease bolt damage dealt to all allies and enemies by 3.
+773104,Decrease bolt damage dealt to all allies and enemies by 4.
+773105,"Decrease bolt damage
+dealt to all allies and enemies
+by 5."
+773301,"Decrease bolt damage
+dealt to all allies
+by 1."
+773302,"Decrease bolt damage
+dealt to all allies
+by 2."
+773303,"Decrease bolt damage
+dealt to all allies
+by 3."
+773304,"Decrease bolt damage
+dealt to all allies
+by 4."
+773305,"Decrease bolt damage
+dealt to all allies
+by 5."
+773401,"Decrease bolt damage
+dealt to all enemies
+by 1."
+773402,"Decrease bolt damage
+dealt to all enemies
+by 2."
+773403,"Decrease bolt damage
+dealt to all enemies
+by 3."
+773404,"Decrease bolt damage
+dealt to all enemies
+by 4."
+773405,"Decrease bolt damage
+dealt to all enemies
+by 5."
+774101,Decrease wind damage dealt to all allies and enemies by 1.
+774102,Decrease wind damage dealt to all allies and enemies by 2.
+774103,Decrease wind damage dealt to all allies and enemies by 3.
+774104,Decrease wind damage dealt to all allies and enemies by 4.
+774105,Decrease wind damage dealt to all allies and enemies by 5.
+774301,"Decrease wind damage
+dealt to all allies
+by 1."
+774302,"Decrease wind damage
+dealt to all allies
+by 2."
+774303,"Decrease wind damage
+dealt to all allies
+by 3."
+774304,"Decrease wind damage
+dealt to all allies
+by 4."
+774305,"Decrease wind damage
+dealt to all allies
+by 5."
+774401,"Decrease wind damage
+dealt to all enemies
+by 1."
+774402,"Decrease wind damage
+dealt to all enemies
+by 2."
+774403,"Decrease wind damage
+dealt to all enemies
+by 3."
+774404,"Decrease wind damage
+dealt to all enemies
+by 4."
+774405,"Decrease wind damage
+dealt to all enemies
+by 5."
+775101,Decrease light damage dealt to all allies and enemies by 1.
+775102,Decrease light damage dealt to all allies and enemies by 2.
+775103,Decrease light damage dealt to all allies and enemies by 3.
+775104,Decrease light damage dealt to all allies and enemies by 4.
+775105,Decrease light damage dealt to all allies and enemies by 5.
+775301,"Decrease light damage
+dealt to all allies
+by 1."
+775302,"Decrease light damage
+dealt to all allies
+by 2."
+775303,"Decrease light damage
+dealt to all allies
+by 3."
+775304,"Decrease light damage
+dealt to all allies
+by 4."
+775305,"Decrease light damage
+dealt to all allies
+by 5."
+775401,"Decrease light damage
+dealt to all enemies
+by 1."
+775402,"Decrease light damage
+dealt to all enemies
+by 2."
+775403,"Decrease light damage
+dealt to all enemies
+by 3."
+775404,"Decrease light damage
+dealt to all enemies
+by 4."
+775405,"Decrease light damage
+dealt to all enemies
+by 5."
+776101,Decrease dark damage dealt to all allies and enemies by 1.
+776102,Decrease dark damage dealt to all allies and enemies by 2.
+776103,Decrease dark damage dealt to all allies and enemies by 3.
+776104,Decrease dark damage dealt to all allies and enemies by 4.
+776105,Decrease dark damage dealt to all allies and enemies by 5.
+776301,"Decrease dark damage
+dealt to all allies
+by 1."
+776302,"Decrease dark damage
+dealt to all allies
+by 2."
+776303,"Decrease dark damage
+dealt to all allies
+by 3."
+776304,"Decrease dark damage
+dealt to all allies
+by 4."
+776305,"Decrease dark damage
+dealt to all allies
+by 5."
+776401,"Decrease dark damage
+dealt to all enemies
+by 1."
+776402,"Decrease dark damage
+dealt to all enemies
+by 2."
+776403,"Decrease dark damage
+dealt to all enemies
+by 3."
+776404,"Decrease dark damage
+dealt to all enemies
+by 4."
+776405,"Decrease dark damage
+dealt to all enemies
+by 5."
+790100,Ensure all allies' and enemies' attacks all land.
+790300,"Ensure all allies'
+attacks all land."
+790400,"Ensure all enemies'
+attacks all land."
+791101,Dice rolled by all allies and enemies all land on 1.
+791102,Dice rolled by all allies and enemies all land on 2.
+791103,Dice rolled by all allies and enemies all land on 3.
+791104,Dice rolled by all allies and enemies all land on 4.
+791105,Dice rolled by all allies and enemies all land on 5.
+791106,Dice rolled by all allies and enemies all land on 6.
+791301,"Dice rolled by
+all allies all land
+on 1."
+791302,"Dice rolled by
+all allies all land
+on 2."
+791303,"Dice rolled by
+all allies all land
+on 3."
+791304,"Dice rolled by
+all allies all land
+on 4."
+791305,"Dice rolled by
+all allies all land
+on 5."
+791306,"Dice rolled by
+all allies all land
+on 6."
+791401,"Dice rolled by
+all enemies all land
+on 1."
+791402,"Dice rolled by
+all enemies all land
+on 2."
+791403,"Dice rolled by
+all enemies all land
+on 3."
+791404,"Dice rolled by
+all enemies all land
+on 4."
+791405,"Dice rolled by
+all enemies all land
+on 5."
+791406,"Dice rolled by
+all enemies all land
+on 6."
+792300,"All allies land 
+critical attacks."
+793300,"All allies consume
+0 gems."
+793301,"All allies consume 
+1 fewer gems."
+793302,"All allies consume 
+2 fewer gems."
+793303,"All allies consume 
+3 fewer gems."
+794301,Gain 1 gem.
+794302,Gain 2 gems.
+794303,Gain 3 gems.
+794304,Gain 4 gems.
+794305,Gain 5 gems.
+795100,"Reverse all allies' and
+enemies' action order."
+795300,"Reverse all allies'
+action order."
+795400,"Reverse all enemies'
+action order."
+796302,"Multiply gold earned from
+victory by 2×."
+797302,"Multiply EXP earned from
+victory by 2×."
+800010,"What matters most in 
+life differs depending 
+on the person; for him,
+it's money. Slaying the 
+{CARDNAME:4010} may make him a 
+hero, but more 
+importantly, it'll make 
+him rich."
+800011,"Once he and his sister-
+turned-monster fled the 
+island, money became 
+more than a means to an 
+end: it became 
+salvation. He turned to 
+bounty hunting so he and 
+his sister could survive."
+800020,"It was love at first
+""coo"" when our
+freewheeling bounty
+hunter met {CARDNAME:1020}, and
+they've been inseparable
+ever since. Who says
+bounty hunters can't
+have a soft side?"
+800021,"""I'm sooo hungryyy. Can
+we please eeeaaat?"" Our
+hero's companion wasn't
+just human—she was his
+own sister! Alas, it
+would seem that time
+stopped for her the day
+she was transformed..."
+800030,"This dark and twisty
+mage harbors a deep-
+seated grudge against
+the {CARDNAME:4010}, but
+knows her own limits.
+She desires power enough
+to slay the {CARDNAME:4010}
+with a single blow."
+800031,"At last, the dark mage
+has power. Superhuman
+power! And still, the
+only time a smile plays
+across her lips is when
+she's punching the
+daylights out of our
+self-proclaimed hero."
+800040,"""Wait! I know that
+sound..."" The tones of
+a most familiar flute
+pull this lively young
+lady away from her fruit
+gathering chores and
+toward our merry band
+of rogues."
+800041,"She carries a book she
+has read many, many
+times before, and is
+never happier than when
+she has the time to let
+its pages carry her away
+on its soaring visions
+of the future."
+800050,"The day begins early for
+this aspiring 
+adventurer! Each and
+every day he rises
+with the sun and gulps
+down a helping of
+{CARDNAME:51116}
+made by his father."
+800051,"Should the
+{CARDNAME:51116}'s
+effects wear off, he
+supposedly sheds his
+muscle all at once in a
+pitiful transformation—
+or so he says. No one's
+ever seen it."
+800060,"{CARDNAME:1110} was born into
+the Ivory Order and
+raised as a dignified
+lady. Her fellow Order
+members find her mage
+training a boon on
+their travels."
+800061,"Between the overly
+talkative sage and the
+taciturn warrior,
+{CARDNAME:1110}'s journey was
+far from easy. The
+worst part, though? Her
+pristine white robes
+were soiled!"
+800070,"The Ivory Order values
+warriors as levelheaded
+and trustworthy as
+{CARDNAME:1120}. Warriors who
+approach wood-chopping
+and bodyguard detail
+with equal amounts of
+intensity and fortitude."
+800071,"If ordered to advance,
+{CARDNAME:1120} will follow that
+to the letter, smashing
+through anything in his
+path, be it a wall or an
+entire house. Thus, he
+was deemed perfect for
+{CARDNAME:1110}'s escort."
+800080,"The entire Ivory Order
+reveres {CARDNAME:1130} for his
+wisdom. When a young
+woman was placed in his
+care, his obsessive
+focus on etiquette
+revealed another side:
+exacting disciplinarian."
+800081,"""{CARDNAME:1110}! No!
+Stop that this instant!""
+Those who know {CARDNAME:1130}
+best say his jet-black
+hair began turning white
+the day young {CARDNAME:1110}
+was placed in his care."
+800090,"No ruler is safe from
+fear and worry, but
+Queen Nilla harbors
+a knot in her gut
+unrelated to—and more
+personal than—the recent
+rise in monster
+activity."
+800091,"Imposing though the
+sacred throne may be, it
+is far from comfortable.
+Her Highness's royal...
+seat, shall we say,
+frequently cries out
+for something
+more plush."
+800100,"{CARDNAME:2030} wasted no time
+distinguishing himself
+in the Ivory Order. His
+character and aptitude
+earned him the title of
+Ivory Knight at an
+exceedingly young age."
+800101,"{CARDNAME:2030}'s success was
+driven by an intense
+hatred for the Ivory
+Order, who distributed
+their medicine knowing
+full well what it could
+do to people. If only
+his parents had known..."
+800110,"Cyprienambre is a
+longtime scholar of
+monsters and monster
+behavior. Most people in
+his village simply call
+him {CARDNAME:2061}."
+800111,"Cyprie studies monsters
+for the sake of his
+daughter. A daughter
+whom, curiously, no one
+has ever seen."
+800120,"Either through bad luck
+or too trusting a heart,
+{CARDNAME:2110} has
+endured no shortage of
+hardship despite living
+in secluded Woodland."
+800121,"You might think the
+repeated swindlings
+would get her down,
+but that would require
+that she realize she's
+been defrauded. Perhaps
+ignorance really
+is bliss."
+800130,"A traveling gourmand in
+his younger days, the
+headman has long been
+fond of monsters—so much
+so, he founded {CARDNAME:91060},
+where humans and
+monsters coexist!"
+800131,"""Looks don't tell the
+whole story! Even the
+most inedible-looking
+things can harbor
+incredible flavors,"" the
+headman explains, his
+table filled with dishes
+never before seen..."
+800140,"{CARDNAME:2090} develops various
+supplements at his
+nutrition clinic in
+{CARDNAME:91070}—a few of which
+he even gave to the
+royal family in lieu
+of tax once!
+Or so he claims."
+800141,"He'll tell you men keep
+nutritional secrets to
+avoid disclosing his
+formula, but he'll note
+it's nothing like the
+Ivory Order's medicine.
+Rumor is, though, that
+boogers are involved..."
+800150,"Seolfor is a peculiar
+man who calls himself
+the Overseer. He once
+served dutifully as a
+knight of the Ivory
+Order to protect
+his beloved family."
+800151,"Seolfor takes it upon
+himself to help
+villagers enter the
+afterlife. Some of the
+villagers he has bid
+farewell may very
+well have been his
+family."
+800160,"This seaman prides
+himself on his strength,
+and claims none in his
+village can best him. He
+trains every day in the
+hopes of becoming
+what he calls the
+""ultimate man."""
+800161,"His training regimen is
+diverse, comprising
+handicrafts, cooking,
+singing, gardening,
+fortune-telling, and
+calligraphy. Strength
+training? Who said
+anything about that?"
+800170,"Though they share a
+birthplace, {CARDNAME:2040}'s
+magical might far
+outstrips {CARDNAME:1030}'s. He
+is now the {CARDNAME:4010}'s
+stalwart companion, and
+is ever wary of the
+Ivory Order."
+800171,"His journey revealed to
+him the awful secret
+that binds the {CARDNAME:4010} to
+the Ivory Order. As he
+fell into the heart of
+the volcano, he had the
+peace of knowing he'd
+fulfilled his duty."
+800180,"Though sworn to protect
+the {CARDNAME:4010}, she never
+forgave him for killing
+her parents. Pushed to
+the brink, she forsook
+her oath to protect him
+and swore she would have
+her revenge."
+800181,"The time has come to pay
+the price of forbidden
+magic. Having heard the
+{CARDNAME:4010}'s plight, she
+does so not knowing if
+he was truly deserving
+of the retribution she
+sought."
+801010,"Every morning she 
+wakes up early to get 
+breakfast ready. And 
+every morning she has 
+to take her husband's 
+abuse. There's only so 
+much a woman can stomach."
+801011,"The mornings are quiet now, 
+save for the soft sounds of 
+chopping. Her husband 
+vanished some days ago, and 
+ever since, meat's been on 
+the menu more often than 
+not."
+801020,"He made a promise to the
+love of his life when
+they were married: ""I
+shall love you till
+death do us part."" One
+half-century later, he
+has proven to be a man
+of his word."
+801021,"His wife now lies in
+bed, illness slowly
+claiming her. He takes
+her hand, decades of
+memories washing over
+him. Finally, he sighs,
+he'll be through with
+his promise."
+801030,"Not a day passed that he
+didn't wear his hair or
+arrange his clothes just
+the way she liked. She
+was the prettiest girl
+in the village, and one
+day he was sure she'd
+notice him."
+801031,"Before long the village
+was full of men who
+dressed the same and
+wore their hair the
+exact same way. She
+ceased to be able to
+tell any of them
+apart."
+801040,"This little boy loves
+climbing trees; just you
+watch! Today, he's gonna
+climb the big tree in
+the square!"
+801041,"This little boy loves
+his big sister! Today
+he's gonna climb a tree
+to have a look-see in
+his sister's room!"
+801050,"Rain patters the window.
+A picture book lies open.
+Paper and paint perfume.
+Tiny fingers turn the page."
+801051,"The book is upside down.
+No more light in her eyes.
+Only memories of Mother.
+A painted rainbow bleeds."
+801060,"Everyone wears a mask
+and cloak, white as the
+driven snow. This suits
+her just fine. More than
+fine. One might say she
+joined the Ivory Order
+just to wear it. One
+wouldn't be wrong."
+801061,"Her undeniable beauty
+brought her attention.
+Endless suitors, each
+marriage proposal more
+insufferable than the
+last. The mask and cloak
+gave her peace
+once more."
+801070,"He was taciturn. Kept
+his head down and did
+his duty. Not one of his
+comrades could ever
+recall hearing his
+voice."
+801071,"The shield is heavy;
+the robes, suffocating.
+Sweat soaks his mask.
+Battling the heat, who
+has energy to talk?
+Not this guy."
+801080,"Traumatized by the
+bullying he received as a
+child, he vowed he'd
+never let anyone get the
+better of him again. His
+pain was the springboard
+for the body now before
+you."
+801081,"Elsewhere, another boy
+masked his own body
+issues by teasing
+another. Fearing
+retribution he, too,
+bulked up. Thus did the
+world gain two
+absolutely ripped men."
+801090,"I want to be cute and
+stylish, sure, but I
+REALLY want to live
+happily ever after!
+Visions of a ring with
+a big old diamond on it
+dance in my dreams!"
+801091,"But nobody gave me that
+ring. So you know what
+I did? Well, just look
+at these muscles!
+Aren't they cute?
+And they shine brighter
+than any diamond!"
+801100,"He's lived in these
+vast, dense woods for
+years now. Fruit from
+the trees feeds him, the
+river quenches his
+thirst. He gives all his
+thanks to the great
+Mother Earth."
+801101,"He's wandered these
+deceitful, bewildering
+woods for ages. He knows
+he will not find home,
+no matter how many times
+he begs or tears he
+sheds. He is doomed to
+wander for another day."
+801110,"I know he takes no
+notice of me. I've made
+my peace with that. I'll
+be happy so long as I
+can watch him from the
+shadows."
+801111,"This place is a
+paradise! So many trees
+from which to gaze upon
+him—from all angles,
+every day of the year.
+Forever and always."
+801120,"The loss of her family
+took her to the brink
+of ending her own life.
+Then she heard about an
+island where anyone
+could find happiness."
+801121,"No one on the island had
+any worries. They hadn't
+the intellect to worry
+in the first place. In
+time, neither did she,
+and the days bled into
+one blissful blur."
+801130,"""Well would you look at
+that!"" the old man calls
+to his wife. ""Come look at
+all these butterflies flying
+around me! They're
+beautiful!"""
+801131,"He smiles so widely his
+eyes narrow. Torn
+butterfly wings and legs
+spill out from the gaps
+between his teeth."
+801140,"He was a sickly child
+who spent his days
+gazing out the window,
+longing to run and play
+with the others. If he
+could just do that,
+taking the bitterest
+medicine was cake."
+801141,"The boy grew up to see
+his wish come true.
+He now runs around
+all day to nowhere in
+particular, screaming
+nonsense as he goes."
+801200,"He confessed his love
+to her, and asked her to
+live together with him.
+He pledged to make her
+happy. She nodded, and
+agreed readily."
+801201,"Another fully booked
+night at the inn. All
+men, all apparently on
+long stays, each one
+happy they get to live
+with her."
+801210,"""Hello there! Striking
+out on your own, are
+you? Oh, I've been at
+this long enough to size
+people up at a glance!
+Don't worry, I'll make
+you exactly what
+you need."""
+801211,"""You saw him, right?
+Real scrawny-looking.
+You'll have no problem
+taking his money, and
+I'll have no problem
+staying in business.
+It's a win-win."""
+801220,"Her moist, glistening eyes,
+the lone bright spot in her
+dimly lit shop, locked on
+me as soon as I set foot
+inside. Her uncanny,
+croaking laughter sent
+shivers down my spine."
+801221,"Service with a smile, they
+always say. Well, I think
+I've got something that'll
+cure this poor customer.
+Look at 'em, shaking like
+a leaf..."
+801230,"She was a quick hire.
+Her gentle disposition
+was sure to attract a few
+more customers, they
+figured. No one was
+prepared for the crush of
+customers that ensued."
+801231,"Her hiring was ultimately
+a failure. The damages
+wrought by her
+carelessness far
+outweighed the profits
+and left the store
+a shambles."
+801240,"Rumors abound that the
+sweet, innocent boy who
+greets patrons of the
+game parlor receives a
+small bonus from the
+owner whenever the house
+wins in a game of cards."
+801241,"Presenting a consistent
+image at every venue,
+these quadruplets are
+hard at work in the
+land's game parlors in
+the hopes of paying back
+their parents' gambling
+arrears."
+801250,"At first it has four legs.
+Then two. Then three.
+In the end, it has 10 legs.
+What is it?"
+801251,"The answer is me! Ah,
+may I pass peacefully into
+the next life in the
+driver's seat of this gently
+swaying carriage! I love
+it so."
+810110,"You know what they say:
+Your hero's journey
+hasn't begun until
+you've squashed a couple
+of slimes underfoot."
+810111,"Though the vast majority
+are killed when they're
+young, those few that do
+survive into adulthood
+reportedly grow large
+enough to swallow
+villages whole."
+810120,"These slimes have
+learned how to wield
+human weaponry. Most all
+who have taken them
+lightly have paid with
+their lives."
+810121,"Well, ""learned to wield""
+is perhaps overstating
+things. They still
+primarily attack by
+ramming their gooey body
+into their enemies, but
+now they do so while
+brandishing a sword."
+810130,"Known to many a traveler
+as the ""Death Slime,""
+the poison in these
+gelatinous cretins can
+consume flesh. Reports
+of Poison Slimes
+swallowing creatures
+whole are not uncommon."
+810131,"Their nonthreatening
+demeanor makes them
+highly approachable, but
+those who get too close
+are rendered immobile
+and soon eaten, which is
+a disturbing take on
+""togetherness."""
+810140,"Molten slimes are
+capable of melting steel
+and are predictably
+found near volcanoes.
+More surprising is their
+distaste for group
+behavior and yearning
+for the wider world."
+810141,"Those who wander beyond
+the volcano are treated
+to a world that invites
+curiosity at every turn.
+Alas, most things burn
+to a crisp before the
+molten slimes can get
+close enough to touch."
+810150,"It's everyone's favorite
+friendly villager slime,
+Mr. Flobby! You can find
+him playing house or
+racing against a girl in
+the village, his bestest
+friend forever."
+810151,"Mr. Flobby comes from a
+real big family! There's
+his sister Plobby, his
+brother Blebby, and his
+nephew Booby! Sadly,
+none of them are with us
+any longer..."
+810210,"Goblins love pranks by
+nature and frequently
+leap out in front of
+adventurers they suspect
+will make good
+playmates. Sadly, this
+tends to leave them
+battered and bruised."
+810211,"Goblins who gain the
+wisdom of age find ways
+to slip into the fabric
+of human life. So yes,
+that old man gamboling
+with children in the
+square might well be a
+goblin in disguise!"
+810220,"Activated by violence, umbral goblins relish using weapons that maim their enemies, and are said to be elated by the sound and sensation of cracking their enemies' bones."
+810221,It seems incessant bullying from their supposed mates is what snapped these goblins. Perhaps humans are not the only ones preoccupied with fitting into society at large.
+810310,"As these little fluffs
+mature, their fur grows
+until it covers their
+faces. As this is quite
+the existential threat,
+they entice other
+monsters to trim their
+fur so they can see."
+810311,"These creatures shed
+rapidly as they age.
+Upon losing the last of
+their fur, they cry out
+the remainder of their
+bodily fluids, leaving
+behind a nearly
+mummified husk."
+810320,"Revered among their
+peers, these moody
+furballs openly display
+their contempt for the
+world by dyeing their fur
+red and donning
+terrifying masks."
+810321,"They are not your
+average puffballs.
+Adventurers, knowing
+nothing of their pride,
+hunt and make an
+example of them with
+each horrid kill."
+810410,"Nary a soul has ever
+laid eyes on a male
+harpy, for they confine
+themselves to the nest
+and raise the young
+while the females are
+off hunting."
+810411,"Poachers leave many a
+male harpy's corpse in
+their wake in pursuit of
+baby harpy down, which
+commands a high price in
+illicit markets."
+810420,"Spurned by their flock,
+these wayward harpies
+were struck by lightning
+and imbued with magical
+powers. Now white as
+driven snow, they carry
+themselves with a divine
+air."
+810421,"Though they longed to
+return to the flock,
+their radically altered
+form led their own to
+see them as enemies,
+slashing until their
+white feathers ran red
+with blood."
+810510,"Listen carefully in any
+woodland and you’re
+bound to hear the
+methodical tap-tapping
+of these little fellows’
+wooden mallets. Monsters
+consider them master
+crafts-orcs."
+810511,"Night after night the
+orc children scour the
+corpses of the monsters
+they’ve killed,
+searching for the raw
+materials necessary to
+make their next
+instrument of death."
+810520,"Orc wildlings are a
+short-tempered lot who
+heap scorn on any
+creature weaker than
+themselves. Most often
+they can be found
+attempting the theft of
+money or equipment."
+810521,"Wildlings frequently
+spar in order to keep
+their skills sharp.
+Battles with no clear
+winner reportedly
+produce mutual respect
+and enduring
+friendships."
+810610,"The careless manner with
+which ogres brandish
+their large stone axes
+makes them very dangerous
+indeed. Most monsters
+flee the instant they
+hear an ogre's
+footfall."
+810611,"Ogres spend their days
+endlessly training deep
+in their caves, lest
+their compatriots mock
+them for being too
+scrawny."
+810620,"These ogres subject
+themselves to grueling
+training, wearing heavy
+chains such that they
+may withstand even the
+most grievous injuries
+on the battlefield."
+810621,"Ogres don't simply
+withstand great pain in
+battle—they delight in
+it. Attacks are cause
+for celebration,
+typically the kind that
+leave an area covered in
+pools of blood."
+810630,"Only the mighty Dragon
+would not be
+fear-stricken at the
+sight of this beast. In
+their wake lies a trail
+of bounty hunters, each
+blinded by visions of a
+large bounty."
+810631,"How strange that a
+creature should fill its
+days with combat and the
+stench of blood soaking
+into its hide when what
+it truly desires is a
+friend with whom to
+share the solitude."
+810710,"A powerful curse clings
+to the bones of these
+former humans, which pry
+themselves from the
+grave in search of
+release. Dispel the
+curse to render them a
+pile of ordinary bones."
+810711,"There once was a couple
+consumed by an ill-fated
+love, only to be
+reunited in undeath. So
+overjoyed were they at
+their good fortune that
+they both passed into a
+sweet, eternal slumber."
+810720,"Even in undeath these
+warriors swear fealty to
+their empire, clinging
+to their swords and
+shields, wandering in
+endless pursuit of their
+missing monarch."
+810721,"They know now that their
+ruler has perished.
+Tormented by
+inconsolable grief, they
+have turned to an
+afterlife of crime. None
+remain who knew these
+once-proud souls."
+810730,"The religious scholars
+knew if they were to
+ascertain the true
+nature of magic, they
+would need immortality.
+One lifetime was simply
+too short."
+810731,"Erelong, their pursuit
+of eternal life made
+monsters of them all.
+Now, freed from
+intellectual and
+rational pursuits, they
+invoke spells with what
+sounds like pure joy."
+810740,"With staggering magical
+prowess theirs at last,
+the lost souls regained
+a modicum of humanity.
+They gazed upon their
+skeletal forms in
+despair, and vowed to
+become human once more."
+810741,"No spell could return
+the flesh to their
+bones, though
+experiments did yield a
+way to reconnect with
+loved ones. Any who
+interfere with this
+joyous rite are killed."
+810810,"These demonic wolf
+spirits travel in packs
+the same way living
+wolves do, though
+mysteries abound—chief
+among them, why these
+creatures have no
+heads."
+810811,"Upon crossing into the
+spirit realm,
+wraithwolves allow their
+packmates to slash their
+necks; proof that they
+shall never be tamed by
+loathsome humans."
+810820,"The flames engulfing
+these wolves are said to
+burn until the wolf
+perishes. As such, one
+nation took to engraving
+the beasts on talismans,
+as a symbol of long
+life."
+810821,"A pack of pyrowolves
+lost in the forest risk
+burning it all to the
+ground. Keenly aware of
+this, the forest
+dwellers hunt the wolves
+before they douse the
+flames."
+810830,"Ancient texts tell of a
+creature quite similar
+to this one. It seems
+the ancients worshipped
+them as ""keepers of the
+lifelight."""
+810831,"In recent years there
+has been no end to the
+number of adventurers
+pursuing these wolves in
+the hopes of capturing
+one and never needing to
+worry about light
+again."
+810910,"Long have the iron
+tortoises hid within
+their shells, tethered
+to the earth. Now,
+transformed at last,
+they can take to the
+skies with the wings
+they have acquired."
+810911,"Alas, wings have not
+brought them courage.
+They still retreat into
+their shells when in
+danger; so rare is their
+flight that any who see
+it are said to have good
+luck for life."
+810920,"One had best keep their
+distance from these
+tortoises, which nest in
+volcanic areas and fire
+jets of searing magma
+from their shells."
+810921,"Should one survive the
+approach, stroking the
+tortoise's head triggers
+states of low, medium,
+and high heat. Surely,
+somewhere, a chef is
+coveting this sentient
+stove."
+811020,"The miner's eternal foe.
+Easily mistaken for any
+old rock, one tap of
+these with a pickaxe can
+unleash a torrent of
+pent-up laments
+into the tunnels."
+811021,"Miners are wont to gripe
+as they are worked to
+the bone, but the mines
+have ears. Fearocks are
+born of rocks that
+absorb tens of thousands
+of these idle
+complaints."
+811030,"All who lay eyes on
+aquarocks are taken in
+by their beauty, only
+for the spirit within to
+devour their souls in
+service of further
+polishing its vessel."
+811031,"Their vessel polished,
+the spirits pass on,
+leaving behind a
+gemstone frequently sold
+in illicit markets.
+Buyers are said to pay
+what their life is worth
+to own one."
+811110,"These humanoid lizards
+rarely hesitate to
+attack, for they see
+each and every passing
+adventurer as an
+opportunity to prove
+themselves in battle."
+811111,"During mating season
+their belligerence
+fades, and the males
+turn their gaze upon the
+females, flowers
+clutched tightly in
+hand. They are decidedly
+stunted lovers."
+811120,"Lizard warriors are
+battle-hardened
+creatures who thrill at
+the thought of fighting
+a powerful foe. Nigh
+unshakable when armed."
+811121,"The lizard warriors
+shuffle home, their legs
+and hearts heavy in
+anticipation of the
+unwinnable domestic
+battles beyond the front
+door."
+811130,"Collectively these
+decorated war veterans
+have survived
+countless battles, and
+used the techniques
+they've honed in combat
+to fell many a renowned
+adventurer."
+811131,"Many captains visit the
+graves of their late
+wives between battles,
+quietly awaiting their
+next deployment. Someday
+they shall be reunited;
+until then, they fight."
+811210,"Creatures of all sorts
+flock to these gentle
+giants of the forest, no
+doubt thanks to the
+pleasing warmth
+emanating from the
+energy stored within
+their hollows."
+811211,"Treants draw a steady
+stream of energy from
+the earth. So steady, in
+fact, forests of these
+animated trees have been
+said to bleed the land
+dry, leaving naught but
+a barren waste."
+811220,"Treants are the tender,
+loving elders of the
+forest; well versed in
+the laws of nature yet
+itinerant, never staying
+in any one forest long
+enough to put down
+roots."
+811221,"When treants cross paths
+on their travels, they
+each break off a branch
+to graft on to one
+another. Thus are the
+memories in the rings of
+each branch passed down
+and preserved."
+811230,"It is of utmost
+importance that these
+paragons of pestilence
+be felled the moment
+they are encountered,
+for the plague they
+spread does not fade
+with their death."
+811231,"Humanity first fouled
+the woodlands, and among
+the rotting trees and
+sickened animals it was
+the undead treants who
+absorbed the plague and
+purified the forests."
+811310,"Dryads believe
+themselves the belle of
+the forest ball, so to
+speak. On the night of
+the full moon, they have
+been known to hold
+concerts deep in the
+heart of the forest."
+811311,"The mere hint of a
+dryad's song is enough
+to send creatures of the
+forest fleeing, for
+those who pay any mind
+to it pass gently into
+that good night."
+811410,"Red fungos are fiercely
+territorial, killing all
+who set foot on their
+land and turning the
+corpses into red fungo
+colonies. Forest
+creatures fear their
+swelling ranks."
+811411,"Forest dwellers so covet
+the red fungo as a
+health food that they
+leave monster carcasses
+in the forest and return
+to collect them once the
+fungos have colonized
+them."
+811420,"Seeing as they produce
+poison within their
+bodies for protection,
+these guys are anything
+but fun. Factor in their
+tough flesh and you have
+a meal even the
+omnivores avoid."
+811421,"So many chefs have tried
+and failed to come up
+with a way to render
+these creatures edible
+that each new poisoning
+elicits little more than
+an eye roll from the
+physician on duty."
+811430,"Undead fungos with a
+surfeit of poison in
+their systems release a
+scent meant to stimulate
+a predator's appetite.
+Said predators are all
+too aware of this, and
+thus steer clear."
+811431,"Only the most desperate
+humans eat undead
+fungos, which cause
+these poor souls to emit
+shrieks in between bouts
+of bloody vomiting.
+Needless to say, they
+perish."
+811440,"The {CARDNAME:4010} makes his
+escape with the help of
+his stalwart guardian.
+Why does our hero sense
+some kind of grim
+resolve from them as
+they vanish over the
+horizon...?"
+811441,"{CARDNAME:51112}, in its most
+diluted form, was a
+curative to the humans.
+It's no surprise, seeing
+as it has the power to
+transform whoever drinks
+it into whatever form
+they desire."
+811450,"Born of the awesome
+power of {CARDNAME:51112} and
+the limitless hatred in
+{CARDNAME:2030}'s heart,
+this pale serpent would
+see all existence erased
+and the world born anew."
+811451,"{CARDNAME:2030} wanted nothing
+more than to see a world
+he deemed filthy and
+corrupt returned to a
+blank slate. Whether
+preventing his wish was
+the right thing to do,
+we will never know."
+811460,"The {CARDNAME:4010} was tortured
+by the Ivory Order for
+so many moons that his
+very existence had
+passed into legend. His
+accumulated resentment
+is beyond human
+comprehension."
+811461,"And lo the {CARDNAME:4010}'s
+malice took on a form
+all its own, separate
+from its mortal host.
+If nothing else, it
+should be given its
+last rites..."
+850001,Her destiny is in your hands.
+850002,"{CARDNAME:1030}, human again, sobs. She can't believe you didn't choose your sister."
+850011,Her destiny is in your hands.
+850012,"You return {CARDNAME:1020} to her original form, dooming {CARDNAME:1030}..."
+850021,His destiny is in your hands.
+850022,"The {CARDNAME:4010} vanishes, and you continue your quest for {CARDNAME:51112}."
+850031,"Your fate, and that of your friends, is in your hands."
+850032,The miraculous {CARDNAME:51112} grants your every wish.
+860001,"Journey in
+Pursuit"
+860002,"Bewildering
+Wood"
+860003,Unionville
+860004,Shoreland
+860005,"The Dragon's
+Tower"
+860006,"Isle
+of Blight"
+860007,Dragontear
+900020,{NUM:LOCAL:1}
+900021,{HAVECOUNT:1:MONEY}
+999905,"You stand a <highlight>decent chance of escaping</highlight> from this enemy. 
+What will you do?"
+999906,"With a measure of luck, <highlight>you might escape</highlight> from this enemy.
+What will you do?"
+999907,"You stand a <highlight>slim chance of escaping</highlight> from this enemy.
+Will you try anyway?"
+999908,You see <highlight>no scenario in which you might escape</highlight> from this enemy.
+999909,Roll two dice. Succeeds on <%1> or greater.
+999910,You've escaped from the enemy's clutches.
+999911,"Alas, the enemy has thwarted your escape..."
+999920,Roll with {BUTTON@A:sp_button-tap}. Afflicts status ailment if <highlight><%1> or greater</highlight>.
+999921,Become afflicted with status ailment if the GM rolls <highlight><%1> or greater</highlight>.
+999922,Roll with {BUTTON@A:sp_button-tap} to calculate damage.
+999923,{BUTTON@A:sp_button-tap}でダイスを<br>振って<highlight><%1>以上</highlight>なら<br>状態異常を回避できる。
+999924,The GM will roll and calculate damage.
+999925,Tap the screen to roll. Afflicts status ailment if <highlight><%1> or greater</highlight>.
+999926,Tap the screen to roll and calculate damage.
+921010,Move further into<br>the cave.
+921020,Stand before the guard and sign your name.
+921030,Speak with the others gathered in the hall to form a fellowship for the journey ahead.
+921040,Set forth in pursuit of the {CARDNAME:4010}!
+921050,"Make your way to {CARDNAME:91030},
+south of {CARDNAME:91012}."
+921060,Ask around {CARDNAME:91030} for more information on the {CARDNAME:4010}.
+921070,"Visit the good doctor
+in {CARDNAME:91040}."
+921080,Transport the hobbled<br>woman to the {CARDNAME:103012}.
+921090,Scour the streets of {CARDNAME:91030} for more information on the {CARDNAME:4010}.
+921100,"Visit the good doctor
+in {CARDNAME:91040}."
+921110,"Lead the party onward in search of the {CARDNAME:4010} once your business in town
+is complete."
+921120,Follow the road leading out of {CARDNAME:91030}.
+921130,Ask the fair denizens of {CARDNAME:91040} what they know of the {CARDNAME:4010}.
+921140,"Visit the good doctor
+in {CARDNAME:91040}."
+921150,Venture to the {CARDNAME:92020} to retrieve {CARDNAME:2061}'s prized possession.
+921160,Search the {CARDNAME:92020} for {CARDNAME:2061}'s prized possession.
+921170,Return to {CARDNAME:2061} in {CARDNAME:91040} and tell him what you've found.
+921180,Set out for the {CARDNAME:92030} east of {CARDNAME:91040}.
+922010,"Navigate the
+{CARDNAME:92030}."
+922020,Find and examine the four stelae found in the {CARDNAME:92030}.
+922030,Find and examine the three remaining stelae in the {CARDNAME:92030}.
+922040,Find and examine the two remaining stelae in the {CARDNAME:92030}.
+922050,Find and examine the last stela in the {CARDNAME:92030}.
+922060,Explore the eastern edge of the {CARDNAME:92030}.
+922070,Take the shortcut through the {CARDNAME:92030} toward {CARDNAME:91050}.
+922080,Retire to the {CARDNAME:91050} inn once you have thoroughly explored {CARDNAME:91050}.
+922090,To {CARDNAME:1040}'s house!
+922100,Follow {CARDNAME:1040} to the well south of {CARDNAME:91050}.
+922110,Make haste back to {CARDNAME:1040}'s house and use {CARDNAME:1020}'s help to put out the fire.
+922120,Speak with {CARDNAME:1040} at her home in {CARDNAME:91050}.
+922130,Depart from the eastern side of {CARDNAME:91050} and make your way through the {CARDNAME:92030}.
+922140,Pass through the {CARDNAME:92032}.
+922150,Leave the confines of the {CARDNAME:92032}.
+922160,Head east to {CARDNAME:91060}.
+923010,Ask the denizens of {CARDNAME:91060} what they know about the {CARDNAME:4010}.
+923020,Ask {CARDNAME:91060}'s headman what he knows of the {CARDNAME:4010}.
+923030,Find out what {CARDNAME:10150}'s friend has to tell.
+923040,Ask the good people of {CARDNAME:91060} for hints as to {CARDNAME:10150}'s whereabouts.
+923050,Make your way northwest of {CARDNAME:91060}.
+923060,Check the {CARDNAME:92040} for any sign of {CARDNAME:10150}.
+923070,Save {CARDNAME:10150}!
+923080,{CARDNAME:10150} escaped from the shrine! Catch him!
+923090,Return to {CARDNAME:91060}.
+923100,Talk with {CARDNAME:10150} now that he is safely within the confines of {CARDNAME:91060}.
+923110,Bring {CARDNAME:10150} before {CARDNAME:91060}'s village headman.
+923120,Take your leave of {CARDNAME:91060}.
+923130,Follow the road leading south from {CARDNAME:91060} toward {CARDNAME:91070}.
+924010,Find the nutritionist residing in {CARDNAME:91070}.
+924020,Look for {CARDNAME:2090}'s son near the {CARDNAME:91070} wharf.
+924030,Seek out a {CARDNAME:51109} in the harbor northwest of {CARDNAME:91070}.
+924040,Scour the harbor for a {CARDNAME:51109}.
+924050,Deliver the {CARDNAME:51109} to {CARDNAME:2090} back in {CARDNAME:91070}.
+924060,Make your way to the {CARDNAME:91060} inn and give {CARDNAME:1020} some {CARDNAME:51115}.
+924070,See {CARDNAME:1050} to his home in {CARDNAME:91070}.
+924090,Journey to the tower that stands southwest of {CARDNAME:91070}.
+925010,Enter the tower in search of the {CARDNAME:4010}.
+925020,Climb the tower in search of the {CARDNAME:4010}.
+925030,Keep climbing the tower in search of the {CARDNAME:4010}.
+925040,Scour the top of the tower for the {CARDNAME:4010}.
+925050,Head northeast of the tower to {CARDNAME:91070} in search of a ship.
+925060,Make your way to the {CARDNAME:91070} wharf.
+925070,Attempt to push the grounded vessel at the {CARDNAME:91070} harbor into the sea once more.
+925080,Board your new vessel and set off from the {CARDNAME:91070} wharf in pursuit of the {CARDNAME:4010}!
+926010,Follow the path leading west away from the island wharf.
+926020,Tread carefully through the {CARDNAME:91080} in search of more information.
+926030,Visit the headman of the {CARDNAME:91080} to see what new information might be gleaned.
+926040,Canvass the {CARDNAME:91080} in search of your scattered allies.
+926050,Finish your investigation of the {CARDNAME:91080}.
+926060,Acquire some {CARDNAME:51111} from the {CARDNAME:91080} apothecary.
+926070,Journey to the {CARDNAME:92070} west of {CARDNAME:91080} in your quest to find the {CARDNAME:4010}.
+926080,Ascend the {CARDNAME:92070} in pursuit of the {CARDNAME:4010}.
+926090,Pursue the {CARDNAME:4010} to the caldera of the {CARDNAME:92070}.
+926100,Flee the {CARDNAME:92070} within 100 steps!
+927010,Return to the {CARDNAME:91080}.
+927020,Rest your weary bones at the {CARDNAME:91080} inn.
+927030,"Hear what {CARDNAME:2100}, the self-proclaimed overseer of the {CARDNAME:91080}, has to say."
+927040,Make your way to the abandoned house to the west of the {CARDNAME:91080}.
+927050,Return home.
+927060,Determine the {CARDNAME:92080}'s precise location.
+927070,Return to the wharf east of the {CARDNAME:91080} and journey north toward the {CARDNAME:92080}.
+927080,Proceed along the mountains in search of the {CARDNAME:92080}.
+927090,Proceed to the {CARDNAME:92080} interior.
+927100,Enter the depths of the {CARDNAME:92080}.
+927110,Stop {CARDNAME:2030}!
+927120,Aid the collapsed {CARDNAME:1030}.
+1000000,Voice of Cards: <BR>The Isle Dragon Roars
+1000020,<size=16>DIRECTOR</size><br><size=0><br></size>Maasa Mimura
+1000021,<size=16>CREATIVE DIRECTOR</size><br><size=0><br></size>YOKO TARO
+1000030,"<size=16>MUSIC DIRECTOR,<BR>COMPOSER, ARRANGER</size><br><size=0><br></size>Keiichi Okabe<BR>(MONACA)"
+1000031,<size=16>ART DIRECTOR</size><br><size=0><br></size>Kimihiko Fujisaka
+1000040,<nobr>Voice of the Game Master
+1000050,<size=16>JAPANESE</size><br><size=0><br></size>Hiroki Yasumoto
+1000060,<size=16>ENGLISH</size><br><size=0><br></size>Todd Haberkorn
+1000070,"Alim Co., Ltd."
+1000080,DEVELOPMENT DEPT.
+1000090,<size=16>MAIN PROGRAMMER</size><br><size=0><br></size>Takeo Soga
+1000100,<size=16>PROGRAMMERS</size><br><size=0><br></size>Hitoshi Aoki<br><size=16><br></size>Yuki Negoro<br><size=16><br></size>Yuta Fukasawa<br><size=16><br></size>John Estupinan<br><size=16><br></size>Hiroshi Ichikawa<br><size=16><br></size>Masayuki Douya<br><size=16><br></size>Kyawhtin Bala
+1000110,PRODUCTION DEPT.
+1000120,<size=16>MAIN PLANNER</size><br><size=0><br></size>Yukari Fukase
+1000130,<size=16>PLANNERS</size><br><size=0><br></size>Yoshiaki Nakamoto<br><size=16><br></size>Chihiro Hasegawa<br><size=16><br></size>Hikaru Shioiri<br><size=16><br></size>Kosuke Iyoda<br><size=16><br></size>Yuji Sato<br><size=16><br></size>Norimichi Takesue
+1000140,<size=16>PLANNING ADVISOR</size><br><size=0><br></size>Takafumi Iwabuchi
+1000150,<size=16>SOUND DESIGNER</size><br><size=0><br></size>Ko Hayashi
+1000160,GRAPHIC DESIGN DEPT.
+1000170,<size=16>GRAPHIC DESIGNERS</size><br><size=0><br></size>Kaori Machida<br><size=16><br></size>Yoshie Matsuoka<br><size=16><br></size>Takeshi Matsumura<br><size=16><br></size>Marina Kato
+1000180,Eisuke Nishikawa<br><size=16><br></size>Midori Fujita<br><size=16><br></size>Kenji Miura<br><size=16><br></size>Masaya Shiozaki<br><size=16><br></size>Yukari Fujino
+1000190,<size=16>UI DESIGNERS</size><br><size=0><br></size>Mayu Shiraki<br><size=16><br></size>Takumi Yonemura<br><size=16><br></size>
+1000200,<size=16>FX DESIGNER</size><br><size=0><br></size>Satomi Moriya
+1000210,<size=16>3D DESIGNER</size><br><size=0><br></size>Ketu Kairough
+1000220,QUALITY ASSURANCE
+1000230,<size=16>QUALITY ASSURANCE</size><br><size=0><br></size>Masahiro Yasuda<br><size=16><br></size>Masayuki Murakami
+1000240,"<nobr><size=16>GAME TESTERS</size><br><size=0><br></size>KINSHA Co., Ltd.<br><size=16><br></size>…and the entire QA staff"
+1000250,<size=16>BUSINESS ASSISTANTS</size><br><size=0><br></size>Ayako Kurokawa<br><size=16><br></size>Yuko Sakakibara<br><size=16><br></size>Naomi Kudou
+1000370,MONACA
+1000390,"<size=16>COMPOSER, ARRANGER & CHORUS </size><br><size=0><br></size>Shotaro Seo"
+1000400,"<size=16>COMPOSER, ARRANGER & GUITAR</size><br><size=0><br></size>Oliver Good"
+1000410,<size=16>VOCAL & CHORUS </size><br><size=0><br></size>Yukino Orita
+1000420,<size=16>VOCAL & CHORUS </size><br><size=0><br></size>Saki Nakae
+1000430,<size=16>VIOLIN </size><br><size=0><br></size>Hikari Shimada
+1000440,Olive Jirushi
+1000450,<size=16>ENGLISH EDITOR</size><br><size=0><br></size>Tim Law<br><size=16><br></size>
+1000460,<size=16>ENGLISH TRANSLATORS</size><br><size=0><br></size>Kristin Osani<br><size=16><br></size>Jeffrey Wilson<br><size=16><br></size>Kaya Halemano
+1000470,<size=16>LOCALIZATION SUPPORT</size><br><size=0><br></size>Miki Hamasaki
+1000480,"KINSHA Co., Ltd."
+1000490,<size=16>COORDINATOR</size><br><size=0><br></size>Samuel Ehrhardt
+1000500,<size=16>FRENCH TRANSLATORS</size><br><size=0><br></size>Kevin Martin<br><size=16><br></size>Gaspard Kuentz<br><size=16><br></size>Olivier Bignan<br><size=16><br></size>Nagisa Nishihara
+1000510,<size=16>ITALIAN TRANSLATORS</size><br><size=0><br></size>Alessandro Colombo<br><size=16><br></size>Virginia Petrarca<br><size=16><br></size>Marco Godano
+1000520,<size=16>GERMAN TRANSLATORS</size><br><size=0><br></size>Robin Schnöckelborg<br><size=16><br></size>Christopher Derbort<br><size=16><br></size>Isabelle Mach
+1000530,<size=16>SPANISH TRANSLATORS</size><br><size=0><br></size><size=24>Carlos Naranjo Bejarano</size><br><size=16><br></size><size=24>Alberto Sánchez Álvarez</size><br><size=16><br></size>Sébastien Van Damme
+1000540,<size=16>LOCALIZATION PROJECT MANAGER</size><br><size=0><br></size>Mizue Nakamoto
+1000550,BraveHearts Ltd.
+1000560,<size=16>ACOUSTIC DIRECTOR</size><br><size=0><br></size>Satoru Enomoto
+1000570,<size=16>SOUND EDITOR</size><br><size=0><br></size>Ryouhei Ichinohe
+1000580,<size=16>ACOUSTIC PRODUCTION ASSISTANT</size><br><size=0><br></size>Yuri Kudo
+1000590,"ILCA, Inc."
+1000600,<size=16>PRODUCER</size><br><size=0><br></size>Nao Takahashi
+1000610,<size=16>ASSISTANT PRODUCER</size><br><size=0><br></size>Shion Sakurai
+1000620,Rocket Sound
+1000630,<size=16>DIRECTOR</size><br><size=0><br></size>Jamie Mortellaro
+1000640,<size=16>ENGINEER</size><br><size=0><br></size>Zavoush Rad
+1000641,<size=16>SESSION ASSISTANT</size><br><size=0><br></size>Tommy Mailie
+1000650,<size=16>EDITORS</size><br><size=0><br></size>Myon Sample<br><size=16><br></size>BriElle Achterhof<br><size=16><br></size>Morgan Gerhard
+1000660,<size=16>PRODUCTION MANAGER</size><br><size=0><br></size>Daniel Khim
+1000670,<size=16>BUSINESS DEVELOPMENT</size><br><size=0><br></size>Ami Logan
+1000680,<size=16>PRESIDENT</size><br><size=0><br></size>Tom Hays
+1000690,"<nobr>SQUARE ENIX CO., LTD."
+1000700,CREATIVE<BR>BUSINESS UNIT II
+1000701,<size=16>LEAD SCENARIO WRITER</size><br><size=0><br></size>Yuuki Matsuo<br><size=16><br></size>
+1000702,<size=16>SCENARIO WRITERS</size><br><size=0><br></size>Yuki Wada<br><size=16><br></size>Agata rokuro<br><size=16><br></size>Kenta Azuma<br><size=16><br></size>Koki Iwanaga<br><size=16><br></size>Takashi Yanagimachi<br><size=16><br></size>Miku Fukushima
+1000703,<size=16>LOGO DESIGN</size><br><size=0><br></size>Kazuhiro Fukagaya
+1000710,<size=16>PRODUCER</size><br><size=0><br></size>Miho Mochizuki
+1000720,<size=16>ASSISTANT PRODUCER</size><br><size=0><br></size>Yuta Miyatsuka
+1000730,<size=16>PROJECT ASSISTANT</size><br><size=0><br></size>Eri Todoroki
+1000740,DIGITAL BUSINESS UNIT
+1000750,"<size=16>EXECUTIVE OFFICER
+VICE PRESIDENT</size><br><size=0><br></size>Tomoyoshi Oosaki"
+1000760,<size=16>DEPUTY VICE PRESIDENT</size><br><size=0><br></size>Makoto Tsuda
+1000770,DIGITAL BUSINESS UNIT<br><br>SALES DIVISION
+1000780,<size=16>DIRECTOR</size><br><size=0><br></size>Daisuke Kobayashi
+1000790,<size=16>STAFF</size><br><size=0><br></size>Fuminori Hyodo <br><size=16><br></size>Daio Ito<br><size=16><br></size>Toshiyuki Inoue<br><size=16><br></size>Takashi Kamimura<br><size=16><br></size>Kenta Kobayashi<br><size=16><br></size>Aki Kohno<br><size=16><br></size>Shun Koike　　
+1000800,Masahiro Matsumoto<br><size=16><br></size>Saki Nishikawa <br><size=16><br></size>Kazuhito Nishimura<br><size=16><br></size>Nanami Nishimura<br><size=16><br></size>Toshihide Nomura<br><size=16><br></size>Mizuki Sakuma<br><size=16><br></size>Maiko Shimizu
+1000810,Jain Son<br><size=16><br></size>Waka Tachibana<br><size=16><br></size>Gota Taguchi<br><size=16><br></size>Shota Tamakoshi<br><size=16><br></size>Masaki Yano <br><size=16><br></size>Rumi Yoshikawa<br><size=16><br></size>Tsutomu Yamada
+1000820,DIGITAL BUSINESS UNIT<br><br>MERCHANDISING DIVISION
+1000830,<size=16>DIRECTOR</size><br><size=0><br></size>Hirokuni Matsuyama
+1000840,Masato Matsushita<br><size=16><br></size>Yuka Suzuki
+1000850,DIGITAL BUSINESS UNIT<br><br>PC BUSINESS DIVISION
+1000860,<size=16>MANAGER</size><br><size=0><br></size>Takashi Hasegawa
+1000870,<size=16>STAFF</size><br><size=0><br></size>Chieko Endo<br><size=16><br></size>Jumpei Arakawa<br><size=16><br></size>Makoto Takaji<br><size=16><br></size>Tomomi Nakagawa
+1000880,DIGITAL BUSINESS UNIT<br><br>ONLINE BUSINESS DEVELOPMENT DIVISION
+1000890,<size=16>DIRECTOR</size><br><size=0><br></size>Kenji Ishiwata
+1000900,<size=16>STAFF</size><br><size=0><br></size>Shinsuke Takeda<br><size=16><br></size>Chiaki Yamauchi<br><size=16><br></size>Sho Fujita<br><size=16><br></size>Shoko Sakuraba
+1000980,MARKETING DIVISION
+1000990,<size=16>EXECUTIVE OFFICER ＆ GENERAL MANAGER</size><br><size=0><br></size>Ryutaro Sasaki
+1001010,<size=16>MANAGERS</size><br><size=0><br></size>Akiko Wada<br><size=16><br></size>Kakuko Obinata<br><size=16><br></size>Yuka Naito
+1001020,MARKETING DIVISION<br><br>MARKETING & PR
+1001030,<size=16>LEAD PLANNER</size><br><size=0><br></size>Hitoshi Nishio
+1001040,<size=16>PLANNER</size><br><size=0><br></size>Rei Kawano
+1001050,<size=16>ASSISTANT PLANNER</size><br><size=0><br></size>Midori Tsukamoto
+1001060,MARKETING DIVISION<br><br>INTERNATIONAL RELATIONS
+1001070,<size=16>MANAGER</size><br><size=0><br></size>Ayako Kawamoto
+1001080,<size=16>COORDINATORS</size><br><size=0><br></size>Chinami Nishiyama<br><size=16><br></size>Maiko Okada<br><size=16><br></size>Karen Hiroe
+1001090,MARKETING DIVISION<br><br>EVENT RELATIONS & DEPARTMENT OPERATION
+1001100,<size=16>CHIEF</size><br><size=0><br></size>Kumiko Ishida<br><size=16><br></size>
+1001110,Munehiro Ohsawa<br><size=16><br></size>Tatsuya Umezawa
+1001111,MARKETING DIVISION<br><br>MARKETING RESEARCH & ANALYSIS
+1001112,<size=16>CHIEF</size><br><size=0><br></size>Ryuichi Yagisawa<br><size=16><br></size>
+1001113,Kentaro Hamaoka<br><size=16><br></size>Ryuji Kiyoshima
+1001120,BOOK EDITING DIVISION
+1001130,<size=16>DIRECTOR</size><br><size=0><br></size>Kazuhiro Oya
+1001140,<size=16>BOOK EDITORS</size><br><size=0><br></size>Masami Satoh<br><size=16><br></size>Takuji Tada<br><size=16><br></size>Ayako Watanabe
+1001160,QUALITY ASSURANCE
+1001170,<size=16>COORDINATORS</size><br><size=0><br></size>Hiroyuki Omura<br><size=16><br></size>Akira Morishita<br><size=16><br></size>Tsubasa Toumiya<br><size=16><br></size>Shoya Ofuku<br><size=16><br></size>Teppei Osari
+1001180,Takumi Kagawa<br><size=16><br></size>Kazuhiro Yoshino<br><size=16><br></size>Shogo Toyoshima<br><size=16><br></size>Koki Hamaguchi<br><size=16><br></size>Takemi Sugawara<br><size=16><br></size>Taiki Nakano
+1001190,<size=16>TECHNICAL ENGINEERS</size><br><size=0><br></size>Noboru Taniguchi<br><size=16><br></size>Taisuke Yahisa<br><size=16><br></size>Tetsuya Takahashi<br><size=16><br></size>Jun Sato
+1001200,Toyokazu Takehara<br><size=16><br></size>Keigo Kouno<br><size=16><br></size>Kouhei Sawamoto<br><size=16><br></size>Kazuya Okada<br><size=16><br></size>Tatsuya Nonaka<br><size=16><br></size>Keishi Takeda
+1001210,<size=16>CHIEF COORDINATORS</size><br><size=0><br></size>Kiminori Ohya<br><size=16><br></size>Hideyuki Nukui
+1001220,<size=16>RATINGS ADVISORS</size><br><size=0><br></size>Mari Tanabe<br><size=16><br></size>Reiko Kondo
+1001230,<size=16>MANAGERS</size><br><size=0><br></size>Hideyuki Kato<br><size=16><br></size>Kazunori Ohwada<br><size=16><br></size>Katsuhiko Yokoyama<br><size=16><br></size>Atsushi Takeuchi
+1001240,<size=16>GENERAL MANAGER</size><br><size=0><br></size>Yukihiro Shibuya<br><size=16><br></size>
+1001250,LOCALIZATION
+1001260,<size=16>RATING ADVISORS</size><br><size=0><br></size>Kazuyoshi Tashiro<br><size=16><br></size>Mitsuro Waki<br><size=16><br></size>Mai Kawamitsu
+1001270,INFORMATION TECHNOLOGY DIVISION
+1001280,<size=16>EXECUTIVE OFFICER</size><br><size=0><br></size>Hideaki Sato
+1001290,<size=16>MANAGER</size><br><size=0><br></size>Koichi Saito
+1001300,<size=16>ENGINEER</size><br><size=0><br></size>Ryohei Koike
+1001310,BUSINESS RELATIONS DIVISION
+1001311,<size=16>PRODUCTION COORDINATOR</size><br><size=0><br></size>Yuichiro Kato
+1001320,"SQUARE ENIX, INC."
+1001330,<size=16>QA MANAGER</size><br><size=0><br></size>Mathew A. Clift
+1001340,<size=16>ASSOCIATE QA MANAGER</size><br><size=0><br></size>Keith P. Christensen-Martz
+1001350,<size=16>SENIOR QA COORDINATOR</size><br><size=0><br></size>Carmelo Cabezo
+1001360,<size=16>QA COORDINATOR</size><br><size=0><br></size>Eric Lea
+1001370,<size=16>SENIOR QA ADMINISTRATOR</size><br><size=0><br></size>Louis Sedeno III
+1001380,<size=16>QA TEAM</size><br><size=0><br></size>Jeana Braun<br><size=16><br></size>Juan Centurion<br><size=16><br></size>Wilson Ho<br><size=16><br></size>Jerry Lu<br><size=16><br></size>Genevieve Wright-Scherr
+1001390,<size=16>QA TRANSLATOR</size><br><size=0><br></size>Takahiro Soh
+1001400,<size=16>LOCALIZATION & QA DIRECTOR</size><br><size=0><br></size>Yutaka Sano
+1001410,"<size=16>SENIOR DIRECTOR, C&S</size><br><size=0><br></size>Yasu Kurosawa"
+1001420,<size=16>ASSISTANT DIRECTOR OF OPERATIONS</size><br><size=0><br></size>Brendan Hee
+1001430,"<size=16>MANAGER, CUSTOMER SUPPORT & FRAUD PREVENTION</size><br><size=0><br></size>Kenny Yoshinaga"
+1001440,"<size=16>ASSISTANT MANAGER, <BR>CUSTOMER SUPPORT</size><br><size=0><br></size>Chris Farmer"
+1001450,<size=16>CUSTOMER SUPPORT SUPERVISOR</size><br><size=0><br></size>Josue Munoz
+1001460,"<size=16>ASSISTANT DIRECTOR, OPERATIONS SUPPORT / <BR>BUSINESS INTELLIGENCE</size><br><size=0><br></size>Steve Nguyen"
+1001470,"<size=16>SENIOR MANAGER, <BR>BUSINESS INTELLIGENCE</size><br><size=0><br></size>Michael Somerville"
+1001480,"<size=16>SENIOR MANAGER, <BR>OPERATIONS SUPPORT</size><br><size=0><br></size>Kumiko Yamaguchi"
+1001490,"<size=16>ASSISTANT MANAGER, OPERATIONS SUPPORT</size><br><size=0><br></size>Chris Ichikawa"
+1001500,"<size=16>SUPERVISORS, <BR>OPERATIONS SUPPORT</size><br><size=0><br></size>Joshua Hochner<br><size=16><br></size>Gregory Toyosaka"
+1001510,<size=16>GENERAL COUNSEL</size><br><size=0><br></size>Adam Sullivan
+1001520,"<size=16>DIRECTOR, BUSINESS &<BR> LEGAL AFFAIRS</size><br><size=0><br></size>Brian Finkelstein"
+1001530,"<size=16>ASSOCIATE DIRECTOR, BUSINESS & LEGAL AFFAIRS</size><br><size=0><br></size>Noi Sasaki"
+1001540,<size=16>COUNSELS</size><br><size=0><br></size>Alberto Wilches<br><size=16><br></size>Maria Abesa 
+1001550,<size=16>SENIOR PARALEGAL</size><br><size=0><br></size>Dean Okazaki
+1001560,<size=16>PARALEGAL</size><br><size=0><br></size>Tricia Tran
+1001570,"<size=16>MANAGER, LEGAL OPERATIONS</size><br><size=0><br></size>Stephanie Pimentel"
+1001580,<size=16>LEGAL ASSISTANTS</size><br><size=0><br></size>Angelo Rivera<br><size=16><br></size>Vanessa Grundy
+1001590,"<size=16>SENIOR DIRECTOR, MARKETING</size><br><size=0><br></size>Ryan Lacina"
+1001600,"<size=16>MANAGER, MARKETING</size><br><size=0><br></size>Jarek Ceballos"
+1001610,<size=16>HEAD OF COMMUNICATIONS</size><br><size=0><br></size>Michelle Schroder
+1001620,"<size=16>DIRECTOR, PR</size><br><size=0><br></size>Bob Colayco"
+1001630,<size=16>SENIOR PR MANAGER</size><br><size=0><br></size>Emily Shoji
+1001640,<size=16>PR MANAGERS</size><br><size=0><br></size>Stephanie Chang<br><size=16><br></size>Adam Pelc
+1001650,<size=16>ASSISTANT PR MANAGER</size><br><size=0><br></size>Rachel Mascetti
+1001660,<size=16>DIRECTOR OF SOCIAL MEDIA </size><br><size=0><br></size>Aaron Kaufman
+1001670,<size=16>SOCIAL COMMUNICATIONS MANAGERS</size><br><size=0><br></size>Eric So<br><size=16><br></size>Samantha Laabs
+1001680,<size=16>INFLUENCER RELATIONS MANAGER</size><br><size=0><br></size>Nel Schwertner
+1001690,<size=16>DIRECTOR OF SALES ANALYTICS</size><br><size=0><br></size>Josh England
+1001700,"<size=16>SENIOR BUSINESS ANALYST, DIGITAL SALES</size><br><size=0><br></size>Warren Perdon"
+1001710,<size=16>SENIOR SALES ANALYST</size><br><size=0><br></size>Kasim Somers
+1001720,"<size=16>BUSINESS ANALYST, DIGITAL SALES</size><br><size=0><br></size>Lisa Guo"
+1001730,<size=16>SALES ANALYST</size><br><size=0><br></size>Lana Josephbek<br><size=16><br></size>Corey Chamberlain
+1001740,<size=16>HEAD OF DIGITAL CHANNELS</size><br><size=0><br></size>Brad Stamulis
+1001750,<size=16>SENIOR ECOMMERCE MANAGER</size><br><size=0><br></size>Shinri Matsuoka
+1001760,<size=16>MARKETING PERFORMANCE ANALYST</size><br><size=0><br></size>Samuel Bonin
+1001770,<size=16>DIRECTOR CRM & CUSTOMER LOYALTY </size><br><size=0><br></size>Daniel Nasserian
+1001780,<size=16>ASSOCIATE MANAGERS CRM</size><br><size=0><br></size>Aaron Pathammavong<br><size=16><br></size>Jacqueline Ko
+1001790,<size=16>DIGITAL PROJECT MANAGER</size><br><size=0><br></size>Knoah Piasek
+1001800,<size=16>SR WEB DESIGNER</size><br><size=0><br></size>Andres D'Aleman
+1001810,<size=16>EXECUTIVE CREATIVE DIRECTOR</size><br><size=0><br></size>Ricardo Mireles
+1001820,<size=16>VISUAL DESIGN DIRECTOR</size><br><size=0><br></size>Michael Bannon
+1001830,<size=16>VISUAL DESIGN LEAD</size><br><size=0><br></size>Brett Wooldridge
+1001840,<size=16>SENIOR VISUAL DESIGNER</size><br><size=0><br></size>James Cunningham
+1001850,<size=16>SENIOR GRAPHIC PRODUCTION DESIGNER</size><br><size=0><br></size>Ken Murayama
+1001860,<size=16>SENIOR CREATIVE PRODUCER</size><br><size=0><br></size>Caroline Wu Bonti
+1001870,<size=16>CREATIVE PRODUCER</size><br><size=0><br></size>Natasha Watford
+1001880,<size=16>VIDEO CONTENT DIRECTOR</size><br><size=0><br></size>Fred Altman
+1001890,<size=16>SENIOR MOTION GRAPHICS ARTIST</size><br><size=0><br></size>Anthony Ricciardi
+1001900,"<size=16>GENERAL MANAGER: DIGITAL, NORTH AMERICAN SALES AND OPERATIONS</size><br><size=0><br></size>Doug Bone"
+1001910,<size=16>DIRECTOR OF DIGITAL SALES</size><br><size=0><br></size>Andrew Larcombe
+1001920,"<size=16>SENIOR SALES MANAGER, DIGITAL SALES</size><br><size=0><br></size>Diego Hernandez"
+1001930,<size=16>SENIOR DIGITAL OPERATIONS MANAGERS</size><br><size=0><br></size>Toby Coleman<br><size=16><br></size>Keith Hershey
+1001940,"<size=16>DIGITAL SALES MANAGER, DIGITAL SALES</size><br><size=0><br></size>Jason Brooks"
+1001950,<size=16>DIGITAL SALES COORDINATOR</size><br><size=0><br></size>Megan Pelt
+1001960,<size=16>MERCHANDISE MANAGER</size><br><size=0><br></size>Jennifer Park
+1001970,<size=16>ASSISTANT MANAGER OF MERCHANDISE</size><br><size=0><br></size>Peter Whites
+1001980,<size=16>MERCHANDISE COORDINATOR</size><br><size=0><br></size>Richelle Brady
+1001990,"<size=16>SENIOR MANAGER, PROJECT COMMUNICATIONS & EVENTS</size><br><size=0><br></size>Ami Funaki"
+1002000,"<size=16>ASSISTANT MANAGERS, PROJECT COMMUNICATIONS & EVENTS</size><br><size=0><br></size>Aimi Tokutake<br><size=16><br></size>Taku Hatori<br><size=16><br></size>Stephany Ota"
+1002010,<size=16>EVENTS DIRECTOR</size><br><size=0><br></size>Wilbur Lin
+1002020,<size=16>EVENTS MANAGER</size><br><size=0><br></size>Kathryn Campagna
+1002030,<size=16>EVENTS COORDINATOR</size><br><size=0><br></size>Sarah Bloom
+1002040,"<size=16>SENIOR DIRECTOR OF SALES PLANNING, MERCHANDISE, PROJECT COM & EVENTS</size><br><size=0><br></size>Kanji Romeo Tashiro"
+1002050,<size=16>CEO</size><br><size=0><br></size>Phil Rogers
+1002060,<size=16>CMO</size><br><size=0><br></size>John Heinecke
+1002070,<size=16>EXECUTIVE DIRECTOR - SEE MARKETING</size><br><size=0><br></size>Larry Sparks
+1002080,<size=16>EXECUTIVE DIRECTOR - SEA MARKETING</size><br><size=0><br></size>Kevin Kraff
+1002260,SQUARE ENIX LTD.
+1002270,QA & LOCALISATION SERVICES
+1002280,<size=16>QA & LOCALISATION SERVICES DIRECTORS</size><br><size=0><br></size>Marc Titheridge<br><size=16><br></size>Yuko Tomizawa
+1002290,<size=16>HEAD OF LOCALISATION</size><br><size=0><br></size>Martin Walter
+1002300,<size=16>LOCALISATION PROJECT MANAGER</size><br><size=0><br></size>Nobuko Sugahara
+1002310,<size=16>SENIOR LOCALISATION PRODUCERS</size><br><size=0><br></size>Alex Moresby<br><size=16><br></size>Elisa Giribaldi
+1002320,<size=16>ASSISTANT LOCALISATION PRODUCER</size><br><size=0><br></size>Kevin Balon
+1002330,<size=16>SENIOR LQA MANAGER</size><br><size=0><br></size>André Woitczyk
+1002340,<size=16>LQA MANAGER</size><br><size=0><br></size>Sébastien Dulabour
+1002350,<size=16>MASTERING MANAGER</size><br><size=0><br></size>Jason Walker
+1002360,<size=16>SENIOR QA LEAD (ENGLISH)</size><br><size=0><br></size>Shailesh Iyer
+1002370,<size=16>SENIOR QA LEAD (FRENCH)</size><br><size=0><br></size>Soraya Lamoudi
+1002380,<size=16>SENIOR QA LEAD (ITALIAN)</size><br><size=0><br></size>Erica Berghi
+1002390,<size=16>SENIOR QA LEAD (GERMAN)</size><br><size=0><br></size>Hoi-yee Leung
+1002400,<size=16>SENIOR QA LEAD (SPANISH)</size><br><size=0><br></size>Manuel García
+1002410,<size=16>TRANSLATOR/EDITOR (FRENCH)</size><br><size=0><br></size>Marie Martin
+1002420,<size=16>TRANSLATOR/EDITOR (ITALIAN)</size><br><size=0><br></size>Federica Lusardi
+1002430,<size=16>TRANSLATOR/EDITOR (GERMAN)</size><br><size=0><br></size>Katharina Klamt
+1002440,<size=16>SENIOR TRANSLATOR/EDITOR (SPANISH)</size><br><size=0><br></size>Raquel Uzal-Gómez
+1002450,JAPANESE LANGUAGE SUPPORT
+1002460,<size=16>SENIOR TRANSLATION MANAGER</size><br><size=0><br></size>Andii Yamanaka
+1002470,<size=16>SENIOR JAPANESE INTERPRETER</size><br><size=0><br></size>Gavin Poffley
+1002480,<size=16>SENIOR JAPANESE BUSINESS TRANSLATOR / <BR>ASSISTANT MANAGER</size><br><size=0><br></size>Grace-Ellen Mitchell
+1002490,<size=16>JAPANESE BUSINESS TRANSLATORS</size><br><size=0><br></size>Kyoko Hotta Gowlett<br><size=16><br></size>Shigeru Tabata<br><size=16><br></size>Juzo Hirose<br><size=16><br></size>Katsuya Norita<br><size=16><br></size>Corinne Foxton<br><size=16><br></size>Hinako Matsumoto
+1002500,SQUARE ENIX EUROPE MARKETING 
+1002510,<size=16>CHIEF EXECUTIVE OFFICER</size><br><size=0><br></size>Phil Rogers
+1002520,<size=16>CHIEF MARKETING OFFICER</size><br><size=0><br></size>John Heinecke
+1002530,<size=16>EXECUTIVE DIRECTOR MARKETING </size><br><size=0><br></size>Larry Sparks
+1002540,<size=16>MARKETING DIRECTOR </size><br><size=0><br></size>Ned Browning
+1002550,<size=16>MARKETING MANAGER </size><br><size=0><br></size>Aimee Sanjari  
+1002560,<size=16>ASSISTANT MARKETING MANAGER</size><br><size=0><br></size>Laura Grant
+1002570,<size=16>SENIOR PR MANAGER</size><br><size=0><br></size>Sasiprapa Charlanawat<br><size=16><br></size>
+1002580,<size=16>PR EXECUTIVE</size><br><size=0><br></size>Ariadne Terizakis
+1002590,<size=16>SENIOR PR & COMMUNICATIONS DIRECTOR</size><br><size=0><br></size>Alex Huhtala
+1002600,<size=16>EUROPEAN MARKETING DIRECTOR</size><br><size=0><br></size>Anthony Newell
+1002610,<size=16>MEDIA STRATEGIST</size><br><size=0><br></size>Kim Fitzgerald
+1002620,<size=16>INFLUENCER RELATIONS DIRECTOR</size><br><size=0><br></size>Adam Phillips
+1002630,<size=16>SENIOR SOCIAL MEDIA MANAGER  </size><br><size=0><br></size>Sunil Godhania
+1002640,<size=16>SOCIAL MEDIA MANAGER</size><br><size=0><br></size>Mike Adebajo
+1002650,<size=16>SOCIAL MEDIA EXECUTIVE</size><br><size=0><br></size>George Hind
+1002660,<size=16>SENIOR DESIGNER</size><br><size=0><br></size>Gary Harrod
+1002670,<size=16>DESIGNER</size><br><size=0><br></size>Lewis-Jon Somerscales
+1002680,<size=16>MARKETING DESIGN COORDINATOR</size><br><size=0><br></size>Dan Hill
+1002690,<size=16>SENIOR BUSINESS MANAGER </size><br><size=0><br></size>Hideki Miwa
+1002700,<size=16>GENERAL MANAGER – <BR>EUROPEAN COMMERICAL AND PUBLISHING SERVICES</size><br><size=0><br></size>Justin Gaffney
+1002710,<size=16>EU SALES DIRECTOR</size><br><size=0><br></size>Karine Parker
+1002730,UK/EXPORT SALES AND MARKETING
+1002740,<size=16>MARKETING DIRECTOR - UK</size><br><size=0><br></size>Elizabeth Blackman
+1002750,<size=16>MARKETING MANAGER - UK</size><br><size=0><br></size>Peter Bellew
+1002760,<size=16>ASSISTANT MARKETING <BR>MANAGER - UK</size><br><size=0><br></size>Melissa Larsson
+1002770,<size=16>MARKETING DIRECTOR - EXPORT</size><br><size=0><br></size>Laura Disney
+1002780,<size=16>MARKETING MANAGER - EXPORT</size><br><size=0><br></size>Natalie Gausden
+1002790,<size=16>PR EXECUTIVE - EXPORT</size><br><size=0><br></size>Shez Sheikh
+1002800,<size=16>SENIOR INFLUENCER RELATIONS MANAGER</size><br><size=0><br></size>Cat Karskens
+1002810,<size=16>INFLUENCER RELATIONS MANAGER</size><br><size=0><br></size>Ria Patel
+1002820,<size=16>SENIOR PRODUCTION MANAGER - UK & EXPORT</size><br><size=0><br></size>Carrie Judge
+1002830,<size=16>PRODUCTION MANAGER - <BR>UK & EXPORT</size><br><size=0><br></size>Lynne Fisher
+1002850,<size=16>UK SALES MANAGER</size><br><size=0><br></size>David Stubberfield
+1002860,<size=16>EXPORT SALES MANAGERS</size><br><size=0><br></size>Tom Vickery<br><size=16><br></size>Graham Brown
+1002890,FRANCE/BENELUX SALES AND MARKETING
+1002900,"<size=16>MANAGING DIRECTOR, <BR>FRANCE AND BENELUX </size><br><size=0><br></size>Florent Moreau "
+1002910,<size=16>MARKETING DIRECTOR</size><br><size=0><br></size>Tristan Perdriau 
+1002920,<size=16>SENIOR PR MANAGER</size><br><size=0><br></size>Emilie Hurel 
+1002930,<size=16>MARKETING MANAGER</size><br><size=0><br></size>Fabio Costa
+1002940,"<size=16>COMMUNITY, <BR>SOCIAL & INFLUENCER MANAGER</size><br><size=0><br></size>Cédric Devoyon "
+1002950,"<size=16>EXECUTIVE ASSISTANT, MARKETING AND SALES</size><br><size=0><br></size>Isabelle Connuel "
+1002960,G/A/S SALES AND MARKETING
+1002970,<size=16>MANAGING AND <BR>FINANCE DIRECTOR</size><br><size=0><br></size>Klaus Jens
+1002980,<size=16>MARKETING & PR DIRECTOR</size><br><size=0><br></size>Lars Winkler
+1002990,<size=16>JUNIOR MARKETING MANAGER</size><br><size=0><br></size>Isabell Kretzing
+1003000,<size=16>MARKETING EXECUTIVE</size><br><size=0><br></size>Eva Marie Ghossain
+1003010,<size=16>PR MANAGER</size><br><size=0><br></size>Daniela Schlögel
+1003020,<size=16>SENIOR SOCIAL MANAGER</size><br><size=0><br></size>Barbara Winterfeldt
+1003030,<size=16>SALES MANAGER</size><br><size=0><br></size>Fabian Rather
+1003040,<size=16>OPERATIONS MANAGER</size><br><size=0><br></size>Nikolaus Ziegert
+1003110,EUROPEAN MERCHANDISING
+1003120,<size=16>SENIOR MANAGER MERCHANDISING</size><br><size=0><br></size>Akihiro Ichimura
+1003130,<size=16>E-COMMERCE MANAGER</size><br><size=0><br></size>Taishi Narumoto
+1003140,<size=16>MANAGER ORGANISED PLAY & COMMUNITY (TABLE TOP GAMES)</size><br><size=0><br></size>Tim Schilder
+1003150,<size=16>MANAGER - TABLETOP GAME </size><br><size=0><br></size>Fabian Weber
+1003160,<size=16>ASSISTANT MANAGER <BR>RESEARCH & DEVELOPMENT</size><br><size=0><br></size>Tomasz Rozejowski
+1003170,<size=16>ASSISTANT MANAGER LOGISTICS</size><br><size=0><br></size>Satoko Adachi
+1003180,<size=16>ORGANIZED PLAY & <BR>COMMUNITY COORDINATOR</size><br><size=0><br></size>Michelle Boehm
+1003190,<size=16>OPERATIONS COORDINATOR</size><br><size=0><br></size>Shaun Bedassie
+1003200,EUROPEAN COMMUNITY AND SERVICE
+1003210,<size=16>HEAD OF COMMUNITY AND SERVICE</size><br><size=0><br></size>Saori Spencer-Hill
+1003220,<size=16>EUROPEAN CUSTOMER SERVICE DIRECTOR</size><br><size=0><br></size>Damian Bennett
+1003230,<size=16>EUROPEAN SUPPORT CENTRE MANAGER</size><br><size=0><br></size>Camille Ledauphin
+1003240,<size=16>EUROPEAN SUPPORT CENTRE ASSISTANT MANAGER</size><br><size=0><br></size>Andreas Remy
+1003250,<size=16>EUROPEAN SENIOR SUPPORT CENTRE OPERATORS</size><br><size=0><br></size>Maximilian Horn<br><size=16><br></size>Marion Mangion<br><size=16><br></size>John Quantin
+1003260,<size=16>EUROPEAN OPERATIONS SUPPORT MANAGER</size><br><size=0><br></size>Bastian Spiegel
+1003270,<size=16>EUROPEAN OPERATIONS SUPPORT ASSISTANT MANAGER</size><br><size=0><br></size>James Avins
+1003280,<size=16>EUROPEAN OPERATIONS SUPPORT COORDINATORS</size><br><size=0><br></size>Edward Avins<br><size=16><br></size>Louise Delahaye
+1003290,<size=16>POLE TO WIN EUROPE - <BR>SQUARE ENIX SUPPORT <BR>ACCOUNT MANAGER</size><br><size=0><br></size>Michael Joyce
+1003300,<size=16>POLE TO WIN EUROPE - <BR>SQUARE ENIX SUPPORT ASSISTANT ACCOUNT MANAGER</size><br><size=0><br></size>Paul Neil
+1003310,<size=16>POLE TO WIN EUROPE - <BR>SQUARE ENIX SUPPORT REPRESENTATIVES</size><br><size=0><br></size>Raymond Chan<br><size=16><br></size>Anne-Laure Grimaud<br><size=16><br></size>Kaya Herklotz<br><size=16><br></size>Jan Hlavacka<br><size=16><br></size>Laurie Kitson<br><size=16><br></size>Delia Lange
+1003320,Andrew Morson<br><size=16><br></size>Annaig Nicol<br><size=16><br></size>Sabrina Obreiter<br><size=16><br></size>Mark Paterson<br><size=16><br></size>Eric Pupunat<br><size=16><br></size>Johannes Renger<br><size=16><br></size>Mita Syring
+1003330,PTW International UK
+1003340,<size=16>DIRECTORS</size><br><size=0><br></size>Arnaud Messager<br><size=16><br></size>Liam Ross
+1003350,<size=16>QA MANAGER</size><br><size=0><br></size>Monica Zamboni
+1003360,<size=16>ASSISTANT QA MANAGERS</size><br><size=0><br></size>David McMeekin<br><size=16><br></size>Elena Inei
+1003370,<size=16>PROJECT MANAGERS</size><br><size=0><br></size>Sam Anderson<br><size=16><br></size>Sandra Moller<br><size=16><br></size>Sergejs Adamovs<br><size=16><br></size>Valentina Porcu<br><size=16><br></size>Valerie Brentjes<br><size=16><br></size>Viktorija Koluzajeva
+1003380,<size=16>QA MASTERING TECHNICIAN</size><br><size=0><br></size>Peng Gao
+1003390,<size=16>PROJECT COORDINATORS</size><br><size=0><br></size>Alan Loughlin<br><size=16><br></size>Ziang Zhou<br><size=16><br></size>Lorena García González
+1003400,<size=16>LOCALISATION QA TESTERS</size><br><size=0><br></size>Adriana Syring<br><size=16><br></size>Andrea Bagno<br><size=16><br></size>Calum Nicolson<br><size=16><br></size>Celia Puigros<br><size=16><br></size>Claire Raguin<br><size=16><br></size>Claudia Borrello<br><size=16><br></size>Colin Hamilton
+1003410,Emilie Noel<br><size=16><br></size>Falk Erdmann<br><size=16><br></size>Géraldine Boulat<br><size=16><br></size>Heike Auer<br><size=16><br></size>Henar García Pérez<br><size=16><br></size>Israel Grande Fernandez<br><size=16><br></size>Ivano Abbatino
+1003420,Jesko Pszenny<br><size=16><br></size>Jessie Huguenin-Bergenat<br><size=16><br></size>Jose Ortega<br><size=16><br></size>Maja Hawthorn<br><size=16><br></size>Massimo Giostra<br><size=16><br></size>Michela Infanti<br><size=16><br></size>Nils Kruger
+1003421,Sam Tomlinson<br><size=16><br></size>Savannah Save<br><size=16><br></size>Victoria McCullough<br><size=16><br></size>Zeynep Roberts
+1003430,SPECIAL THANKS
+1003431,Eiji Takahashi<br><size=16><br></size>Kaori Harada<br><size=16><br></size>Shogo Aoki<br><size=16><br></size>Yohei Hattori<br><size=16><br></size>Yoriko Kihara<br><size=16><br></size>Haruka Masatani<br><size=16><br></size>Chiemi Miyashita
+1003432,Hikaru Kobayashi<br><size=16><br></size>Yoshimi Kaida<br><size=16><br></size>Tsuyoshi Yoneyama<br><size=16><br></size>Tomomi Yoshie<br><size=16><br></size>Shunichi Matsuda<br><size=16><br></size>Teppei Okada<br><size=16><br></size>Jun Yamashita
+1003433,Masanori Hoshino<br><size=16><br></size>Takako Amagasaki<br><size=16><br></size>Yuma Nemoto<br><size=16><br></size>Mai Noguchi<br><size=16><br></size>Ryuichi Umebara<br><size=16><br></size>Ryo Saito<br><size=16><br></size>Tomomi Takeda
+1003440,Kengo Mizoguchi<br><size=16><br></size>Takuya Iwasaki<br><size=16><br></size>Hideyuki Mizutani<br><size=16><br></size>Daisuke Agata<br><size=16><br></size>Masaki Harada
+1003450,<size=16>EXECUTIVE OFFICER</size><br><size=0><br></size>Yuu Miyake
+1003460,<size=16>PRESIDENT ＆ CEO</size><br><size=0><br></size>Yosuke Matsuda
+1003470,<size=16>PRODUCER</size><br><size=0><br></size>Yosuke Saito
+1200001,"Victory! 
+Your party acquired 
+experience and gold."
+1200002,"That was a fight 
+for the ages!"
+1200003,"You certainly 
+fought for your 
+life back there."
+1200004,"Remember well 
+the wounds you 
+suffered here."
+1200005,"All battles come 
+with sacrifices."
+1200006,"Your party gained 
+a wealth of 
+experience from 
+this battle!"
+1200007,"Your party received 
+a surfeit of gold 
+from this battle!"
+1200008,"Surely a battle of 
+that length has 
+left you depleted?"
+1200009,"A good warrior 
+wastes no time."
+1200010,"It would seem some 
+of us are worse for 
+the wear..."
+1200011,"You defeated
+the fire monster!"
+1200012,"{CARDNAME:2040} looks like
+he wants to say
+something..."
+1200013,"You knock the headman
+unconscious."
+1200014,"The {CARDNAME:4010} and {CARDNAME:2040}
+fly off..."
+1200015,"Victory is yours,
+but {CARDNAME:2040} is acting
+kind of shady..."
+1200016,You defeated {CARDNAME:2030}!
+1200017,勝敗は決した……か！？
+1200018,"You triumphed over
+the eldritch enemy!"
+1200019,Victory is yours!
+1300001,You've fulfilled the necessary requirements and unlocked <highlight>{1}</highlight>'s flipside story.
+1300002,You've fulfilled the necessary requirements and unlocked <highlight>{1}</highlight>'s enemy story.
+1400001,Acquired new customization components. Navigate to <highlight>Customize</highlight> in Options to customize.
+1400002,Purchased new customization components. Navigate to <highlight>Customize</highlight> in Options to customize.
+1400003,"You can now select
+<highlight>Multiplayer Game Parlor</highlight>
+from the title screen."
+1400004,You can now carry over completed save data when starting a new game.
+1400005,Bonus components have been added. Navigate to <highlight>Customize</highlight> in Options to customize.
+1452010,Emil Avatar
+1452020,Emil's Pattern
+1452030,Grimoire Weiss Board
+1452040,Library Desk
+1452050,Emil Dice
+1452060,Dress of the Bereft
+1452070,Devola's Music
+1452100,Yonah's Toy Box
+1453060,Pixel Art Set
+1462010,Avatar design patterned after Emil.
+1462020,Card reverse patterned after Emil.
+1462030,Board and accessories patterned after Grimoire Weiss.
+1462040,Table patterned after a certain library's stonework.
+1462050,Dice patterned after Emil's head.
+1462060,"New costumes for the Would-Be Hero, Mar, and Melanie."
+1462070,A soundtrack suitable for a warrior seeking to save his sister.
+1462100,A seven-piece set evoking the journey of a warrior seeking to save his sister.
+1463020,Replace all character and enemy illustrations with pixel art.
+1500000,{HAVECOUNT:1:MONEY}<size=80%>Ｇ</size>
+1500001,1<size=80%>Ｇ</size>
+1500010,10<size=80%>Ｇ</size>
+1500020,20<size=80%>Ｇ</size>
+1500040,40<size=80%>Ｇ</size>
+1500050,50<size=80%>Ｇ</size>
+1500077,77<size=80%>Ｇ</size>
+1500080,80<size=80%>Ｇ</size>
+1500100,100<size=80%>Ｇ</size>
+1500110,110<size=80%>Ｇ</size>
+1500120,120<size=80%>Ｇ</size>
+1500150,150<size=80%>Ｇ</size>
+1500200,200<size=80%>Ｇ</size>
+1500220,220<size=80%>Ｇ</size>
+1500250,250<size=80%>Ｇ</size>
+1500300,300<size=80%>Ｇ</size>
+1500400,400<size=80%>Ｇ</size>
+1500500,500<size=80%>Ｇ</size>
+1500550,550<size=80%>Ｇ</size>
+1500600,600<size=80%>Ｇ</size>
+1500700,700<size=80%>Ｇ</size>
+1500800,800<size=80%>Ｇ</size>
+1500840,840<size=80%>Ｇ</size>
+1500900,900<size=80%>Ｇ</size>
+1501000,1000<size=80%>Ｇ</size>
+1501200,1200<size=80%>Ｇ</size>
+1501430,1430<size=80%>Ｇ</size>
+1501500,1500<size=80%>Ｇ</size>
+1501600,1600<size=80%>Ｇ</size>
+1501800,1800<size=80%>Ｇ</size>
+1502000,2000<size=80%>Ｇ</size>
+1503000,3000<size=80%>Ｇ</size>
+1504000,4000<size=80%>Ｇ</size>
+1505000,5000<size=80%>Ｇ</size>
+1506000,6000<size=80%>Ｇ</size>
+1510000,10000<size=80%>Ｇ</size>
+1520000,20000<size=81%>Ｇ</size>
+1600001,"<highlight>Abilities</highlight> are <highlight>skills that confer passive effects</highlight> in battle.
+
+They take effect automatically without needing to be equipped."
+2000001,Nothing happens.
+2000002,Move 1 card from selected player's hand to the pot.
+2000003,Steal 1 set from selected player.
+2000004,Add 1 card to your hand.
+2000005,Add 2 cards to your hand.
+2000006,Reverse turn order.
+2000007,The player next in turn must rest.
+2000008,The player who draws this card must rest.
+2000009,Return up to 5 used event cards to the deck.
+2000010,Return up to 5 destroyed cards to the deck.
+2000011,Move your hand to the pot.
+2000101,Cards drawn by all opponents on their next action reduced to 1.
+2000102,All opponents roll upon their next action and must rest on a <highlight>4 or lower</highlight>.
+2000103,Roll upon your next action and gain 1 card on a <highlight>2 or higher</highlight>.
+2000104,Make the selected player rest.
+2000105,"If a set would be destroyed or stolen, this card is destroyed or stolen instead."
+2000106,Choose 2 cards in the pot to destroy.
+2000107,Roll upon your next action and gain 1 card on a <highlight>4 or higher</highlight>.
+2000108,"Roll a die and destroy all players' sets which include that number, including your own."
+2000109,Control the selected player's next action.
+2000110,Nullify rest <highlight>any number of times</highlight>.
+2000111,Return up to 3 destroyed cards to the deck.
+2000112,"If you have a treant (J) set, gain <highlight>20</highlight> points."
+2000113,Steal a card set numbered <highlight>10 or lower</highlight> from the selected player.
+2000114,Pass to the right 1 set from each player.
+2010001,Choose a card from the selected player to move to the pot.
+2010002,Choose whose set to steal.
+2010003,Choose a player to make rest.
+2010004,Choose a card from the pot to destroy.
+2010005,Choose a player whose next turn you will control.
+2010006,The Joker sees one set from each player passed to the right.
+2010101,There were no target cards.
+2010102,There were no players to choose.
+2010103,You cannot add any more cards to your hand as no cards remain in the deck.
+2011001,The game begins.
+2020000,
+2020001,"Choose whether to play using a single Nintendo Switch system, or to connect to nearby players so everyone can play on their own system.
+(When playing with multiple systems, every player must have their own copy of the game.)"
+2020002,
+2020003,Do you play on this screen? <br> <br> Can the number of people who participate in the game be <0>?
+2020004,Right. How many of you are there?
+2020005,
+2020006,
+2020007,
+2020008,"Recruit players for a <highlight>local game</highlight>, or join someone else's game. (If the game is set to different languages, you cannot play together.)"
+2020009,The host player is setting up the game. Please wait.<br>(Loading{0})
+2020010,Found a game to join. Please select your player card.
+2020011,Searching for players. Please wait.<br>(Loading{0})
+2020012,Searching for nearby games. Please wait.<br>(Loading{0})
+2020013,Found players to join your game. Please select your player card.
+2020014,You have found the player making the game. <br> <br> Please wait as it is.
+2020015,"The number of participants in your game has reached {0}. <br> <br> Now, let's proceed with the rest."
+2020016,"<highlight>{0}</highlight> of you, hm? But up to 4 can play. I can supply the remaining opponents, if you'd like."
+2020017,"Choose whether to pass one controller around or for each player to use their own. (In the latter case, you will need enough controllers for each player.)"
+2020018,"Choose whether to pass one controller around or for each player to use their own. (In the latter case, you will need enough controllers for each player.)"
+2020019,"Choose whether to pass one wireless controller around or for each player to use their own. (In the latter case, you will need enough controllers for each player.)"
+2020020,Everyone is selecting their player card. Please wait.
+2020021,"Lastly, choose the game rules for this round."
+2020022,Everyone has selected their player card. Closing player recruitment and proceeding to the next step.
+2020023,
+2020024,
+2020025,
+2020026,Please confirm that all players are ready. Or would everyone like to reselect their character cards?
+2020027,"<highlight>{0}</highlight> of you sharing one controller, hm? But up to 4 can play. I can supply the remaining opponents, if you'd like. "
+2020028,"<highlight>{0}</highlight> of you sharing one controller, hm? But up to 4 can play. I can supply the remaining opponents, if you'd like. "
+2020029,"<highlight>{0}</highlight> of you with your own controllers, hm? But up to 4 can play. I can supply the remaining opponents, if you'd like. "
+2020030,"Lastly, choose the game rules for this round."
+2020031,Cards: <highlight>1–8</highlight>
+2020032,"Cards: <highlight>1–8</highlight>
+Skill Effects: <highlight>Yes</highlight>"
+2020033,"Cards: <highlight>1–10</highlight>
+Skill Effects: <highlight>Yes</highlight>
+Event Cards: <highlight>Yes</highlight>"
+2020034,"Cards:  <highlight>All</highlight>
+Skill Effects:  <highlight>Yes</highlight>
+Event Cards: <highlight>Yes</highlight>
+Joker: <highlight>Yes</highlight>"
+2020035,Please confirm that all players are ready. Or would everyone like to reselect their character cards?
+2020036,Very well. You can learn the basic rules over a game. Are you ready?
+2020037,"Everything's all set. Now then, let the game begin."
+2020041,
+2020042,
+2020043,
+2020044,
+2020045,
+2020046,
+2020047,
+2020048,
+2020049,
+2020050,Welcome to the Game Parlor! What's your pleasure?
+2020051,
+2020052,
+2020053,"Play a round on Simple, or see the rules."
+2020054,"Play a round on Add Skills, or see the rules."
+2020055,"Play a round on Add Events, or see the rules."
+2020056,"Play a round on Include All, or see the rules."
+2020061,"Welcome to the Game Parlor, where you can play <highlight>cards</highlight> to your heart's content!"
+2020062,"Here, you can play a round with <highlight>up to 4</highlight> nearby players."
+2020063,"Of course, I can supply opponents for you if you're on your own."
+2020064,So you'll play by yourself against Parlor-supplied opponents. Now all you need to do is choose the rules.
+2020065,
+2020066,"The rules are set. Now then, let the game begin!"
+2020067,
+2020068,Select your player cards in order on the next screen.
+2020069,
+2020070,
+2020071,It seems like you don't have enough controllers for the number of players. Please choose another play method.
+2020072,
+2020073,Very well. You can learn the basic rules over a game. Are you ready?
+2020074,
+2020075,
+2020076,"First things first, let's get this game set up. Once more, from the top..."
+2020077,
+2020078,Everyone is selecting their player card. Please wait.
+2020079,Start the round with this number of players? Or would you like to change your character card?
+2020080,
+2020081,
+2020082,"<highlight>{0}</highlight> of you, hm? But up to 4 can play. I can supply the remaining opponents, if you'd like. "
+2021000,"Using cards numbered 1 to 8, make sets of two or three of a kind, or three numerals in sequential order."
+2021001,The game ends when all cards from the deck have been used.
+2021002,"The numerals in your sets are added to your score as points, and the player with the highest score at the end of the game is the winner."
+2021010,"Follows the same rules as Simple, but with the addition of <highlight>skill effects</highlight>."
+2021011,Skill effects are triggered when <highlight>sets with matching numerals are formed</highlight>.
+2021012,Effects include those that benefit you and those that hinder your opponents.
+2021020,<highlight>Adding events</highlight> supplements the rules by allowing <highlight>event cards</highlight> to be drawn at the start of a turn.
+2021021,Event cards include a mix of those that may be either beneficial or detrimental to you.
+2021022,Carefully consider the state of the game before deciding whether or not to draw an event card.
+2021023,"Additionally, card values range from <highlight>1 to 10</highlight>, and skill effects are also included."
+2021030,Card values range from <highlight>1 to 13</highlight> and also include <highlight>Jokers</highlight>.
+2021031,Drawing a <highlight>Joker</highlight> causes one set from each player to be passed to the right.
+2021032,"This rule set keeps things lively by including skill effects, event cards, and Jokers—the whole shebang."
+2040005,"Without further ado, allow me to explain the game's <highlight>basic rules</highlight>."
+2040010,The goal is to use your cards to <highlight>get more points</highlight> than other players.
+2040020,You get points by arranging your cards into <highlight>sets</highlight> of matching cards or consecutive straights.
+2040030,Try making a <highlight>set</highlight>.
+2040040,"When the game starts, each player is dealt their <highlight>hand</highlight> one card at a time."
+2040050,Then everyone takes their actions in turn order. You're up first.
+2040060,"At the start of your turn, <highlight>two cards</highlight> from the deck will be added to your <highlight>hand</highlight>."
+2040070,Now you have three cards in your hand. Select <highlight>two</highlight> that have the <highlight>same number</highlight>.
+2040080,"When you make a <highlight>set</highlight>, you earn points equal to the <highlight>sum of the numbers</highlight> on the cards."
+2040090,"From any cards left over, you can choose one to remain in your hand."
+2040100,"This is the end of your turn. Next, I'll act for the other player."
+2040110,I don't have any cards that can make a set. When that happens...
+2040120,...you have to discard all but <highlight>one card</highlight> from your hand.
+2040130,So that means I have to choose which ones to get rid of...
+2040140,"Discarded cards go into the <highlight>pot</highlight>, which any player can use."
+2040150,And that's the end of my turn. You're up again!
+2040160,"It's your turn next, but let me take this opportunity to explain the play screen."
+2040170,This is <highlight>your player card</highlight>. That's where you can see how many points you have.
+2040180,The <highlight>sets</highlight> you've made are here. You can have up to <highlight>three sets</highlight> at one time.
+2040190,You can see what <highlight>you have left in your hand</highlight> here.
+2040200,The <highlight>pot</highlight> is at the top. Any player can use these cards when making a set.
+2040210,"The <highlight>cards remaining in the deck</highlight> is shown in the upper left. When this reaches 0, the game is over."
+2040211,"When the deck runs out, <highlight>the game is over</highlight>, and whoever has the most points is the winner."
+2040220,And that's the play screen. Let's return to the game. I believe it was your turn.
+2040230,Try making a set from the cards in the <highlight>pot</highlight> and what's in your hand.
+2040240,"You can make a set with <highlight>up to three cards of the same number</highlight>. You have three As, so try making a set."
+2040250,"You can earn a lot of points from three-card sets, so it's a good idea to aim for that whenever you can."
+2040260,That's it for your turn.
+2040270,All right. Your turn.
+2040280,"By the way, you can also make sets from <highlight>cards with consecutive numbers</highlight> on them."
+2040290,But you can only make <highlight>one set</highlight> per turn.
+2040300,"You can make a <highlight>two-card set with the 3s</highlight>, or a <highlight>three-card set of 2, 3, and 4</highlight>. Make whichever you prefer."
+2040310,Remember what I told you about sets.
+2040320,"You can make sets from <highlight>two or three cards of the same number</highlight>, or from <highlight>three consecutively numbered cards</highlight>."
+2040330,But you can only make <highlight>one set per turn</highlight>.
+2040340,And you can only have up to <highlight>three sets at a time</highlight>.
+2040350,"When you make a fourth set, you'll have to discard one of the sets you already have."
+2040360,That's it for the <highlight>basic rules</highlight>.
+2040361,There are also rules that include additional things like <highlight>skill effects</highlight> and <highlight>events</highlight>. Be sure to give those a try.
+2040370,There are no more cards in the deck. That means this is the last turn.
+2040371,"Last but not least, let me explain the <highlight>menu screen</highlight>."
+2040372,Bring up the menu with <highlight>{BUTTON@PLUS:sp_button-menu}</highlight>. There you can look at the <highlight>rulebook</highlight> or decide to <highlight>abandon the game</highlight>.
+2040373,Bring up the menu with <highlight>{BUTTON@PLUS:sp_button-menu}</highlight>. There you can look at the <highlight>rulebook</highlight> or decide to <highlight>abandon the game</highlight>.
+2050000,"Review the rules, or give up and end the game?"
+2050010,Give up and end the game?
+3000000,"Completed save data
+found. Do you want
+to carry this data
+over to a new game?"
