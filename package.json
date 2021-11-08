@@ -9,16 +9,18 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "gh-pages": "^3.2.3",
+    "image-size": "^1.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sharp": "^0.29.2",
     "typescript": "^4.1.2"
   },
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "node scripts/resize-images.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

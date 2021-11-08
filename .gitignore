@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# resized image files; can be recreated
+/public/images
+
 # production
 /build
 

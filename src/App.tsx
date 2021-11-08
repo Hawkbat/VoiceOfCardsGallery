@@ -257,7 +257,7 @@ function getActualCardSides(c: Card, names: Map<number, string>, descs: Map<numb
 
 const CardSideBox = memo(function CardSideBox({ card, side }: { card: CardSide, side: 'front' | 'back' }) {
   return <div className={`${side} CardType${card.type}`}>
-    {card.images.map(o => o ? <img key={o} src={`images/${o}.png`} alt="" /> : null)}
+    {card.images.map(o => o ? <img key={o} src={`/VoiceOfCardsGallery/images/${o}.webp`} alt="" /> : null)}
     {card.name && <div className="CardName" dangerouslySetInnerHTML={{ __html: card.name }}></div>}
     {card.desc && <div className="CardDesc" dangerouslySetInnerHTML={{ __html: card.desc }}></div>}
     {card.atk !== undefined && <div className="CardATK">{`${card.atk >= 0 ? '+' : ''}${card.atk}`}</div>}
@@ -336,30 +336,38 @@ function App() {
 
   useEffect(() => {
     (async function () {
-      const cardNamesCsv = await fetchCsv(cardNameUri)
-      const cardNames = new Map<number, string>()
-      for (const r of cardNamesCsv) cardNames.set(int(r[0]), r[1])
-      setCardNames(cardNames)
-
-      const cardDescsCsv = await fetchCsv(cardDescUri)
-      const cardDescs = new Map<number, string>()
-      for (const r of cardDescsCsv) cardDescs.set(int(r[0]), r[1])
-      setCardDescs(cardDescs)
-
-      const cardsCsv = await fetchCsv(cardUri)
-      const cards = new Map<number, Card>()
-      for (const r of cardsCsv) cards.set(int(r[0]), { id: int(r[0]), type: int(r[1]), nameId: int(r[3]), descId: int(r[4]), land: r[5], front: r[6], overlays: r[7].split('@'), back: r[8], backOverlays: r[9].split('@'), field2: int(r[2]), field10: r[10] === '1' })
-      setCards(cards)
-
-      const itemsCsv = await fetchCsv(itemUri)
-      const items = new Map<number, Item>()
-      for (const r of itemsCsv) items.set(int(r[0]), { id: int(r[0]), cardId: int(r[1]), isTorch: r[2] === '1', type: int(r[3]), field4: int(r[4]), buy: int(r[5]), sell: int(r[6]), useType: int(r[7]), field8: int(r[8]), atk: int(r[9]), def: int(r[10]), spd: int(r[11]), vit: int(r[12]), field13: ints(r[13]), users: ints(r[14]) })
-      setItems(items)
-
-      const skillsCsv = await fetchCsv(skillUri)
-      const skills = new Map<number, Skill>()
-      for (const r of skillsCsv) skills.set(int(r[1]), { id: int(r[0]), cardId: int(r[1]), element: int(r[2]), cost: r[3] ? int(r[3].split(':')[1]) : 0, field4: int(r[4]), field5: int(r[5]), field6: int(r[6]), field7: int(r[7]) })
-      setSkills(skills)
+      await Promise.all([
+        (async () => {
+          const cardNamesCsv = await fetchCsv(cardNameUri)
+          const cardNames = new Map<number, string>()
+          for (const r of cardNamesCsv) cardNames.set(int(r[0]), r[1])
+          setCardNames(cardNames)
+        })(),
+        (async () => {
+          const cardDescsCsv = await fetchCsv(cardDescUri)
+          const cardDescs = new Map<number, string>()
+          for (const r of cardDescsCsv) cardDescs.set(int(r[0]), r[1])
+          setCardDescs(cardDescs)
+        })(),
+        (async () => {
+          const cardsCsv = await fetchCsv(cardUri)
+          const cards = new Map<number, Card>()
+          for (const r of cardsCsv) cards.set(int(r[0]), { id: int(r[0]), type: int(r[1]), nameId: int(r[3]), descId: int(r[4]), land: r[5], front: r[6], overlays: r[7].split('@'), back: r[8], backOverlays: r[9].split('@'), field2: int(r[2]), field10: r[10] === '1' })
+          setCards(cards)
+        })(),
+        (async () => {
+          const itemsCsv = await fetchCsv(itemUri)
+          const items = new Map<number, Item>()
+          for (const r of itemsCsv) items.set(int(r[0]), { id: int(r[0]), cardId: int(r[1]), isTorch: r[2] === '1', type: int(r[3]), field4: int(r[4]), buy: int(r[5]), sell: int(r[6]), useType: int(r[7]), field8: int(r[8]), atk: int(r[9]), def: int(r[10]), spd: int(r[11]), vit: int(r[12]), field13: ints(r[13]), users: ints(r[14]) })
+          setItems(items)
+        })(),
+        (async () => {
+          const skillsCsv = await fetchCsv(skillUri)
+          const skills = new Map<number, Skill>()
+          for (const r of skillsCsv) skills.set(int(r[1]), { id: int(r[0]), cardId: int(r[1]), element: int(r[2]), cost: r[3] ? int(r[3].split(':')[1]) : 0, field4: int(r[4]), field5: int(r[5]), field6: int(r[6]), field7: int(r[7]) })
+          setSkills(skills)
+        })(),
+      ])
 
       const collectionItemsCsv = await fetchCsv(collectionUri)
       const collectionItems: CollectionItem[] = []
